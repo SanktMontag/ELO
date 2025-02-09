@@ -1,0 +1,138 @@
+Team,ID,ELO,Div
+NW Stars,NWS,4250,1
+Seattle Supernova,SSN,4250,1
+Falcons,FAL,4250,1
+ESB,ESB,4250,1
+Mustangs,MUS,4250,1
+Brigade,BRG,4250,1
+Mighty Geoducks,MGD,4050,2
+Fighting Narwhals,FNW,4050,2
+Red Dog,RDG,4050,2
+Koronis Motors,KOM,4050,2
+Mavericks,MVK,4050,2
+Pheasants,PHT,4050,2
+Pull Tab Bandits,PTB,4050,2
+Northwest Crabs,NWC,4050,2
+Booze Hounds,BHD,3850,3A
+MMHC,MMH,3850,3A
+Chiefs,CHF,3850,3A
+Rhinos,RHI,3850,3A
+Puckbuddies,PCK,3850,3A
+Puget Sound Pigeons,PSP,3850,3A
+Sabercats,SBC,3750,3B
+Bombers,BMB,3750,3B
+Shockers,SHK,3750,3B
+The Herd,THR,3750,3B
+Sasquatch,SAS,3750,3B
+Growlers,GRW,3550,4A
+Breakers,BRK,3550,4A
+Goal Diggers,GOD,3550,4A
+Hosers,HOS,3550,4A
+Mighty Mallards,MML,3550,4A
+Skateful Dead,SKD,3550,4A
+Chinooks,CHI,3550,4A
+Greasy Weasels,GWS,3450,4B
+Coconut Corgis,CCG,3450,4B
+Maple Bars,MPL,3450,4B
+Schilling Cider,SCC,3450,4B
+Steelhead,STL,3450,4B
+Night Owls,NOW,3450,4B
+LLUA,LLU,3350,4C
+Kraken Up,KRU,3350,4C
+Wolves,WLV,3350,4C
+Moose Knuckle,MKN,3350,4C
+Edible Arrangements,EDA,3350,4C
+Skeletons,SKE,3150,5A
+DevilFish,DEV,3150,5A
+Dead Rabbits,DRB,3150,5A
+Highlanders,HGH,3150,5A
+Seagulls,SGL,3150,5A
+Roughnecks - Game Theory,RGT,3150,5A
+Ice-O-Topes,IOT,3050,5B
+Kokanees,KOK,3050,5B
+Bullets,BUL,3050,5B
+Hooligans,HOO,3050,5B
+Not Sure 5B,NS5,3050,5B
+Renegades,REN,3050,5B
+Gamblers,GAM,3050,5B
+Lumberjacks,LUM,2950,5C
+BSOD,BSO,2950,5C
+Yetis,YET,2950,5C
+Dumpster Fire,DUM,2950,5C
+Black Katz,BLK,2950,5C
+Trash Pandas 5C,TP5,2950,5C
+Reapers,RPR,2850,5D
+Piranhas,PIR,2850,5D
+Jokres,JOK,2850,5D
+Fossils,FOS,2850,5D
+Dirty Couch Hockey Club,DCH,2850,5D
+Monarchs 5D,MC5,2850,5D
+Seals 6A,SL6,2650,6A
+Dumb Pucks,DBP,2650,6A
+Stingers,STG,2650,6A
+Midnight Twist,MDT,2650,6A
+Alpuckas,ALP,2650,6A
+Icemen,ICE,2650,6A
+PussyCats,PSY,2650,6A
+Rainier Reindeer HC-6A,RR6,2650,6A
+Squids,SQD,2650,6A
+Real Bacon,RBC,2550,6B
+Hackers,HCK,2550,6B
+Monarchs 6B,MC6,2550,6B
+Flying Monkeys,FLM,2550,6B
+What's Kraken?,WHK,2550,6B
+Honey Badgers,HBG,2550,6B
+Greenhorns,GRE,2550,6B
+Roughnecks,RGH,2550,6B
+Raiders,RDR,2450,6C
+Mighty Boosh,MBS,2450,6C
+Trash Pandas 6 Landis,TP6,2450,6C
+Blades,BLD,2450,6C
+Mudflaps,MDF,2450,6C
+Coyotes,COY,2250,7A
+Seattle Freeze,SEF,2250,7A
+Roughnecks Mobile Infantry,RMI,2250,7A
+Seattle Dogs,SED,2250,7A
+Trash Pandas Garbage Legacy,TPL,2250,7A
+Birrds,BRR,2250,7A
+Not Sure 7B,NS7,2150,7B
+Bandits,BND,2150,7B
+Fighting Mongooses,FMG,2150,7B
+Royal Pains,RPN,2150,7B
+LKI,LKI,2150,7B
+Cascadians HC,CHC,2150,7B
+BLU Bombers,BLB,1950,8A
+Iced Awesome,ICA,1950,8A
+Hampton West Hockey Club,HWH,1950,8A
+Golden Gobies,GOG,1950,8A
+Los Tigres,LTG,1950,8A
+Puccaneers,PUC,1950,8A
+Fluffy Bunnies,FLB,1850,8B
+Hungry Hatchlings,HHC,1850,8B
+Mother Cluckers,MCL,1850,8B
+Scrooge McPuck,SMP,1850,8B
+Sockeyes,SCK,1850,8B
+Seals Lower,SEL,1850,8B
+Yacht Flippers,YFL,1750,8C
+Spittin' Llamas,SPL,1750,8C
+Arctic Foxes,ARF,1750,8C
+Fighting Clams,FCL,1750,8C
+Rainier Reindeers HC-8,RR8,1750,8C
+Orcas,ORA,1750,8C
+Toe Dragons,TDR,1750,8C
+Rainiers,RAI,1550,9A
+Blackouts,BLK,1550,9A
+Khaos,KHA,1550,9A
+Seal Team Sticks,STS,1550,9A
+Mid-Ice Crisis,MIC,1450,9B
+Purple Reign,PRG,1450,9B
+SEA Cucumbers,SEA,1450,9B
+Blackbirds,BKB,1450,9B
+Spicy Kittens,SKT,1450,9B
+The Quacken,TQK,1450,9B
+Post Busters,PBS,1250,10
+Div 10 Sky Blue,SKB,1250,10
+Beer Dragons,BDG,1250,10
+Purple Puck Eaters,WHT,1200,10
+Orange Crush,ORC,1200,10
+Gremlins Hockey,GRN,1200,10
