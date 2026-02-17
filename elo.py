@@ -7,7 +7,7 @@ from datetime import *
 def find_value_index(df, column_name, value):
     return df.index[df[column_name] == value].astype('int64').tolist()
 
-df = pd.read_csv("schedule_export_full.csv")
+df = pd.read_csv("fall_schedule_25.csv")
 
 for i, _ in enumerate(df.index):
 
@@ -30,7 +30,7 @@ remove = ["40+ Advanced White",
           "40+ Royal",
           "40+ Yellow",
           "40+ Orange",
-          "40+ Navy"
+          "40+ Navy",
           "Black Sheesh",
           "Blue Footed Bloobies",
           "Grey Dust Bunnies",
@@ -43,11 +43,46 @@ remove = ["40+ Advanced White",
           "Grizzlies-Cascade",
           "Tigers-Cascade",
           "Cascade Lumberjacks-Cascade",
+          "Lumberjacks-Cascade",
           "Wolverines-Cascade",
           "United-Cascade",
           "Kelly Days-Cascade",
           "Fighting Saints-Cascade",
-          "Coppernails-Cascade",]
+          "Coppernails-Cascade",
+          "Women''s Yellow",
+          "Women''s Green",
+          "Women''s White",
+          "Women''s Orange",
+          "Women''s Sky Blue",
+          "Women''s Pink",
+          "Women''s Red",
+          "Women''s Purple",
+          "Women''s #7",
+          "Women''s #8",
+          '40+ Advanced Baines',
+          '40+ Advanced Puck Hogs',
+          '40+ Advanced 40 Proof',
+          '40+ Advanced Bakers Dozen',
+          '40+ Advanced Falk',
+          '40+ Advanced Gritty Pylons',
+          '40+ Assisted Living',
+          '40+ Puck Dynasty',
+          '40+ Swift',
+          '40+ Mid-Ice Crisis',
+          '40+ Rough Draft',
+          '40+ Red Flags',
+          '40+ Keller',
+          '40+ Carls Seniors',
+          '40+ Coldtimers',
+          '40+ Elder Skatesmen',
+          '40+ Geri Hat Tricks',
+          '40+ Carl''s Seniors',
+          '40+ Gritty Pylons',
+          'Rink Flamingos',            
+          ]
+
+a_result_dict = {0:'Loss',0.5:'Tie',1:'Win'}
+b_result_dict = {0:'Loss',0.5:'Tie',1:'Win'}
 
 for i, _ in enumerate(df.index):
     if df.at[i, "Away Team"] in remove or df.at[i, "Home Team"] in remove:
@@ -81,16 +116,18 @@ df["Home ELO Posterior"] = 0
 df["Home ELO Posterior"] = df["Home ELO Posterior"].astype("float64")
 df["Home Delta"] = 0
 
-initial_ratings = pd.read_csv("initial.csv")
+initial_ratings = pd.read_csv("Initial_25_Fall.csv")
 live_ratings = initial_ratings
 
-df_game_graph = []
+df_game_graph = pd.DataFrame()
 
 for i, _ in enumerate(df.index):
     a = df.at[i,"Away Team"]
     a_score = df.at[i,"Away Score"]
     b = df.at[i,"Home Team"]
     b_score = df.at[i,"Home Score"]
+
+    print(a, " ", b)
 
     a_live_reference_index = find_value_index(live_ratings, "Team", a)[0]
     a_full_name = live_ratings.at[a_live_reference_index,"Team"]
@@ -113,7 +150,7 @@ for i, _ in enumerate(df.index):
     df.at[i,"Home EA"] = round(EA_b * 100,1)
 
     gd = abs(a_score-b_score)
-    ka = 25
+    ka = 75
 
     if gd == 1:
         kmod = 1
@@ -146,7 +183,7 @@ for i, _ in enumerate(df.index):
     elif gd == 15:
         kmod = 3.25
     else:
-        kmod = 0.5
+        kmod = 1
 
     if a_score > b_score:
         SA_a = 1
@@ -167,6 +204,12 @@ for i, _ in enumerate(df.index):
     live_ratings.at[b_live_reference_index,"ELO"] = b_elo_post
     df.at[i,"Home ELO Posterior"] = live_ratings.at[b_live_reference_index,"ELO"]
 
+    away_record = pd.Series({'Date':df.at[i,'Date'],'Team':a_full_name, 'Opponent':b_full_name, 'Result':a_result_dict.get(SA_a), 'Prior_ELO':round(a_elo_prior), 'Post_ELO':round(a_elo_post), 'Delta':round(a_elo_post-a_elo_prior)})
+    df_game_graph = pd.concat([df_game_graph, away_record.to_frame().T], ignore_index=True)
+
+    home_record = pd.Series({'Date':df.at[i,'Date'],'Team':b_full_name, 'Opponent':a_full_name, 'Result':b_result_dict.get(SA_b), 'Prior_ELO':round(b_elo_prior), 'Post_ELO':round(b_elo_post), 'Delta':round(b_elo_post-b_elo_prior)})
+    df_game_graph = pd.concat([df_game_graph, home_record.to_frame().T], ignore_index=True)
+
 live_ratings["ELO"] = live_ratings["ELO"].astype('int64')
 live_ratings = live_ratings.sort_values("ELO", ascending=False)
 live_ratings = live_ratings.reset_index(drop=True)
@@ -180,8 +223,8 @@ df["Home ELO Prior"] = round(df["Home ELO Prior"]).astype("Int64")
 df["Home ELO Posterior"] = round(df["Home ELO Posterior"]).astype("Int64")
 df["Home Delta"] = df["Home ELO Posterior"] - df["Home ELO Prior"]
 
-print(df)
 print(live_ratings.to_string(index=False))
 
-df.to_csv("output_gamelog.csv")
-live_ratings.to_csv("output_ratings.csv")
+df.to_csv("output_gamelog_fall_25.csv")
+live_ratings.to_csv("output_ratings_fall_25.csv")
+df_game_graph.to_csv("game_graph_fall_25.csv")
