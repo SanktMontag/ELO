@@ -78,7 +78,12 @@ remove = ["40+ Advanced White",
           '40+ Geri Hat Tricks',
           '40+ Carl''s Seniors',
           '40+ Gritty Pylons',
-          'Rink Flamingos',            
+          'Rink Flamingos',
+          'Black Sheep-Cascade',
+          '40+ Advanced Gratiot',
+          '40+ Advanced Tagami',
+          '40+ Carl''s Seniors',
+          '40+ Rusty Blades',            
           ]
 
 a_result_dict = {0:'Loss',0.5:'Tie',1:'Win'}
@@ -149,41 +154,38 @@ for i, _ in enumerate(df.index):
     df.at[i,"Away EA"] = round(EA_a * 100,1)
     df.at[i,"Home EA"] = round(EA_b * 100,1)
 
+    r = 0.888
+
+    Wa = r*(EA_a*(1-EA_a))+EA_a**2
+    Da = 2*(EA_a-Wa)
+    La = 1-Wa-Da
+
+    Wb = r*(EA_b*(1-EA_b))+EA_b**2
+    Db = 2*(EA_b-Wb)
+    Lb = 1-Wb-Db
+
     gd = abs(a_score-b_score)
     ka = 75
 
-    if gd == 1:
-        kmod = 1
-    elif gd == 2:
-        kmod = 1.5
-    elif gd == 3:
-        kmod = 1.75
-    elif gd == 4:
-        kmod = 1.875
-    elif gd == 5:
-        kmod = 2
-    elif gd == 6:
-        kmod = 2.125
-    elif gd == 7:
-        kmod = 2.25
-    elif gd == 8:
-        kmod = 2.375
-    elif gd == 9:
-        kmod = 2.5
-    elif gd == 10:
-        kmod = 2.625
-    elif gd == 11:
-        kmod = 2.75
-    elif gd == 12:
-        kmod = 2.875
-    elif gd == 13:
-        kmod = 3
-    elif gd == 14:
-        kmod = 3.125
-    elif gd == 15:
-        kmod = 3.25
-    else:
-        kmod = 1
+    kmod_map = {
+        1: 1,
+        2: 1.5,
+        3: 1.75,
+        4: 1.875,
+        5: 2,
+        6: 2.125,
+        7: 2.25,
+        8: 2.375,
+        9: 2.5,
+        10: 2.625,
+        11: 2.75,
+        12: 2.875,
+        13: 3,
+        14: 3.125,
+        15: 3.25,
+    }
+    
+    kmod = kmod_map.get(gd, 1)
 
     if a_score > b_score:
         SA_a = 1
@@ -195,8 +197,9 @@ for i, _ in enumerate(df.index):
         SA_a = 0.5
         SA_b = 0.5
    
-    a_elo_post = a_elo_prior + (ka*kmod) * (SA_a - EA_a)
-    b_elo_post = b_elo_prior + (ka*kmod) * (SA_b - EA_b)
+    a_elo_post = a_elo_prior + (ka*kmod) * (SA_a - Wa)
+    a_delta = a_elo_post - a_elo_prior
+    b_elo_post = b_elo_prior - a_delta
 
     live_ratings.at[a_live_reference_index,"ELO"] = a_elo_post
     df.at[i,"Away ELO Posterior"] = live_ratings.at[a_live_reference_index,"ELO"]
@@ -204,10 +207,14 @@ for i, _ in enumerate(df.index):
     live_ratings.at[b_live_reference_index,"ELO"] = b_elo_post
     df.at[i,"Home ELO Posterior"] = live_ratings.at[b_live_reference_index,"ELO"]
 
-    away_record = pd.Series({'Date':df.at[i,'Date'],'Team':a_full_name, 'Opponent':b_full_name, 'Result':a_result_dict.get(SA_a), 'Prior_ELO':round(a_elo_prior), 'Post_ELO':round(a_elo_post), 'Delta':round(a_elo_post-a_elo_prior)})
+    away_record = pd.Series({'Date':df.at[i,'Date'],'Team':a_full_name, 'ELO':round(a_elo_prior), 'Opponent':b_full_name, 'Opp ELO':round(b_elo_prior), 'Delta':round(a_elo_prior-b_elo_prior),
+                             'Win %':round(Wa * 100,1), 'Tie %':round(Da * 100,1), 'Loss %':round(La * 100,1), 'GF':a_score, 'GA':b_score,
+                             'Result':a_result_dict.get(SA_a), '+/- ELO':round(a_elo_post-a_elo_prior)})
     df_game_graph = pd.concat([df_game_graph, away_record.to_frame().T], ignore_index=True)
 
-    home_record = pd.Series({'Date':df.at[i,'Date'],'Team':b_full_name, 'Opponent':a_full_name, 'Result':b_result_dict.get(SA_b), 'Prior_ELO':round(b_elo_prior), 'Post_ELO':round(b_elo_post), 'Delta':round(b_elo_post-b_elo_prior)})
+    home_record = pd.Series({'Date':df.at[i,'Date'],'Team':b_full_name, 'ELO':round(b_elo_prior), 'Opponent':a_full_name, 'Opp ELO':round(a_elo_prior), 'Delta':round(b_elo_prior-a_elo_prior),
+                             'Win %':round(Wb * 100,1), 'Tie %':round(Db * 100,1), 'Loss %':round(Lb * 100,1), 'GF':b_score, 'GA':a_score,
+                             'Result':b_result_dict.get(SA_b), '+/- ELO':round(b_elo_post-b_elo_prior)})
     df_game_graph = pd.concat([df_game_graph, home_record.to_frame().T], ignore_index=True)
 
 live_ratings["ELO"] = live_ratings["ELO"].astype('int64')
