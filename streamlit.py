@@ -27,7 +27,7 @@ top_teams_indices = rank_df.groupby('Div')['ELO'].idxmax()
 top_teams_list = rank_df.loc[top_teams_indices, 'Team'].tolist()
 top_team_df = game_df[game_df['Team'].isin(top_teams_list)]
 
-st.title('KHL ELO Rankings - Through 3/10/26', text_alignment='left')
+st.title('KHL ELO Rankings - Through 3/24/26', text_alignment='left')
 
 col1, col2, col3 = st.columns([2,10,3], gap='small')
 with st.container(width='stretch', height='content', horizontal="center"):

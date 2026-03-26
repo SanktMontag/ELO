@@ -1499,11 +1499,133 @@
 1497,03/09/26,Roughnecks - Game Theory,8,Not Sure 5A,2,Division 5A,Division 5A,REG,03/09/26_Roughnecks - Game Theory_@_Not Sure 5A,3115,50.1,3199,84,3114,49.9,3030,-84
 1498,03/09/26,Bullets,3,Piranhas,8,Division 5C,Division 5C,REG,03/09/26_Bullets_@_Piranhas,2815,45.2,2751,-64,2848,54.8,2912,64
 1499,03/09/26,PussyCats,2,Midnight Twist,10,Division 6A,Division 6A,REG,03/09/26_PussyCats_@_Midnight Twist,2595,29.5,2547,-48,2747,70.5,2795,48
-1500,03/09/26,Flying Monkeys,4,Fossils,2,Division 6A,Division 6A,REG,03/09/26_Flying Monkeys_@_Fossils,2651,23.5,2739,88,2856,76.5,2767,-89
-1501,03/09/26,Squids,6,Brewzers OGB,6,Division 6A,Division 6A,REG,03/09/26_Squids_@_Brewzers OGB,2627,33.2,2642,15,2749,66.8,2734,-15
-1502,03/09/26,Yetis,5,Stingers,3,Division 5C,Division 5C,REG,03/09/26_Yetis_@_Stingers,3123,41.3,3192,69,3183,58.7,3114,-69
-1503,03/10/26,Puget Sound Pigeons,5,Sabercats,7,Division 3A,Division 3B,REG,03/10/26_Puget Sound Pigeons_@_Sabercats,4007,89.7,3907,-100,3631,10.3,3730,99
-1504,03/10/26,Renegades,8,Trash Pandas 5B,1,Division 5B,Division 5B,REG,03/10/26_Renegades_@_Trash Pandas 5B,2894,58.8,2968,74,2832,41.2,2758,-74
-1505,03/10/26,Greasy Weasels,4,Mighty Mallards,4,Division 4B,Division 4B,REG,03/10/26_Greasy Weasels_@_Mighty Mallards,3110,10.7,3140,30,3478,89.3,3448,-30
-1506,03/10/26,Wolves,5,Edible Arrangements,8,Division 4C,Division 4C,REG,03/10/26_Wolves_@_Edible Arrangements,3338,63.4,3258,-80,3242,36.6,3322,80
-1507,03/10/26,Bar Down Transportation,10,The Herd,3,Division 3A,Division 3A,REG,03/10/26_Bar Down Transportation_@_The Herd,3868,58.5,3943,75,3809,41.5,3734,-75
+1500,03/09/26,Wranglers,5,Trash Pandas Garbage Legacy,1,Division 6D,Division 6D,REG,03/09/26_Wranglers_@_Trash Pandas Garbage Legacy,2599,81.7,2628,29,2340,18.3,2312,-28
+1501,03/09/26,Flying Monkeys,4,Fossils,2,Division 6A,Division 6A,REG,03/09/26_Flying Monkeys_@_Fossils,2651,23.5,2739,88,2856,76.5,2767,-89
+1502,03/09/26,Squids,6,Brewzers OGB,6,Division 6A,Division 6A,REG,03/09/26_Squids_@_Brewzers OGB,2627,33.2,2642,15,2749,66.8,2734,-15
+1503,03/09/26,Yetis,5,Stingers,3,Division 5C,Division 5C,REG,03/09/26_Yetis_@_Stingers,3123,41.3,3192,69,3183,58.7,3114,-69
+1504,03/10/26,Puget Sound Pigeons,5,Sabercats,7,Division 3A,Division 3B,REG,03/10/26_Puget Sound Pigeons_@_Sabercats,4007,89.7,3907,-100,3631,10.3,3730,99
+1505,03/10/26,Renegades,8,Trash Pandas 5B,1,Division 5B,Division 5B,REG,03/10/26_Renegades_@_Trash Pandas 5B,2894,58.8,2968,74,2832,41.2,2758,-74
+1506,03/10/26,Greasy Weasels,4,Mighty Mallards,4,Division 4B,Division 4B,REG,03/10/26_Greasy Weasels_@_Mighty Mallards,3110,10.7,3140,30,3478,89.3,3448,-30
+1507,03/10/26,Wolves,5,Edible Arrangements,8,Division 4C,Division 4C,REG,03/10/26_Wolves_@_Edible Arrangements,3338,63.4,3258,-80,3242,36.6,3322,80
+1508,03/10/26,Bar Down Transportation,10,The Herd,3,Division 3A,Division 3A,REG,03/10/26_Bar Down Transportation_@_The Herd,3868,58.5,3943,75,3809,41.5,3734,-75
+1509,03/11/26,The Brigade,10,Pheasants,8,Division 2,Division 2,REG,03/11/26_The Brigade_@_Pheasants,4013,48.9,4073,60,4020,51.1,3959,-61
+1510,03/11/26,Dumpster Fire,4,Dead Rabbits,5,Division 5A,Division 4C,REG,03/11/26_Dumpster Fire_@_Dead Rabbits,3013,12.8,3004,-9,3346,87.2,3355,9
+1511,03/11/26,Puckbuddies,4,Sasquatch,4,Division 3B,Division 3B,REG,03/11/26_Puckbuddies_@_Sasquatch,3861,37.6,3872,11,3949,62.4,3938,-11
+1512,03/11/26,Eagles,4,Rhinos,6,Division 3A,Division 3A,REG,03/11/26_Eagles_@_Rhinos,3773,29.2,3743,-30,3928,70.8,3958,30
+1513,03/11/26,Chinooks,7,Maple Bars,3,Division 4A,Division 4A,REG,03/11/26_Chinooks_@_Maple Bars,3480,19.4,3596,116,3727,80.6,3612,-115
+1514,03/11/26,Breakers,2,Bombers,4,Division 3B,Division 3B,REG,03/11/26_Breakers_@_Bombers,3577,44.1,3530,-47,3618,55.9,3665,47
+1515,03/11/26,Buck Wild,3,Kraken Up,6,Division 4B,Division 4B,REG,03/11/26_Buck Wild_@_Kraken Up,3516,75.3,3419,-97,3321,24.7,3418,97
+1516,03/11/26,Goal Diggers,10,Skateful Dead,1,Division 4A,Division 4A,REG,03/11/26_Goal Diggers_@_Skateful Dead,3727,94.1,3739,12,3246,5.9,3234,-12
+1517,03/11/26,MMHC,6,Shockers,4,Division 3B,Division 3B,REG,03/11/26_MMHC_@_Shockers,3559,70.8,3595,36,3405,29.2,3370,-35
+1518,03/12/26,Coconut Corgis,1,Steelhead,2,Division 4A,Division 4A,REG,03/12/26_Coconut Corgis_@_Steelhead,3434,45.3,3403,-31,3467,54.7,3499,32
+1519,03/12/26,Seattle Supernova,2,ALTP,9,Division 1A,Division 1A,REG,03/12/26_Seattle Supernova_@_ALTP,4359,43.3,4291,-68,4406,56.7,4475,69
+1520,03/12/26,Moose Knuckle,6,LLUA,3,Division 4C,Division 4C,REG,03/12/26_Moose Knuckle_@_LLUA,3391,21.4,3496,105,3617,78.6,3511,-106
+1521,03/12/26,Mustangs,9,Falcons,8,Division 1A,Division 1A,REG,03/12/26_Mustangs_@_Falcons,3971,4.0,4043,72,4525,96.0,4452,-73
+1522,03/12/26,Highlanders,6,Monarchs 5D,3,Division 5D,Division 5D,REG,03/12/26_Highlanders_@_Monarchs 5D,2746,71.3,2787,41,2588,28.7,2548,-40
+1523,03/12/26,Red Dog,3,Pull Tab Bandits,4,Division 2,Division 2,REG,03/12/26_Red Dog_@_Pull Tab Bandits,4127,50.6,4091,-36,4123,49.4,4159,36
+1524,03/12/26,The Mighty Geoducks,4,Northwest Crabs,4,Division 2,Division 2,REG,03/12/26_The Mighty Geoducks_@_Northwest Crabs,4060,10.7,4091,31,4430,89.3,4399,-31
+1525,03/12/26,Chiefs,4,Mavericks,6,Division 2,Division 2,REG,03/12/26_Chiefs_@_Mavericks,4194,61.7,4127,-67,4110,38.3,4177,67
+1526,03/12/26,NW Stars,4,ESB,3,Division 1A,Division 1A,REG,03/12/26_NW Stars_@_ESB,4319,53.9,4356,37,4292,46.1,4255,-37
+1527,03/12/26,Schilling Cider,0,Night Owls,1,Division 4B,Division 4B,REG,03/12/26_Schilling Cider_@_Night Owls,3240,17.2,3228,-12,3513,82.8,3524,11
+1528,03/13/26,Rainier Reindeers HC-9,3,Orange Crush,2,Division 9B,Division 9B,REG,03/13/26_Rainier Reindeers HC-9_@_Orange Crush,1222,44.7,1266,44,1260,55.3,1216,-44
+1529,03/13/26,Spicy Kittens,2,Mighty Moose,3,Division 9B,Division 9B,REG,03/13/26_Spicy Kittens_@_Mighty Moose,1414,48.5,1379,-35,1424,51.5,1458,34
+1530,03/14/26,Seattle Freeze,9,Seals Lower,1,Division 7A,Division 7A,REG,03/14/26_Seattle Freeze_@_Seals Lower,2250,86.8,2276,26,1923,13.2,1897,-26
+1531,03/14/26,Trash Pandas Garbage Legacy,3,Raiders,8,Division 6D,Division 6D,REG,03/14/26_Trash Pandas Garbage Legacy_@_Raiders,2312,66.9,2215,-97,2190,33.1,2286,96
+1532,03/14/26,Trash Pandas 7 Landis,5,Not Sure 7A,2,Division 7A,Division 7A,REG,03/14/26_Trash Pandas 7 Landis_@_Not Sure 7A,2227,16.4,2338,111,2509,83.6,2398,-111
+1533,03/14/26,Chucklepucks,7,Cascadians HC,5,Division 7A,Division 7A,REG,03/14/26_Chucklepucks_@_Cascadians HC,2401,62.9,2446,45,2310,37.1,2265,-45
+1534,03/15/26,Gremlins Hockey,2,Frozen Assets,4,Division 9A,Division 9A,REG,03/15/26_Gremlins Hockey_@_Frozen Assets,1608,27.0,1580,-28,1781,73.0,1809,28
+1535,03/15/26,Red Zeppelin,1,Doom Clouds,0,Division 10A,Division 10A,REG,03/15/26_Red Zeppelin_@_Doom Clouds,1182,84.6,1195,13,886,15.4,873,-13
+1536,03/15/26,Seattle Slapshots,3,SEA Cucumbers,0,Division 8B,Division 8B,REG,03/15/26_Seattle Slapshots_@_SEA Cucumbers,1718,46.7,1792,74,1741,53.3,1668,-73
+1537,03/15/26,Not Sure 5A,9,BSOD,3,Division 5A,Division 4C,REG,03/15/26_Not Sure 5A_@_BSOD,3030,57.5,3102,72,2978,42.5,2906,-72
+1538,03/15/26,Khaos,4,Fighting Clams,7,Division 9A,Division 9A,REG,03/15/26_Khaos_@_Fighting Clams,1417,63.6,1337,-80,1320,36.4,1400,80
+1539,03/15/26,Golden Mules,4,Ice Breakers,3,Division 10A,Division 10A,REG,03/15/26_Golden Mules_@_Ice Breakers,913,24.7,971,58,1107,75.3,1049,-58
+1540,03/15/26,Hungry Hatchlings,2,Toe Dragons,2,Division 8B,Division 8B,REG,03/15/26_Hungry Hatchlings_@_Toe Dragons,1498,53.4,1498,0,1475,46.6,1475,0
+1541,03/15/26,BLU Bombers,4,Pond Pigeons,1,Division 7C,Division 7C,REG,03/15/26_BLU Bombers_@_Pond Pigeons,1907,85.3,1929,22,1602,14.7,1581,-21
+1542,03/15/26,Spring 10B Purple,4,Spring 10B White,2,Division 10B,Division 10B,REG,03/15/26_Spring 10B Purple_@_Spring 10B White,1000,50.0,1059,59,1000,50.0,941,-59
+1543,03/15/26,Tropical Punchers,5,Beer Dragons,2,Division 9B,Division 9B,REG,03/15/26_Tropical Punchers_@_Beer Dragons,1127,81.3,1154,27,872,18.7,845,-27
+1544,03/15/26,LKI,6,Quacken,1,Division 7C,Division 7C,REG,03/15/26_LKI_@_Quacken,1900,46.8,1984,84,1922,53.2,1838,-84
+1545,03/15/26,Rainiers,0,Seal Team Sticks,1,Division 8B,Division 8B,REG,03/15/26_Rainiers_@_Seal Team Sticks,1889,51.0,1853,-36,1882,49.0,1918,36
+1546,03/15/26,Roughnecks Mobile Infantry,1,Iced Awesome,3,Division 7B,Division 7B,REG,03/15/26_Roughnecks Mobile Infantry_@_Iced Awesome,1789,25.4,1763,-26,1976,74.6,2002,26
+1547,03/15/26,Orcas,1,Sockeyes Div 8,3,Division 8A,Division 8A,REG,03/15/26_Orcas_@_Sockeyes Div 8,1977,78.6,1891,-86,1751,21.4,1837,86
+1548,03/15/26,Spring 10B Sky Blue,7,Spring 10B Red,3,Division 10B,Division 10B,REG,03/15/26_Spring 10B Sky Blue_@_Spring 10B Red,1000,50.0,1074,74,1000,50.0,926,-74
+1549,03/15/26,Yacht Flippers,1,Blackbirds,4,Division 9A,Division 9A,REG,03/15/26_Yacht Flippers_@_Blackbirds,1337,17.4,1316,-21,1607,82.6,1628,21
+1550,03/15/26,Bandits,1,Fluffy Bunnies,2,Division 7B,Division 7B,REG,03/15/26_Bandits_@_Fluffy Bunnies,1971,29.1,1951,-20,2126,70.9,2146,20
+1551,03/15/26,Birrds,2,Hampton West Hockey Club,5,Division 7B,Division 7B,REG,03/15/26_Birrds_@_Hampton West Hockey Club,2072,24.7,2042,-30,2266,75.3,2295,29
+1552,03/15/26,Glow Sticks,5,Spittin'' Llamas,1,Division 8A,Division 8A,REG,03/15/26_Glow Sticks_@_Spittin'' Llamas,1997,86.5,2018,21,1674,13.5,1653,-21
+1553,03/15/26,Blackouts,4,Scrooge McPuck,4,Division 8A,Division 8A,REG,03/15/26_Blackouts_@_Scrooge McPuck,1553,53.3,1553,0,1530,46.7,1531,1
+1554,03/15/26,Los Tigres,9,Seattle Dogs,5,Division 7C,Division 7C,REG,03/15/26_Los Tigres_@_Seattle Dogs,2053,77.6,2087,34,1837,22.4,1803,-34
+1555,03/15/26,Honey Badgers,1,Real Bacon,4,Division 6C,Division 6C,REG,03/15/26_Honey Badgers_@_Real Bacon,2557,85.6,2446,-111,2248,14.4,2358,110
+1556,03/15/26,Stingers,2,Piranhas,5,Division 5C,Division 5C,REG,03/15/26_Stingers_@_Piranhas,3114,76.2,3017,-97,2912,23.8,3009,97
+1557,03/15/26,Banana Blades,1,Winter 26 New Div 10 Purple,1,Division 10A,Division 10A,REG,03/15/26_Banana Blades_@_Winter 26 New Div 10 Purple,745,67.1,734,-11,622,32.9,633,11
+1558,03/15/26,Wranglers,6,Mudflaps,1,Division 6D,Division 6D,REG,03/15/26_Wranglers_@_Mudflaps,2628,88.3,2647,19,2277,11.7,2258,-19
+1559,03/15/26,Seals 5D,8,Monarchs 5D,2,Division 5D,Division 5D,REG,03/15/26_Seals 5D_@_Monarchs 5D,2837,84.1,2865,28,2548,15.9,2520,-28
+1560,03/15/26,Purple Reign,4,Purple Puck Eaters,2,Division 9B,Division 9B,REG,03/15/26_Purple Reign_@_Purple Puck Eaters,1268,72.3,1301,33,1101,27.7,1067,-34
+1561,03/15/26,Mighty Boosh,2,Rainier Reindeer HC-6B,10,Division 6B,Division 6B,REG,03/15/26_Mighty Boosh_@_Rainier Reindeer HC-6B,2290,5.9,2281,-9,2772,94.1,2781,9
+1562,03/15/26,Hackers,1,Greenhorns,2,Division 6C,Division 6C,REG,03/15/26_Hackers_@_Greenhorns,2387,26.1,2369,-18,2568,73.9,2586,18
+1563,03/15/26,Coyotes,3,Monarchs 6C,1,Division 6C,Division 6C,REG,03/15/26_Coyotes_@_Monarchs 6C,2674,73.7,2706,32,2495,26.3,2463,-32
+1564,03/15/26,Dumb Pucks,5,Jokres,0,Division 6B,Division 6B,REG,03/15/26_Dumb Pucks_@_Jokres,2580,24.2,2697,117,2779,75.8,2662,-117
+1565,03/16/26,Mighty Boosh,2,Dumb Pucks,7,Division 6B,Division 6B,REG,03/16/26_Mighty Boosh_@_Dumb Pucks,2281,8.3,2269,-12,2697,91.7,2708,11
+1566,03/16/26,Dirty Couch Hockey Club,8,Icemen,5,Division 6B,Division 6B,REG,03/16/26_Dirty Couch Hockey Club_@_Icemen,2783,90.0,2798,15,2402,10.0,2388,-14
+1567,03/16/26,Blades,4,Barrel Aged Brewzers,5,Division 6D,Division 6D,REG,03/16/26_Blades_@_Barrel Aged Brewzers,2365,26.3,2346,-19,2544,73.7,2562,18
+1568,03/16/26,Ice-O-Topes,3,Not Sure 5A,3,Division 5A,Division 5A,REG,03/16/26_Ice-O-Topes_@_Not Sure 5A,2861,20.0,2885,24,3102,80.0,3078,-24
+1569,03/16/26,Black Katz,5,Lumberjacks,7,Division 5D,Division 5D,REG,03/16/26_Black Katz_@_Lumberjacks,3003,61.3,2937,-66,2924,38.7,2990,66
+1570,03/16/26,Steelhead,1,Skateful Dead,7,Division 4A,Division 4A,REG,03/16/26_Steelhead_@_Skateful Dead,3499,82.2,3371,-128,3234,17.8,3362,128
+1571,03/16/26,Alpuckas,6,Highlanders,2,Division 5D,Division 5D,REG,03/16/26_Alpuckas_@_Highlanders,2767,47.2,2846,79,2787,52.8,2709,-78
+1572,03/16/26,Wolves,5,Moose Knuckle,2,Division 4C,Division 4C,REG,03/16/26_Wolves_@_Moose Knuckle,3258,20.2,3365,107,3496,79.8,3389,-107
+1573,03/16/26,Frozen Assets,2,Blackbirds,0,Division 9A,Division 9A,REG,03/16/26_Frozen Assets_@_Blackbirds,1809,73.9,1841,32,1628,26.1,1596,-32
+1574,03/16/26,Yetis,3,Gamblers,3,Division 5C,Division 5C,REG,03/16/26_Yetis_@_Gamblers,3192,92.0,3161,-31,2767,8.0,2798,31
+1575,03/17/26,Honey Badgers,6,Greenhorns,4,Division 6C,Division 6C,REG,03/17/26_Honey Badgers_@_Greenhorns,2446,30.9,2527,81,2586,69.1,2505,-81
+1576,03/17/26,Night Owls,5,Mighty Mallards,2,Division 4B,Division 4B,REG,03/17/26_Night Owls_@_Mighty Mallards,3524,60.8,3579,55,3448,39.2,3393,-55
+1577,03/17/26,Bombers,3,Sasquatch,2,Division 3B,Division 3B,REG,03/17/26_Bombers_@_Sasquatch,3665,17.2,3728,63,3938,82.8,3874,-64
+1578,03/17/26,Eagles,6,Puckbuddies,4,Division 3A,Division 3B,REG,03/17/26_Eagles_@_Puckbuddies,3743,32.3,3822,79,3872,67.7,3793,-79
+1579,03/17/26,WKUP-5,2,Bullets,6,Division 5B,Division 5C,REG,03/17/26_WKUP-5_@_Bullets,3281,95.5,3147,-134,2751,4.5,2885,134
+1580,03/18/26,Schilling Cider,0,Kraken Up,0,Division 4B,Division 4B,REG,03/18/26_Schilling Cider_@_Kraken Up,3228,25.1,3248,20,3418,74.9,3397,-21
+1581,03/18/26,Bar Down Transportation,3,Puget Sound Pigeons,2,Division 3A,Division 3A,REG,03/18/26_Bar Down Transportation_@_Puget Sound Pigeons,3943,55.1,3979,36,3907,44.9,3872,-35
+1582,03/18/26,Chinooks,1,Goal Diggers,5,Division 4A,Division 4A,REG,03/18/26_Chinooks_@_Goal Diggers,3596,30.5,3557,-39,3739,69.5,3779,40
+1583,03/18/26,Red Dog,8,Northwest Crabs,3,Division 2,Division 2,REG,03/18/26_Red Dog_@_Northwest Crabs,4091,14.5,4222,131,4399,85.5,4269,-130
+1584,03/18/26,Breakers,3,Sasquatch,6,Division 3B,Division 3B,REG,03/18/26_Breakers_@_Sasquatch,3530,12.1,3516,-14,3874,87.9,3889,15
+1585,03/18/26,Greasy Weasels,1,Buck Wild,6,Division 4B,Division 4B,REG,03/18/26_Greasy Weasels_@_Buck Wild,3140,16.7,3118,-22,3419,83.3,3442,23
+1586,03/18/26,The Brigade,4,Mavericks,4,Division 2,Division 2,REG,03/18/26_The Brigade_@_Mavericks,4073,35.5,4086,13,4177,64.5,4164,-13
+1587,03/18/26,The Mighty Geoducks,6,Koronis Motors,7,Division 2,Division 2,REG,03/18/26_The Mighty Geoducks_@_Koronis Motors,4091,54.7,4052,-39,4058,45.3,4097,39
+1588,03/18/26,Coconut Corgis,2,Maple Bars,8,Division 4A,Division 4A,REG,03/18/26_Coconut Corgis_@_Maple Bars,3403,23.1,3369,-34,3612,76.9,3645,33
+1589,03/19/26,Shockers,4,Buck Wild,2,Division 3B,Division 4B,REG,03/19/26_Shockers_@_Buck Wild,3370,39.7,3441,71,3442,60.3,3371,-71
+1590,03/19/26,ALTP,4,NW Stars,3,Division 1A,Division 1A,REG,03/19/26_ALTP_@_NW Stars,4475,66.4,4502,27,4356,33.6,4329,-27
+1591,03/19/26,Falcons,9,ESB,1,Division 1A,Division 1A,REG,03/19/26_Falcons_@_ESB,4452,75.7,4499,47,4255,24.3,4208,-47
+1592,03/19/26,The Herd,4,The Mighty Geoducks,10,Division 3A,Division 2,REG,03/19/26_The Herd_@_The Mighty Geoducks,3734,13.8,3714,-20,4052,86.2,4072,20
+1593,03/19/26,Mustangs,0,Seattle Supernova,1,Division 1A,Division 1A,REG,03/19/26_Mustangs_@_Seattle Supernova,4043,19.4,4030,-13,4291,80.6,4304,13
+1594,03/19/26,Wranglers,2,Barrel Aged Brewzers,3,Division 6D,Division 6D,REG,03/19/26_Wranglers_@_Barrel Aged Brewzers,2647,62.0,2602,-45,2562,38.0,2606,44
+1595,03/19/26,LLUA,2,DevilFish,3,Division 4C,Division 4C,REG,03/19/26_LLUA_@_DevilFish,3511,81.0,3452,-59,3259,19.0,3319,60
+1596,03/19/26,MMHC,4,Sabercats,5,Division 3B,Division 3B,REG,03/19/26_MMHC_@_Sabercats,3595,31.4,3573,-22,3730,68.6,3752,22
+1597,03/19/26,Puckbuddies,4,Rhinos,10,Division 3B,Division 3A,REG,03/19/26_Puckbuddies_@_Rhinos,3793,27.9,3752,-41,3958,72.1,3999,41
+1598,03/19/26,Pull Tab Bandits,3,Pheasants,4,Division 2,Division 2,REG,03/19/26_Pull Tab Bandits_@_Pheasants,4159,75.9,4103,-56,3959,24.1,4015,56
+1599,03/21/26,Toe Dragons,1,Seattle Slapshots,3,Division 8B,Division 8B,REG,03/21/26_Toe Dragons_@_Seattle Slapshots,1475,13.9,1461,-14,1792,86.1,1806,14
+1600,03/21/26,Golden Mules,6,Banana Blades,6,Division 10A,Division 10A,REG,03/21/26_Golden Mules_@_Banana Blades,971,79.6,951,-20,734,20.4,755,21
+1601,03/21/26,Trash Pandas 7 Landis,3,Chucklepucks,1,Division 7A,Division 7A,REG,03/21/26_Trash Pandas 7 Landis_@_Chucklepucks,2338,35.0,2414,76,2446,65.0,2370,-76
+1602,03/21/26,Spittin'' Llamas,0,Sockeyes Div 8,3,Division 8A,Division 8A,REG,03/21/26_Spittin'' Llamas_@_Sockeyes Div 8,1653,25.8,1623,-30,1837,74.2,1868,31
+1603,03/22/26,Blackouts,2,Orcas,2,Division 8A,Division 8A,REG,03/22/26_Blackouts_@_Orcas,1553,12.5,1582,29,1891,87.5,1862,-29
+1604,03/22/26,Gremlins Hockey,3,Yacht Flippers,5,Division 9A,Division 9A,REG,03/22/26_Gremlins Hockey_@_Yacht Flippers,1580,82.0,1490,-90,1316,18.0,1407,91
+1605,03/22/26,Trash Pandas 7 Landis,2,Cascadians HC,2,Division 7A,Division 7A,REG,03/22/26_Trash Pandas 7 Landis_@_Cascadians HC,2414,70.3,2401,-13,2265,29.7,2278,13
+1606,03/22/26,Seals Lower,4,Not Sure 7A,5,Division 7A,Division 7A,REG,03/22/26_Seals Lower_@_Not Sure 7A,1897,5.3,1894,-3,2398,94.7,2401,3
+1607,03/22/26,Spicy Kittens,8,Beer Dragons,1,Division 9B,Division 9B,REG,03/22/26_Spicy Kittens_@_Beer Dragons,1379,95.6,1388,9,845,4.4,837,-8
+1608,03/22/26,Purple Puck Eaters,1,Orange Crush,8,Division 9B,Division 9B,REG,03/22/26_Purple Puck Eaters_@_Orange Crush,1067,29.8,1021,-46,1216,70.2,1262,46
+1609,03/22/26,Spring 10B White,1,Spring 10B Sky Blue,3,Division 10B,Division 10B,REG,03/22/26_Spring 10B White_@_Spring 10B Sky Blue,941,31.7,908,-33,1074,68.3,1107,33
+1610,03/22/26,Blackbirds,2,Khaos,3,Division 9A,Division 9A,REG,03/22/26_Blackbirds_@_Khaos,1596,81.6,1536,-60,1337,18.4,1397,60
+1611,03/22/26,LKI,1,Pond Pigeons,2,Division 7C,Division 7C,REG,03/22/26_LKI_@_Pond Pigeons,1984,91.1,1916,-68,1581,8.9,1648,67
+1612,03/22/26,Birrds,4,Bandits,3,Division 7B,Division 7B,REG,03/22/26_Birrds_@_Bandits,2042,62.8,2072,30,1951,37.2,1921,-30
+1613,03/22/26,Spring 10B Red,3,Spring 10B Purple,1,Division 10B,Division 10B,REG,03/22/26_Spring 10B Red_@_Spring 10B Purple,926,31.7,1005,79,1059,68.3,980,-79
+1614,03/22/26,Rainier Reindeers HC-9,3,Tropical Punchers,3,Division 9B,Division 9B,REG,03/22/26_Rainier Reindeers HC-9_@_Tropical Punchers,1266,65.6,1256,-10,1154,34.4,1164,10
+1615,03/22/26,Frozen Assets,7,Fighting Clams,2,Division 9A,Division 9A,REG,03/22/26_Frozen Assets_@_Fighting Clams,1841,92.7,1853,12,1400,7.3,1388,-12
+1616,03/22/26,Roughnecks Mobile Infantry,5,Fluffy Bunnies,2,Division 7B,Division 7B,REG,03/22/26_Roughnecks Mobile Infantry_@_Fluffy Bunnies,1763,9.9,1882,119,2146,90.1,2026,-120
+1617,03/22/26,BLU Bombers,1,Los Tigres,8,Division 7C,Division 7C,REG,03/22/26_BLU Bombers_@_Los Tigres,1929,28.7,1884,-45,2087,71.3,2131,44
+1618,03/22/26,Purple Reign,1,Mighty Moose,2,Division 9B,Division 9B,REG,03/22/26_Purple Reign_@_Mighty Moose,1301,28.9,1282,-19,1458,71.1,1478,20
+1619,03/22/26,Seattle Freeze,6,Chucklepucks,6,Division 7A,Division 7A,REG,03/22/26_Seattle Freeze_@_Chucklepucks,2276,36.8,2288,12,2370,63.2,2358,-12
+1620,03/22/26,Piranhas,1,Gamblers,3,Division 5C,Division 5C,REG,03/22/26_Piranhas_@_Gamblers,3009,77.1,2925,-84,2798,22.9,2882,84
+1621,03/22/26,Red Zeppelin,4,Winter 26 New Div 10 Purple,1,Division 10A,Division 10A,REG,03/22/26_Red Zeppelin_@_Winter 26 New Div 10 Purple,1195,96.2,1201,6,633,3.8,627,-6
+1622,03/22/26,Ice Breakers,3,Doom Clouds,1,Division 10A,Division 10A,REG,03/22/26_Ice Breakers_@_Doom Clouds,1049,73.3,1082,33,873,26.7,841,-32
+1623,03/22/26,Iced Awesome,1,Hampton West Hockey Club,3,Division 7B,Division 7B,REG,03/22/26_Iced Awesome_@_Hampton West Hockey Club,2002,15.6,1986,-16,2295,84.4,2311,16
+1624,03/22/26,Glow Sticks,6,Scrooge McPuck,4,Division 8A,Division 8A,REG,03/22/26_Glow Sticks_@_Scrooge McPuck,2018,94.3,2025,7,1531,5.7,1524,-7
+1625,03/22/26,Toe Dragons,2,Rainiers,4,Division 8B,Division 8B,REG,03/22/26_Toe Dragons_@_Rainiers,1461,9.5,1452,-9,1853,90.5,1863,10
+1626,03/22/26,Quacken,3,Seattle Dogs,3,Division 7C,Division 7C,REG,03/22/26_Quacken_@_Seattle Dogs,1838,55.1,1837,-1,1803,44.9,1804,1
+1627,03/22/26,SEA Cucumbers,1,Seal Team Sticks,1,Division 8B,Division 8B,REG,03/22/26_SEA Cucumbers_@_Seal Team Sticks,1668,19.1,1692,24,1918,80.9,1894,-24
+1628,03/22/26,Hungry Hatchlings,1,Seattle Slapshots,7,Division 8B,Division 8B,REG,03/22/26_Hungry Hatchlings_@_Seattle Slapshots,1498,14.5,1477,-21,1806,85.5,1827,21
+1629,03/24/26,Pheasants,4,Northwest Crabs,10,Division 2,Division 2,REG,03/24/26_Pheasants_@_Northwest Crabs,4015,18.8,3988,-27,4269,81.2,4296,27
