@@ -3149,6 +3149,10 @@ Date,Team,ELO,Opponent,Opp ELO,Delta,Win %,Tie %,Loss %,GF,GA,Result,+/- ELO,ELO
 03/16/26,Blackbirds,1628,Frozen Assets,1809,-181,23.9,4.3,71.7,0,2,Loss,-32,1596
 03/16/26,Yetis,3192,Gamblers,2767,425,91.2,1.6,7.2,3,3,Tie,-31,3161
 03/16/26,Gamblers,2767,Yetis,3192,-425,7.2,1.6,91.2,3,3,Tie,31,2798
+03/16/26,PussyCats,2547,Fossils,2767,-221,20.0,3.8,76.1,3,1,Win,90,2637
+03/16/26,Fossils,2767,PussyCats,2547,221,76.1,3.8,20.0,1,3,Loss,-90,2677
+03/16/26,Flying Monkeys,2739,Midnight Twist,2795,-56,39.3,5.5,55.3,0,7,Loss,-66,2673
+03/16/26,Midnight Twist,2795,Flying Monkeys,2739,56,55.3,5.5,39.3,7,0,Win,66,2861
 03/17/26,Honey Badgers,2446,Greenhorns,2586,-140,28.5,4.8,66.7,6,4,Win,80,2527
 03/17/26,Greenhorns,2586,Honey Badgers,2446,140,66.7,4.8,28.5,4,6,Loss,-80,2505
 03/17/26,Night Owls,3524,Mighty Mallards,3448,76,58.2,5.3,36.5,5,2,Win,55,3579
@@ -3257,5 +3261,195 @@ Date,Team,ELO,Opponent,Opp ELO,Delta,Win %,Tie %,Loss %,GF,GA,Result,+/- ELO,ELO
 03/22/26,Seal Team Sticks,1918,SEA Cucumbers,1668,251,79.2,3.5,17.4,1,1,Tie,-24,1894
 03/22/26,Hungry Hatchlings,1498,Seattle Slapshots,1806,-308,13.1,2.8,84.1,1,7,Loss,-21,1477
 03/22/26,Seattle Slapshots,1806,Hungry Hatchlings,1498,308,84.1,2.8,13.1,7,1,Win,21,1827
+03/22/26,Raiders,2286,Trash Pandas Garbage Legacy,2215,71,57.4,5.4,37.2,3,2,Win,32,2318
+03/22/26,Trash Pandas Garbage Legacy,2215,Raiders,2286,-71,37.2,5.4,57.4,2,3,Loss,-32,2183
+03/22/26,Hackers,2369,Monarchs 6C,2463,-94,34.2,5.2,60.6,0,10,Loss,-67,2302
+03/22/26,Monarchs 6C,2463,Hackers,2369,94,60.6,5.2,34.2,10,0,Win,67,2530
+03/22/26,Mudflaps,2258,Blades,2346,-89,34.8,5.2,59.9,3,4,Loss,-26,2231
+03/22/26,Blades,2346,Mudflaps,2258,89,59.9,5.2,34.8,4,3,Win,26,2373
+03/22/26,Real Bacon,2358,Honey Badgers,2527,-168,25.3,4.5,70.3,6,2,Win,105,2463
+03/22/26,Honey Badgers,2527,Real Bacon,2358,168,70.3,4.5,25.3,2,6,Loss,-105,2422
+03/22/26,Icemen,2388,Dirty Couch Hockey Club,2798,-410,7.7,1.8,90.5,5,6,Loss,-6,2382
+03/22/26,Dirty Couch Hockey Club,2798,Icemen,2388,410,90.5,1.8,7.7,6,5,Win,6,2804
+03/23/26,Top Cheddar,2687,Ice-O-Topes,2885,-198,22.2,4.1,73.7,4,5,Loss,-17,2671
+03/23/26,Ice-O-Topes,2885,Top Cheddar,2687,198,73.7,4.1,22.2,5,4,Win,17,2902
+03/23/26,Seagulls,2725,Reapers,2906,-181,24.0,4.3,71.7,2,3,Loss,-18,2707
+03/23/26,Reapers,2906,Seagulls,2725,181,71.7,4.3,24.0,3,2,Win,18,2924
+03/23/26,Highlanders,2709,Black Katz,2937,-229,19.3,3.7,77.0,3,4,Loss,-14,2694
+03/23/26,Black Katz,2937,Highlanders,2709,229,77.0,3.7,19.3,4,3,Win,14,2952
+03/23/26,Mighty Boosh,2269,Dumb Pucks,2708,-439,6.6,1.5,91.8,2,6,Loss,-9,2260
+03/23/26,Dumb Pucks,2708,Mighty Boosh,2269,439,91.8,1.5,6.6,6,2,Win,9,2718
+03/23/26,Steelhead,3371,Coconut Corgis,3369,2,47.5,5.6,46.9,2,2,Tie,2,3373
+03/23/26,Coconut Corgis,3369,Steelhead,3371,-2,46.9,5.6,47.5,2,2,Tie,-2,3367
+03/23/26,Schilling Cider,3248,Mighty Mallards,3393,-145,27.9,4.7,67.3,3,4,Loss,-21,3227
+03/23/26,Mighty Mallards,3393,Schilling Cider,3248,145,67.3,4.7,27.9,4,3,Win,21,3414
+03/23/26,BSOD,2906,Skeletons,3152,-247,17.7,3.5,78.8,0,3,Loss,-23,2882
+03/23/26,Skeletons,3152,BSOD,2906,247,78.8,3.5,17.7,3,0,Win,23,3176
+03/23/26,Not Sure 5A,3078,Dumpster Fire,3004,75,57.9,5.3,36.8,6,2,Win,59,3138
+03/23/26,Dumpster Fire,3004,Not Sure 5A,3078,-75,36.8,5.3,57.9,2,6,Loss,-59,2945
+03/23/26,Monarchs 5D,2520,Alpuckas,2846,-326,12.0,2.6,85.4,6,11,Loss,-18,2502
+03/23/26,Alpuckas,2846,Monarchs 5D,2520,326,85.4,2.6,12.0,11,6,Win,18,2864
+03/23/26,Greasy Weasels,3118,Kraken Up,3397,-280,15.1,3.1,81.8,4,3,Win,64,3181
+03/23/26,Kraken Up,3397,Greasy Weasels,3118,280,81.8,3.1,15.1,3,4,Loss,-64,3334
+03/23/26,Skateful Dead,3362,Chinooks,3557,-195,22.5,4.2,73.3,4,5,Loss,-17,3345
+03/23/26,Chinooks,3557,Skateful Dead,3362,195,73.3,4.2,22.5,5,4,Win,17,3573
+03/23/26,Trash Pandas 5B,2758,Renegades,2968,-210,21.0,4.0,75.0,2,11,Loss,-39,2719
+03/23/26,Renegades,2968,Trash Pandas 5B,2758,210,75.0,4.0,21.0,11,2,Win,39,3008
+03/23/26,PussyCats,2637,Squids,2642,-5,46.5,5.6,47.9,6,5,Win,40,2677
+03/23/26,Squids,2642,PussyCats,2637,5,47.9,5.6,46.5,5,6,Loss,-40,2602
 03/24/26,Pheasants,4015,Northwest Crabs,4269,-254,17.1,3.4,79.5,4,10,Loss,-27,3988
 03/24/26,Northwest Crabs,4269,Pheasants,4015,254,79.5,3.4,17.1,10,4,Win,27,4296
+03/24/26,Sabercats,3752,Bombers,3728,24,50.7,5.6,43.7,1,3,Loss,-57,3695
+03/24/26,Bombers,3728,Sabercats,3752,-24,43.7,5.6,50.7,3,1,Win,57,3785
+03/24/26,Bullets,2885,Gamblers,2882,2,47.5,5.6,46.9,1,4,Loss,-62,2822
+03/24/26,Gamblers,2882,Bullets,2885,-2,46.9,5.6,47.5,4,1,Win,62,2945
+03/24/26,Dead Rabbits,3355,LLUA,3452,-97,33.8,5.2,61.0,1,5,Loss,-48,3307
+03/24/26,LLUA,3452,Dead Rabbits,3355,97,61.0,5.2,33.8,5,1,Win,48,3499
+03/24/26,Piranhas,2925,Stingers,3017,-92,34.4,5.2,60.4,5,4,Win,49,2974
+03/24/26,Stingers,3017,Piranhas,2925,92,60.4,5.2,34.4,4,5,Loss,-49,2968
+03/24/26,DevilFish,3319,Moose Knuckle,3389,-70,37.3,5.4,57.3,2,0,Win,71,3389
+03/24/26,Moose Knuckle,3389,DevilFish,3319,70,57.3,5.4,37.3,0,2,Loss,-71,3319
+03/24/26,Midnight Twist,2861,Brewzers OGB,2734,127,65.0,4.9,30.1,4,1,Win,46,2907
+03/24/26,Brewzers OGB,2734,Midnight Twist,2861,-127,30.1,4.9,65.0,1,4,Loss,-46,2689
+03/25/26,Red Dog,4222,Koronis Motors,4097,125,64.7,4.9,30.3,3,4,Loss,-49,4173
+03/25/26,Koronis Motors,4097,Red Dog,4222,-125,30.3,4.9,64.7,4,3,Win,49,4146
+03/25/26,The Herd,3714,Eagles,3822,-108,32.4,5.1,62.5,4,5,Loss,-24,3690
+03/25/26,Eagles,3822,The Herd,3714,108,62.5,5.1,32.4,5,4,Win,24,3846
+03/25/26,Breakers,3516,MMHC,3573,-57,39.1,5.5,55.4,4,5,Loss,-29,3486
+03/25/26,MMHC,3573,Breakers,3516,57,55.4,5.5,39.1,5,4,Win,29,3602
+03/25/26,Rhinos,3999,Puget Sound Pigeons,3872,127,65.1,4.9,30.0,6,3,Win,46,4045
+03/25/26,Puget Sound Pigeons,3872,Rhinos,3999,-127,30.0,4.9,65.1,3,6,Loss,-46,3826
+03/25/26,Dumb Pucks,2718,Jokres,2662,56,55.2,5.5,39.3,0,5,Loss,-83,2635
+03/25/26,Jokres,2662,Dumb Pucks,2718,-56,39.3,5.5,55.2,5,0,Win,83,2745
+03/25/26,Shockers,3441,Sasquatch,3889,-448,6.3,1.5,92.2,1,2,Loss,-5,3436
+03/25/26,Sasquatch,3889,Shockers,3441,448,92.2,1.5,6.3,2,1,Win,5,3893
+03/25/26,Monarchs 6C,2530,Coyotes,2706,-176,24.5,4.4,71.2,2,1,Win,57,2587
+03/25/26,Coyotes,2706,Monarchs 6C,2530,176,71.2,4.4,24.5,1,2,Loss,-57,2650
+03/25/26,Dirty Couch Hockey Club,2804,Rainier Reindeer HC-6B,2781,22,50.4,5.6,44.0,6,5,Win,37,2841
+03/25/26,Rainier Reindeer HC-6B,2781,Dirty Couch Hockey Club,2804,-22,44.0,5.6,50.4,5,6,Loss,-37,2744
+03/25/26,Wolves,3365,Edible Arrangements,3322,43,53.4,5.5,41.1,7,5,Win,52,3417
+03/25/26,Edible Arrangements,3322,Wolves,3365,-43,41.1,5.5,53.4,5,7,Loss,-52,3270
+03/26/26,Pull Tab Bandits,4103,Mavericks,4164,-61,38.6,5.4,55.9,0,3,Loss,-51,4053
+03/26/26,Mavericks,4164,Pull Tab Bandits,4103,61,55.9,5.4,38.6,3,0,Win,51,4215
+03/26/26,The Brigade,4086,Chiefs,4127,-41,41.4,5.5,53.1,7,3,Win,82,4168
+03/26/26,Chiefs,4127,The Brigade,4086,41,53.1,5.5,41.4,3,7,Loss,-82,4045
+03/26/26,ESB,4208,Seattle Supernova,4304,-96,34.0,5.2,60.9,4,2,Win,74,4283
+03/26/26,Seattle Supernova,4304,ESB,4208,96,60.9,5.2,34.0,2,4,Loss,-74,4230
+03/26/26,Mustangs,4030,NW Stars,4329,-299,13.7,2.9,83.4,3,2,Win,65,4095
+03/26/26,NW Stars,4329,Mustangs,4030,299,83.4,2.9,13.7,2,3,Loss,-65,4264
+03/26/26,Reapers,2924,WKUP-5,3147,-223,19.8,3.8,76.4,1,3,Loss,-22,2902
+03/26/26,WKUP-5,3147,Reapers,2924,223,76.4,3.8,19.8,3,1,Win,22,3169
+03/26/26,Black Katz,2952,Seals 5D,2865,87,59.7,5.3,35.1,1,3,Loss,-67,2885
+03/26/26,Seals 5D,2865,Black Katz,2952,-87,35.1,5.3,59.7,3,1,Win,67,2932
+03/26/26,Mighty Mallards,3414,Night Owls,3579,-165,25.6,4.5,69.9,2,0,Win,84,3498
+03/26/26,Night Owls,3579,Mighty Mallards,3414,165,69.9,4.5,25.6,0,2,Loss,-84,3495
+03/26/26,Steelhead,3373,Maple Bars,3645,-273,15.6,3.2,81.2,2,1,Win,63,3436
+03/26/26,Maple Bars,3645,Steelhead,3373,273,81.2,3.2,15.6,1,2,Loss,-63,3582
+03/26/26,Alpuckas,2864,Lumberjacks,2990,-126,30.2,4.9,64.9,4,3,Win,52,2916
+03/26/26,Lumberjacks,2990,Alpuckas,2864,126,64.9,4.9,30.2,3,4,Loss,-52,2937
+03/26/26,Greasy Weasels,3181,Buck Wild,3371,-190,23.0,4.2,72.8,1,5,Loss,-32,3149
+03/26/26,Buck Wild,3371,Greasy Weasels,3181,190,72.8,4.2,23.0,5,1,Win,32,3404
+03/26/26,Real Bacon,2463,Greenhorns,2505,-42,41.2,5.5,53.3,2,5,Loss,-54,2409
+03/26/26,Greenhorns,2505,Real Bacon,2463,42,53.3,5.5,41.2,5,2,Win,54,2560
+03/26/26,Skeletons,3176,Hooligans,3324,-148,27.5,4.7,67.8,1,2,Loss,-21,3155
+03/26/26,Hooligans,3324,Skeletons,3176,148,67.8,4.7,27.5,2,1,Win,21,3345
+03/29/26,Spring 10B Sky Blue,1107,Spring 10B Purple,980,127,65.1,4.9,30.0,2,2,Tie,-11,1096
+03/29/26,Spring 10B Purple,980,Spring 10B Sky Blue,1107,-127,30.0,4.9,65.1,2,2,Tie,11,991
+03/29/26,Spring 10B White,908,Spring 10B Red,1005,-98,33.7,5.2,61.1,3,3,Tie,12,920
+03/29/26,Spring 10B Red,1005,Spring 10B White,908,98,61.1,5.2,33.7,3,3,Tie,-12,993
+03/29/26,Chucklepucks,2358,Trash Pandas 7 Landis,2401,-43,41.1,5.5,53.4,9,5,Win,83,2441
+03/29/26,Trash Pandas 7 Landis,2401,Chucklepucks,2358,43,53.4,5.5,41.1,5,9,Loss,-83,2318
+03/29/26,Bandits,1921,Iced Awesome,1986,-65,38.0,5.4,56.6,3,0,Win,81,2002
+03/29/26,Iced Awesome,1986,Bandits,1921,65,56.6,5.4,38.0,0,3,Loss,-81,1905
+03/29/26,Seattle Dogs,1804,Quacken,1837,-32,42.6,5.6,51.8,1,3,Loss,-48,1756
+03/29/26,Quacken,1837,Seattle Dogs,1804,32,51.8,5.6,42.6,3,1,Win,48,1884
+03/29/26,Spittin'' Llamas,1623,Scrooge McPuck,1524,99,61.3,5.2,33.6,5,6,Loss,-46,1577
+03/29/26,Scrooge McPuck,1524,Spittin'' Llamas,1623,-99,33.6,5.2,61.3,6,5,Win,46,1570
+03/29/26,Khaos,1397,Fighting Clams,1388,9,48.5,5.6,45.9,1,4,Loss,-64,1333
+03/29/26,Fighting Clams,1388,Khaos,1397,-9,45.9,5.6,48.5,4,1,Win,64,1452
+03/29/26,Beer Dragons,837,Mighty Moose,1478,-641,2.2,0.5,97.3,1,5,Loss,-3,834
+03/29/26,Mighty Moose,1478,Beer Dragons,837,641,97.3,0.5,2.2,5,1,Win,3,1481
+03/29/26,Banana Blades,755,Golden Mules,951,-195,22.5,4.1,73.4,3,6,Loss,-29,726
+03/29/26,Golden Mules,951,Banana Blades,755,195,73.4,4.1,22.5,6,3,Win,29,980
+03/29/26,Hungry Hatchlings,1477,SEA Cucumbers,1692,-215,20.5,3.9,75.6,2,0,Win,89,1566
+03/29/26,SEA Cucumbers,1692,Hungry Hatchlings,1477,215,75.6,3.9,20.5,0,2,Loss,-89,1603
+03/29/26,Tropical Punchers,1164,Purple Reign,1282,-118,31.2,5.0,63.8,1,4,Loss,-41,1123
+03/29/26,Purple Reign,1282,Tropical Punchers,1164,118,63.8,5.0,31.2,4,1,Win,41,1322
+03/29/26,Yacht Flippers,1407,Gremlins Hockey,1490,-83,35.6,5.3,59.1,3,2,Win,48,1455
+03/29/26,Gremlins Hockey,1490,Yacht Flippers,1407,83,59.1,5.3,35.6,2,3,Loss,-48,1441
+03/29/26,Toe Dragons,1452,Seattle Slapshots,1827,-375,9.3,2.1,88.6,1,2,Loss,-7,1445
+03/29/26,Seattle Slapshots,1827,Toe Dragons,1452,375,88.6,2.1,9.3,2,1,Win,7,1834
+03/29/26,Seals Lower,1894,Cascadians HC,2278,-385,8.9,2.0,89.2,1,4,Loss,-12,1882
+03/29/26,Cascadians HC,2278,Seals Lower,1894,385,89.2,2.0,8.9,4,1,Win,12,2290
+03/29/26,Pond Pigeons,1648,LKI,1916,-268,16.0,3.2,80.8,2,6,Loss,-22,1626
+03/29/26,LKI,1916,Pond Pigeons,1648,268,80.8,3.2,16.0,6,2,Win,22,1939
+03/29/26,Blackouts,1582,Sockeyes Div 8,1868,-286,14.6,3.0,82.4,6,2,Win,120,1702
+03/29/26,Sockeyes Div 8,1868,Blackouts,1582,286,82.4,3.0,14.6,2,6,Loss,-120,1748
+03/29/26,Winter 26 New Div 10 Purple,627,Doom Clouds,841,-214,20.6,3.9,75.4,1,4,Loss,-27,600
+03/29/26,Doom Clouds,841,Winter 26 New Div 10 Purple,627,214,75.4,3.9,20.6,4,1,Win,27,868
+03/29/26,Roughnecks Mobile Infantry,1882,Birrds,2072,-190,23.0,4.2,72.7,2,5,Loss,-30,1852
+03/29/26,Birrds,2072,Roughnecks Mobile Infantry,1882,190,72.7,4.2,23.0,5,2,Win,30,2102
+03/29/26,Rainier Reindeers HC-9,1256,Spicy Kittens,1388,-131,29.5,4.9,65.6,3,4,Loss,-22,1234
+03/29/26,Spicy Kittens,1388,Rainier Reindeers HC-9,1256,131,65.6,4.9,29.5,4,3,Win,22,1410
+03/29/26,Raiders,2318,Wranglers,2602,-284,14.8,3.1,82.2,2,6,Loss,-21,2297
+03/29/26,Wranglers,2602,Raiders,2318,284,82.2,3.1,14.8,6,2,Win,21,2623
+03/29/26,Purple Puck Eaters,1021,Orange Crush,1262,-241,18.2,3.6,78.3,5,6,Loss,-14,1007
+03/29/26,Orange Crush,1262,Purple Puck Eaters,1021,241,78.3,3.6,18.2,6,5,Win,14,1276
+03/29/26,Blades,2373,Barrel Aged Brewzers,2606,-234,18.8,3.7,77.5,1,3,Loss,-21,2351
+03/29/26,Barrel Aged Brewzers,2606,Blades,2373,234,77.5,3.7,18.8,3,1,Win,21,2628
+03/29/26,Coyotes,2650,Honey Badgers,2422,228,76.9,3.7,19.3,3,2,Win,17,2667
+03/29/26,Honey Badgers,2422,Coyotes,2650,-228,19.3,3.7,76.9,2,3,Loss,-17,2404
+03/29/26,Dumb Pucks,2635,Icemen,2382,253,79.4,3.4,17.2,5,4,Win,15,2650
+03/29/26,Icemen,2382,Dumb Pucks,2635,-253,17.2,3.4,79.4,4,5,Loss,-15,2367
+03/29/26,Real Bacon,2409,Hackers,2302,107,62.4,5.1,32.5,3,1,Win,42,2452
+03/29/26,Hackers,2302,Real Bacon,2409,-107,32.5,5.1,62.4,1,3,Loss,-42,2260
+03/29/26,Rainier Reindeer HC-6B,2744,Mighty Boosh,2260,484,93.6,1.2,5.2,7,2,Win,10,2754
+03/29/26,Mighty Boosh,2260,Rainier Reindeer HC-6B,2744,-484,5.2,1.2,93.6,2,7,Loss,-10,2250
+03/29/26,Dirty Couch Hockey Club,2841,Jokres,2745,96,60.9,5.2,33.9,3,4,Loss,-46,2795
+03/29/26,Jokres,2745,Dirty Couch Hockey Club,2841,-96,33.9,5.2,60.9,4,3,Win,46,2790
+03/29/26,Greenhorns,2560,Monarchs 6C,2587,-28,43.3,5.6,51.2,4,7,Loss,-57,2503
+03/29/26,Monarchs 6C,2587,Greenhorns,2560,28,51.2,5.6,43.3,7,4,Win,57,2644
+03/30/26,Pheasants,3988,Pull Tab Bandits,4053,-65,38.0,5.4,56.6,5,4,Win,46,4034
+03/30/26,Pull Tab Bandits,4053,Pheasants,3988,65,56.6,5.4,38.0,4,5,Loss,-46,4006
+03/30/26,Ice-O-Topes,2902,Roughnecks - Game Theory,3199,-297,13.9,2.9,83.2,1,3,Loss,-16,2886
+03/30/26,Roughnecks - Game Theory,3199,Ice-O-Topes,2902,297,83.2,2.9,13.9,3,1,Win,16,3214
+03/30/26,Gamblers,2945,Yetis,3161,-216,20.5,3.9,75.7,2,1,Win,60,3005
+03/30/26,Yetis,3161,Gamblers,2945,216,75.7,3.9,20.5,1,2,Loss,-60,3101
+03/30/26,Stingers,2968,Bullets,2822,145,67.4,4.7,27.9,4,2,Win,37,3004
+03/30/26,Bullets,2822,Stingers,2968,-145,27.9,4.7,67.4,2,4,Loss,-37,2786
+03/30/26,Chinooks,3573,Goal Diggers,3779,-205,21.5,4.0,74.5,2,6,Loss,-30,3543
+03/30/26,Goal Diggers,3779,Chinooks,3573,205,74.5,4.0,21.5,6,2,Win,30,3809
+03/30/26,Dumpster Fire,2945,Top Cheddar,2671,274,81.3,3.2,15.5,2,0,Win,21,2966
+03/30/26,Top Cheddar,2671,Dumpster Fire,2945,-274,15.5,3.2,81.3,0,2,Loss,-21,2650
+03/30/26,Trash Pandas 5B,2719,Seagulls,2707,12,48.9,5.6,45.5,1,7,Loss,-78,2641
+03/30/26,Seagulls,2707,Trash Pandas 5B,2719,-12,45.5,5.6,48.9,7,1,Win,78,2785
+03/30/26,Squids,2602,Flying Monkeys,2673,-71,37.2,5.4,57.4,5,4,Win,47,2649
+03/30/26,Flying Monkeys,2673,Squids,2602,71,57.4,5.4,37.2,4,5,Loss,-47,2626
+03/30/26,Black Katz,2885,Monarchs 5D,2502,383,89.1,2.0,8.9,8,4,Win,15,2900
+03/30/26,Monarchs 5D,2502,Black Katz,2885,-383,8.9,2.0,89.1,4,8,Loss,-15,2486
+03/30/26,WKUP-5,3169,Renegades,3008,162,69.5,4.5,26.0,6,3,Win,40,3209
+03/30/26,Renegades,3008,WKUP-5,3169,-162,26.0,4.5,69.5,3,6,Loss,-40,2968
+03/30/26,Dead Rabbits,3307,BSOD,2882,425,91.2,1.6,7.2,6,0,Win,14,3321
+03/30/26,BSOD,2882,Dead Rabbits,3307,-425,7.2,1.6,91.2,0,6,Loss,-14,2868
+03/30/26,Brewzers OGB,2689,Fossils,2677,11,48.8,5.6,45.6,1,4,Loss,-64,2625
+03/30/26,Fossils,2677,Brewzers OGB,2689,-11,45.6,5.6,48.8,4,1,Win,64,2741
+03/30/26,Lumberjacks,2937,Highlanders,2694,243,78.4,3.6,18.0,5,0,Win,32,2970
+03/30/26,Highlanders,2694,Lumberjacks,2937,-243,18.0,3.6,78.4,0,5,Loss,-32,2662
+03/30/26,Midnight Twist,2907,PussyCats,2677,230,77.2,3.7,19.1,5,2,Win,30,2937
+03/30/26,PussyCats,2677,Midnight Twist,2907,-230,19.1,3.7,77.2,2,5,Loss,-30,2647
+03/30/26,Skeletons,3155,Edible Arrangements,3270,-114,31.6,5.0,63.4,8,3,Win,103,3258
+03/30/26,Edible Arrangements,3270,Skeletons,3155,114,63.4,5.0,31.6,3,8,Loss,-103,3167
+03/30/26,Alpuckas,2916,Seals 5D,2932,-16,44.9,5.6,49.5,4,2,Win,62,2978
+03/30/26,Seals 5D,2932,Alpuckas,2916,16,49.5,5.6,44.9,2,4,Loss,-62,2870
+03/31/26,Eagles,3846,Bar Down Transportation,3979,-132,29.4,4.9,65.7,3,4,Loss,-22,3824
+03/31/26,Bar Down Transportation,3979,Eagles,3846,132,65.7,4.9,29.4,4,3,Win,22,4001
+03/31/26,Puget Sound Pigeons,3826,The Herd,3690,136,66.2,4.8,29.0,5,9,Loss,-93,3733
+03/31/26,The Herd,3690,Puget Sound Pigeons,3826,-136,29.0,4.8,66.2,9,5,Win,93,3783
+03/31/26,Bombers,3785,Puckbuddies,3752,33,51.9,5.6,42.5,3,4,Loss,-39,3746
+03/31/26,Puckbuddies,3752,Bombers,3785,-33,42.5,5.6,51.9,4,3,Win,39,3791
+03/31/26,Night Owls,3495,Kraken Up,3334,162,69.5,4.5,26.0,13,2,Win,63,3558
+03/31/26,Kraken Up,3334,Night Owls,3495,-162,26.0,4.5,69.5,2,13,Loss,-63,3271
+03/31/26,Greasy Weasels,3149,Schilling Cider,3227,-78,36.3,5.3,58.4,3,2,Win,48,3197
+03/31/26,Schilling Cider,3227,Greasy Weasels,3149,78,58.4,5.3,36.3,2,3,Loss,-48,3179
+03/31/26,Buck Wild,3404,Mighty Mallards,3498,-94,34.2,5.2,60.6,3,2,Win,49,3453
+03/31/26,Mighty Mallards,3498,Buck Wild,3404,94,60.6,5.2,34.2,2,3,Loss,-49,3448

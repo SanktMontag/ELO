@@ -1851,6 +1851,8 @@
 ,16-Mar-26,Wolves,5,Moose Knuckle,2,Division 4C,Division 4C,REG
 ,16-Mar-26,Frozen Assets,2,Blackbirds,0,Division 9A,Division 9A,REG
 ,16-Mar-26,Yetis,3,Gamblers,3,Division 5C,Division 5C,REG
+1,16-Mar-26,PussyCats,3,Fossils,1,Division 6A,Division 6A,REG
+2,16-Mar-26,Flying Monkeys,0,Midnight Twist,7,Division 6A,Division 6A,REG
 ,17-Mar-26,Black Sheesh,2,Red Hots,2,Women''s Division Winter 2026,Women''s Division Winter 2026,REG
 ,17-Mar-26,Honey Badgers,6,Greenhorns,4,Division 6C,Division 6C,REG
 ,17-Mar-26,Night Owls,5,Mighty Mallards,2,Division 4B,Division 4B,REG
@@ -1917,6 +1919,24 @@
 ,22-Mar-26,Quacken,3,Seattle Dogs,3,Division 7C,Division 7C,REG
 ,22-Mar-26,SEA Cucumbers,1,Seal Team Sticks,1,Division 8B,Division 8B,REG
 ,22-Mar-26,Hungry Hatchlings,1,Seattle Slapshots,7,Division 8B,Division 8B,REG
+1,22-Mar-26,Raiders,3,Trash Pandas Garbage Legacy,2,Division 6D,Division 6D,OT
+1,22-Mar-26,Hackers,0,Monarchs 6C,10,Division 6C,Division 6C,REG
+2,22-Mar-26,Mudflaps,3,Blades,4,Division 6D,Division 6D,SO
+2,22-Mar-26,Real Bacon,6,Honey Badgers,2,Division 6C,Division 6C,REG
+2,22-Mar-26,Icemen,5,Dirty Couch Hockey Club,6,Division 6B,Division 6B,SO
+1,23-Mar-26,Top Cheddar,4,Ice-O-Topes,5,Division 5A,Division 5A,REG
+1,23-Mar-26,Seagulls,2,Reapers,3,Division 5B,Division 5B,REG
+1,23-Mar-26,Highlanders,3,Black Katz,4,Division 5D,Division 5D,REG
+1,23-Mar-26,Mighty Boosh,2,Dumb Pucks,6,Division 6B,Division 6B,REG
+1,23-Mar-26,Steelhead,2,Coconut Corgis,2,Division 4A,Division 4A,SO
+1,23-Mar-26,Schilling Cider,3,Mighty Mallards,4,Division 4B,Division 4B,OT
+1,23-Mar-26,BSOD,0,Skeletons,3,Division 4C,Division 4C,REG
+2,23-Mar-26,Not Sure 5A,6,Dumpster Fire,2,Division 5A,Division 5A,REG
+2,23-Mar-26,Monarchs 5D,6,Alpuckas,11,Division 5D,Division 5D,REG
+2,23-Mar-26,Greasy Weasels,4,Kraken Up,3,Division 4B,Division 4B,REG
+2,23-Mar-26,Skateful Dead,4,Chinooks,5,Division 4A,Division 4A,OT
+2,23-Mar-26,Trash Pandas 5B,2,Renegades,11,Division 5B,Division 5B,REG
+3,23-Mar-26,PussyCats,6,Squids,5,Division 6A,Division 6A,REG
 ,24-Mar-26,White Yetis,5,Sirens,0,Women''s Division Winter 2026,Women''s Division Winter 2026,REG
 ,24-Mar-26,Pheasants,4,Northwest Crabs,10,Division 2,Division 2,REG
 ,24-Mar-26,Grey Dust Bunnies,2,Red Hots,2,Women''s Division Winter 2026,Women''s Division Winter 2026,REG
@@ -1925,3 +1945,92 @@
 ,24-Mar-26,Blue Footed Bloobies,0,Rink Flamingos,3,Women''s Division Winter 2026,Women''s Division Winter 2026,REG
 ,24-Mar-26,Pineapple Express,4,Black Sheesh,1,Women''s Division Winter 2026,Women''s Division Winter 2026,REG
 ,24-Mar-26,40+ Advanced Gritty Pylons,1,40+ Advanced Whiskey Dekes,3,40+ Advanced Winter 2026,40+ Advanced Winter 2026,REG
+1,24-Mar-26,Sabercats,1,Bombers,3,Division 3B,Division 3B,REG
+1,24-Mar-26,Bullets,1,Gamblers,4,Division 5C,Division 5C,REG
+2,24-Mar-26,Dead Rabbits,1,LLUA,5,Division 4C,Division 4C,REG
+2,24-Mar-26,Piranhas,5,Stingers,4,Division 5C,Division 5C,REG
+3,24-Mar-26,DevilFish,2,Moose Knuckle,0,Division 4C,Division 4C,REG
+4,24-Mar-26,Midnight Twist,4,Brewzers OGB,1,Division 6A,Division 6A,REG
+,25-Mar-26,40+ Gritty Pylons,6,40+ Rough Draft,4,40+ Winter 2026,40+ Winter 2026,REG
+,25-Mar-26,40+ Geri Hat Tricks,0,40+ Carl''s Seniors,4,40+ Winter 2026,40+ Winter 2026,REG
+,25-Mar-26,40+ Rusty Blades,4,40+ Coldtimers,4,40+ Winter 2026,40+ Winter 2026,REG
+,25-Mar-26,Red Dog,3,Koronis Motors,4,Division 2,Division 2,REG
+,25-Mar-26,40+ Puck Dynasty,3,40+ Assisted Living,0,40+ Winter 2026,40+ Winter 2026,REG
+,25-Mar-26,40+ Mid-Ice Crisis,5,40+ Red Flags,4,40+ Winter 2026,40+ Winter 2026,REG
+1,25-Mar-26,The Herd,4,Eagles,5,Division 3A,Division 3A,REG
+2,25-Mar-26,Breakers,4,MMHC,5,Division 3B,Division 3B,SO
+2,25-Mar-26,Rhinos,6,Puget Sound Pigeons,3,Division 3A,Division 3A,REG
+3,25-Mar-26,Dumb Pucks,0,Jokres,5,Division 6B,Division 6B,REG
+3,25-Mar-26,Shockers,1,Sasquatch,2,Division 3B,Division 3B,OT
+3,25-Mar-26,Monarchs 6C,2,Coyotes,1,Division 6C,Division 6C,SO
+4,25-Mar-26,Dirty Couch Hockey Club,6,Rainier Reindeer HC-6B,5,Division 6B,Division 6B,REG
+4,25-Mar-26,Wolves,7,Edible Arrangements,5,Division 4C,Division 4C,REG
+,26-Mar-26,Pull Tab Bandits,0,Mavericks,3,Division 2,Division 2,REG
+,26-Mar-26,The Brigade,7,Chiefs,3,Division 2,Division 2,REG
+1,26-Mar-26,ESB,4,Seattle Supernova,2,Division 1,Division 1,REG
+2,26-Mar-26,Mustangs,3,NW Stars,2,Division 1,Division 1,SO
+3,26-Mar-26,Reapers,1,WKUP-5,3,Division 5B,Division 5B,REG
+3,26-Mar-26,Black Katz,1,Seals 5D,3,Division 5D,Division 5D,REG
+3,26-Mar-26,Mighty Mallards,2,Night Owls,0,Division 4B,Division 4B,REG
+3,26-Mar-26,Steelhead,2,Maple Bars,1,Division 4A,Division 4A,REG
+4,26-Mar-26,Alpuckas,4,Lumberjacks,3,Division 5D,Division 5D,REG
+4,26-Mar-26,Greasy Weasels,1,Buck Wild,5,Division 4B,Division 4B,REG
+4,26-Mar-26,Real Bacon,2,Greenhorns,5,Division 6C,Division 6C,REG
+5,26-Mar-26,Skeletons,1,Hooligans,2,Division 4C,Division 4C,REG
+,29-Mar-26,Spring 10B Sky Blue,2,Spring 10B Purple,2,Division 10B,Division 10B,REG
+,29-Mar-26,Spring 10B White,3,Spring 10B Red,3,Division 10B,Division 10B,REG
+1,29-Mar-26,Chucklepucks,9,Trash Pandas 7 Landis,5,Division 7A,Division 7A,REG
+1,29-Mar-26,Bandits,3,Iced Awesome,0,Division 7B,Division 7B,REG
+1,29-Mar-26,Seattle Dogs,1,Quacken,3,Division 7C,Division 7C,REG
+1,29-Mar-26,Spittin'' Llamas,5,Scrooge McPuck,6,Division 8A,Division 8A,OT
+1,29-Mar-26,Khaos,1,Fighting Clams,4,Division 9A,Division 9A,REG
+1,29-Mar-26,Beer Dragons,1,Mighty Moose,5,Division 9B,Division 9B,REG
+1,29-Mar-26,Banana Blades,3,Golden Mules,6,Division 10A,Division 10A,REG
+1,29-Mar-26,Hungry Hatchlings,2,SEA Cucumbers,0,Division 8B,Division 8B,REG
+2,29-Mar-26,Tropical Punchers,1,Purple Reign,4,Division 9B,Division 9B,REG
+2,29-Mar-26,Yacht Flippers,3,Gremlins Hockey,2,Division 9A,Division 9A,REG
+2,29-Mar-26,Toe Dragons,1,Seattle Slapshots,2,Division 8B,Division 8B,REG
+2,29-Mar-26,Seals Lower,1,Cascadians HC,4,Division 7A,Division 7A,REG
+2,29-Mar-26,Pond Pigeons,2,LKI,6,Division 7C,Division 7C,REG
+2,29-Mar-26,Blackouts,6,Sockeyes Div 8,2,Division 8A,Division 8A,REG
+2,29-Mar-26,Winter 26 New Div 10 Purple,1,Doom Clouds,4,Division 10A,Division 10A,REG
+2,29-Mar-26,Roughnecks Mobile Infantry,2,Birrds,5,Division 7B,Division 7B,REG
+3,29-Mar-26,Rainier Reindeers HC-9,3,Spicy Kittens,4,Division 9B,Division 9B,SO
+3,29-Mar-26,Raiders,2,Wranglers,6,Division 6D,Division 6D,REG
+4,29-Mar-26,Purple Puck Eaters,5,Orange Crush,6,Division 9B,Division 9B,REG
+4,29-Mar-26,Blades,1,Barrel Aged Brewzers,3,Division 6D,Division 6D,REG
+5,29-Mar-26,Coyotes,3,Honey Badgers,2,Division 6C,Division 6C,REG
+5,29-Mar-26,Dumb Pucks,5,Icemen,4,Division 6B,Division 6B,REG
+6,29-Mar-26,Real Bacon,3,Hackers,1,Division 6C,Division 6C,REG
+6,29-Mar-26,Rainier Reindeer HC-6B,7,Mighty Boosh,2,Division 6B,Division 6B,REG
+7,29-Mar-26,Dirty Couch Hockey Club,3,Jokres,4,Division 6B,Division 6B,OT
+7,29-Mar-26,Greenhorns,4,Monarchs 6C,7,Division 6C,Division 6C,REG
+1,30-Mar-26,Pheasants,5,Pull Tab Bandits,4,Division 2,Division 2,REG
+3,30-Mar-26,Ice-O-Topes,1,Roughnecks - Game Theory,3,Division 5A,Division 5A,REG
+3,30-Mar-26,Gamblers,2,Yetis,1,Division 5C,Division 5C,SO
+4,30-Mar-26,Stingers,4,Bullets,2,Division 5C,Division 5C,REG
+4,30-Mar-26,Chinooks,2,Goal Diggers,6,Division 4A,Division 4A,REG
+4,30-Mar-26,Dumpster Fire,2,Top Cheddar,0,Division 5A,Division 5A,REG
+4,30-Mar-26,Trash Pandas 5B,1,Seagulls,7,Division 5B,Division 5B,REG
+5,30-Mar-26,Squids,5,Flying Monkeys,4,Division 6A,Division 6A,REG
+5,30-Mar-26,Black Katz,8,Monarchs 5D,4,Division 5D,Division 5D,REG
+5,30-Mar-26,WKUP-5,6,Renegades,3,Division 5B,Division 5B,REG
+6,30-Mar-26,Dead Rabbits,6,BSOD,0,Division 4C,Division 4C,REG
+6,30-Mar-26,Brewzers OGB,1,Fossils,4,Division 6A,Division 6A,REG
+6,30-Mar-26,Lumberjacks,5,Highlanders,0,Division 5D,Division 5D,REG
+7,30-Mar-26,Midnight Twist,5,PussyCats,2,Division 6A,Division 6A,REG
+7,30-Mar-26,Skeletons,8,Edible Arrangements,3,Division 4C,Division 4C,REG
+7,30-Mar-26,Alpuckas,4,Seals 5D,2,Division 5D,Division 5D,REG
+,31-Mar-26,40+ Advanced Falk,5,40+ Advanced Whiskey Dekes,2,40+ Advanced Winter 2026,40+ Advanced Winter 2026,REG
+,31-Mar-26,Sirens,2,Rink Flamingos,6,Women''s Division Winter 2026,Women''s Division Winter 2026,REG
+,31-Mar-26,Black Sheesh,6,Grey Dust Bunnies,3,Women's Division Winter 2026,Women's Division Winter 2026,REG
+,31-Mar-26,40+ Advanced Gratiot,4,40+ Advanced Tagami,2,40+ Advanced Winter 2026,40+ Advanced Winter 2026,REG
+,31-Mar-26,Blue Footed Bloobies,2,Pineapple Express,5,Women''s Division Winter 2026,Women''s Division Winter 2026,REG
+,31-Mar-26,40+ Advanced Gritty Pylons,4,40+ Advanced Bakers Dozen,7,40+ Advanced Winter 2026,40+ Advanced Winter 2026,REG
+,31-Mar-26,White Yetis,,Red Hots,,Women's Division Winter 2026,Women's Division Winter 2026,
+3,31-Mar-26,Eagles,3,Bar Down Transportation,4,Division 3A,Division 3A,REG
+4,31-Mar-26,Puget Sound Pigeons,5,The Herd,9,Division 3A,Division 3A,REG
+4,31-Mar-26,Bombers,3,Puckbuddies,4,Division 3B,Division 3B,SO
+5,31-Mar-26,Night Owls,13,Kraken Up,2,Division 4B,Division 4B,REG
+6,31-Mar-26,Greasy Weasels,3,Schilling Cider,2,Division 4B,Division 4B,REG
+7,31-Mar-26,Buck Wild,3,Mighty Mallards,2,Division 4B,Division 4B,REG
