@@ -1,0 +1,1426 @@
+
+"""
+=============================================================================
+ELO RATING SYSTEM WITH CONTEXTUAL GOAL DIFFERENCE & FORM WEIGHTING
+=============================================================================
+
+A modified Elo rating system designed for small-division leagues (6-8 teams)
+that incorporates:
+    1. Tie handling (W/D/L scoring)
+    2. Historically-calibrated goal difference multipliers
+    3. Elo-conditional GD expectations (contextual surprisingness)
+    4. 5-game exponential decay form weighting
+    5. Provisional K-factor for new teams
+    6. Match outcome & scoreline prediction via Poisson model
+    7. Zero-sum rating constraint to prevent inflation
+
+Author: Generated via collaborative design session
+License: MIT
+"""
+
+import math
+import numpy as np
+from collections import defaultdict
+from scipy.stats import poisson, spearmanr
+
+
+# =============================================================================
+# CORE ELO SYSTEM CLASS
+# =============================================================================
+
+class EloSystem:
+    """
+    Complete Elo rating system with historical calibration, form weighting,
+    and match prediction capabilities.
+    
+    Parameters
+    ----------
+    K_base : float
+        Base K-factor controlling maximum rating change per game.
+        Higher = more volatile. Typical range: 20-40.
+    
+    provisional_threshold : int
+        Number of games before a team is considered "established".
+        During provisional period, K-factor is elevated for faster convergence.
+    
+    form_window : int
+        Number of recent matches to consider for form calculation.
+        Shorter = more reactive to streaks. Recommended: 5 for small leagues.
+    
+    form_weight : float
+        How much form adjusts predictions (0.0 = ignore form, 0.20 = heavy).
+        Recommended: 0.10-0.15 for small leagues with frequent matchups.
+    
+    form_decay : float
+        Exponential decay factor for form weighting.
+        0.80 = aggressive (most recent game worth 5x the 5th most recent).
+        0.90 = gentle (most recent game worth 1.5x the 5th most recent).
+    """
+    
+    def __init__(
+        self,
+        K_base: float = 32,
+        provisional_threshold: int = 20,
+        form_window: int = 5,
+        form_weight: float = 0.12,
+        form_decay: float = 0.80,
+    ):
+        self.K_base = K_base
+        self.provisional_threshold = provisional_threshold
+        self.form_window = form_window
+        self.form_weight = form_weight
+        self.form_decay = form_decay
+        
+        # Historical data storage — populated as matches are processed
+        self.historical_results = []
+        
+        # Learned models — built from historical data
+        self.gd_model = None       # Elo delta → expected goal difference distribution
+        self.scoring_model = None  # Elo delta → expected goals for/against (Poisson λ)
+    
+    # =========================================================================
+    # MODEL BUILDING — Call after each season to recalibrate
+    # =========================================================================
+    
+    def build_models(self, min_samples_per_bin: int = 3):
+        """
+        Build the historical GD and scoring models from accumulated match data.
+        
+        Should be called:
+            - After each season (recommended)
+            - NOT mid-season (changes rules during competition)
+            - Only when sufficient data exists (50+ matches minimum)
+        
+        The models bin historical results by Elo delta (in 50-point increments)
+        and calculate the mean/std of goal differences and goal rates for each bin.
+        
+        Parameters
+        ----------
+        min_samples_per_bin : int
+            Minimum number of matches in a bin to include it in the model.
+            Bins with fewer samples are excluded (fallback interpolation used).
+        """
+        if len(self.historical_results) < 50:
+            return  # Not enough data — continue using fallback multiplier
+        
+        # --- Goal Difference Model ---
+        # Maps: Elo delta bin → {mean GD, std GD}
+        # Used by: contextual multiplier (how surprising was this result?)
+        gd_bins = defaultdict(list)
+        
+        # --- Scoring Model ---
+        # Maps: Elo delta bin → {λ_for, λ_against}
+        # Used by: Poisson scoreline prediction
+        scoring_bins = defaultdict(lambda: {"goals_for": [], "goals_against": []})
+        
+        for result in self.historical_results:
+            bin_key = round(result["elo_delta"] / 50) * 50
+            gd_bins[bin_key].append(result["goal_diff"])
+            scoring_bins[bin_key]["goals_for"].append(result["goals_for"])
+            scoring_bins[bin_key]["goals_against"].append(result["goals_against"])
+        
+        # Build GD model (only bins with sufficient data)
+        self.gd_model = {}
+        for bin_key, gd_values in gd_bins.items():
+            if len(gd_values) >= min_samples_per_bin:
+                self.gd_model[bin_key] = {
+                    "mean": np.mean(gd_values),
+                    "std": max(np.std(gd_values), 0.5),  # Floor at 0.5 to prevent div/0
+                }
+        
+        # Build scoring model (only bins with sufficient data)
+        self.scoring_model = {}
+        for bin_key, goals in scoring_bins.items():
+            if len(goals["goals_for"]) >= min_samples_per_bin:
+                self.scoring_model[bin_key] = {
+                    "lambda_for": np.mean(goals["goals_for"]),
+                    "lambda_against": np.mean(goals["goals_against"]),
+                }
+    
+    # =========================================================================
+    # CONTEXTUAL GOAL DIFFERENCE MULTIPLIER
+    # =========================================================================
+    
+    def get_contextual_multiplier(self, signed_gd: int, elo_delta: float) -> float:
+        """
+        Calculate how surprising a goal difference is given the Elo gap.
+        
+        This is the key innovation: instead of a generic ln(GD+1) multiplier,
+        we ask "how many standard deviations away from expected is this result?"
+        
+        A 3-0 win by a heavy favourite is LESS surprising (lower multiplier)
+        than a 3-0 win by an underdog (higher multiplier).
+        
+        Parameters
+        ----------
+        signed_gd : int
+            Goal difference from the perspective of the team being updated.
+            Positive = team won by this margin. Negative = team lost.
+        
+        elo_delta : float
+            Rating difference (team_rating - opponent_rating) at match time.
+        
+        Returns
+        -------
+        float
+            Multiplier in range [0.5, 2.0].
+            - 1.0 = result was exactly as expected
+            - >1.0 = result was better than expected (amplifies rating change)
+            - <1.0 = result was worse than expected (dampens rating change)
+        """
+        # --- Fallback: use ln-based multiplier if no historical model exists ---
+        if self.gd_model is None:
+            return max(1.0, math.log(abs(signed_gd) + 1))
+        
+        # --- Look up expected GD for this Elo delta bin ---
+        bin_key = round(elo_delta / 50) * 50
+        
+        if bin_key in self.gd_model:
+            expected_gd = self.gd_model[bin_key]["mean"]
+            std_gd = self.gd_model[bin_key]["std"]
+        else:
+            # Fallback: linear approximation for bins without enough data
+            # Assumes ~1 goal advantage per 200 Elo points
+            expected_gd = elo_delta / 200
+            std_gd = 1.5
+        
+        # --- Calculate z-score: how many SDs above/below expected? ---
+        z_score = (signed_gd - expected_gd) / std_gd
+        
+        # --- Map z-score to multiplier with bounded range ---
+        # 0.4 controls sensitivity: higher = more reactive to surprises
+        multiplier = 1.0 + 0.4 * z_score
+        
+        # Clamp to prevent extreme values
+        return max(0.5, min(2.0, multiplier))
+    
+    # =========================================================================
+    # FORM CALCULATION
+    # =========================================================================
+    
+    def get_form(self, team: dict) -> float:
+        """
+        Calculate Elo-adjusted form over recent matches.
+        
+        Form measures how much a team has OVER/UNDER-performed relative to
+        their Elo expectations in recent games. This is superior to raw W/D/L
+        form because it accounts for opponent strength.
+        
+        A team that won 5 games against bottom-table opponents may have
+        NEGATIVE form if Elo expected them to win those games easily.
+        
+        Parameters
+        ----------
+        team : dict
+            Team dictionary containing "recent_matches" list.
+        
+        Returns
+        -------
+        float
+            Form value, typically in range [-0.5, +0.5].
+            - Positive = outperforming Elo expectations
+            - Negative = underperforming Elo expectations
+            - 0.0 = performing exactly as Elo predicts
+        """
+        if len(team["recent_matches"]) == 0:
+            return 0.0
+        
+        form = 0.0
+        weight_sum = 0.0
+        
+        # Take the most recent N matches
+        recent = team["recent_matches"][-self.form_window:]
+        
+        # Weight most recent games more heavily (exponential decay)
+        for i, match in enumerate(reversed(recent)):
+            weight = self.form_decay ** i  # Most recent = weight 1.0
+            form += weight * match["performance"]  # performance = S - E from that game
+            weight_sum += weight
+        
+        return form / weight_sum if weight_sum > 0 else 0.0
+    
+    # =========================================================================
+    # K-FACTOR (PROVISIONAL HANDLING)
+    # =========================================================================
+    
+    def get_k_factor(self, team: dict) -> float:
+        """
+        Calculate K-factor with provisional elevation for new teams.
+        
+        New teams start with K = 2.5 * K_base and linearly decay to K_base
+        over the provisional threshold period. This allows rapid convergence
+        to true strength without permanent volatility.
+        
+        Parameters
+        ----------
+        team : dict
+            Team dictionary containing "games_played" count.
+        
+        Returns
+        -------
+        float
+            Effective K-factor for this team's next update.
+        """
+        if team["games_played"] < self.provisional_threshold:
+            # Linear decay from 2.5x to 1.0x over provisional period
+            progress = team["games_played"] / self.provisional_threshold
+            k_multiplier = 2.5 - 1.5 * progress
+            return self.K_base * k_multiplier
+        
+        return self.K_base
+    
+    # =========================================================================
+    # MATCH PROCESSING (RATING UPDATE)
+    # =========================================================================
+    
+    def process_match(
+        self,
+        team_a: dict,
+        team_b: dict,
+        goals_a: int,
+        goals_b: int,
+    ) -> tuple:
+        """
+        Process a completed match and update both teams' ratings.
+        
+        This is the core update function. It:
+            1. Determines the actual score (W/D/L → 1.0/0.5/0.0)
+            2. Calculates expected scores from Elo difference
+            3. Computes the contextual GD multiplier (same for both teams)
+            4. Applies provisional K-factors independently
+            5. Updates ratings (approximately zero-sum)
+            6. Stores match data for form and historical model
+        
+        IMPORTANT: The GD multiplier is computed ONCE from team_a's perspective
+        and applied to both teams. This ensures the match is approximately
+        zero-sum (exact zero-sum when both teams have the same K-factor).
+        
+        Parameters
+        ----------
+        team_a : dict
+            Home/first team dictionary (modified in place).
+        team_b : dict
+            Away/second team dictionary (modified in place).
+        goals_a : int
+            Goals scored by team_a.
+        goals_b : int
+            Goals scored by team_b.
+        
+        Returns
+        -------
+        tuple (delta_a, delta_b)
+            Rating changes applied to each team.
+        """
+        # --- Record Elo delta at time of match (before update) ---
+        elo_delta = team_a["rating"] - team_b["rating"]
+        
+        # --- Determine actual scores ---
+        # W=1.0, D=0.5, L=0.0 (standard Elo three-outcome scoring)
+        if goals_a > goals_b:
+            S_a, S_b = 1.0, 0.0
+        elif goals_a == goals_b:
+            S_a, S_b = 0.5, 0.5
+        else:
+            S_a, S_b = 0.0, 1.0
+        
+        # --- Calculate expected scores (base Elo, no form adjustment) ---
+        # Form is used for PREDICTION but not for the update formula.
+        # This keeps the rating as a pure long-term strength measure.
+        E_a = 1.0 / (1.0 + 10 ** (-elo_delta / 400))
+        E_b = 1.0 - E_a  # Complementary (zero-sum property)
+        
+        # --- Contextual GD multiplier (computed once, applied to both) ---
+        signed_gd_a = goals_a - goals_b
+        G = self.get_contextual_multiplier(signed_gd_a, elo_delta)
+        
+        # --- K-factors (may differ if one team is provisional) ---
+        K_a = self.get_k_factor(team_a)
+        K_b = self.get_k_factor(team_b)
+        
+        # --- Apply updates ---
+        delta_a = K_a * G * (S_a - E_a)
+        delta_b = K_b * G * (S_b - E_b)
+        
+        team_a["rating"] += delta_a
+        team_b["rating"] += delta_b
+        team_a["games_played"] += 1
+        team_b["games_played"] += 1
+        
+        # --- Store match data for form calculation ---
+        team_a["recent_matches"].append({
+            "performance": S_a - E_a,  # How much better/worse than expected
+            "gd": signed_gd_a,
+            "goals_for": goals_a,
+            "goals_against": goals_b,
+            "opp_rating": team_b["rating"],
+        })
+        team_b["recent_matches"].append({
+            "performance": S_b - E_b,
+            "gd": -signed_gd_a,
+            "goals_for": goals_b,
+            "goals_against": goals_a,
+            "opp_rating": team_a["rating"],
+        })
+        
+        # --- Store for historical model (one record per match, not two) ---
+        self.historical_results.append({
+            "elo_delta": elo_delta,
+            "goal_diff": signed_gd_a,
+            "goals_for": goals_a,
+            "goals_against": goals_b,
+        })
+        
+        return delta_a, delta_b
+    
+    # =========================================================================
+    # MATCH PREDICTION
+    # =========================================================================
+    
+    def predict(self, team_a: dict, team_b: dict) -> dict:
+        """
+        Generate a full pre-match prediction including:
+            - Win/Draw/Loss probabilities
+            - Expected goals for each team
+            - Most likely scorelines (Poisson model)
+            - Form context
+        
+        The prediction blends Elo-based expectations with recent form.
+        Scoreline predictions use the historical scoring model (if available)
+        parameterized by the Elo delta, with Poisson distribution for each team.
+        
+        Parameters
+        ----------
+        team_a : dict
+            Team dictionary for the team whose win probability is "p_win".
+        team_b : dict
+            Opponent team dictionary.
+        
+        Returns
+        -------
+        dict with keys:
+            - p_win, p_draw, p_loss: Outcome probabilities for team_a
+            - expected_gf, expected_ga: Expected goals for team_a
+            - form_a, form_b: Current form values
+            - elo_delta: Rating difference (a - b)
+            - top_scorelines: List of (score_string, probability%) tuples
+        """
+        elo_delta = team_a["rating"] - team_b["rating"]
+        
+        # --- Base expected score from Elo ---
+        E_base = 1.0 / (1.0 + 10 ** (-elo_delta / 400))
+        
+        # --- Form adjustment ---
+        form_a = self.get_form(team_a)
+        form_b = self.get_form(team_b)
+        form_adjustment = self.form_weight * (form_a - form_b)
+        
+        # --- Adjusted expected score (clamped to valid probability range) ---
+        E_adjusted = max(0.05, min(0.95, E_base + form_adjustment))
+        
+        # --- Decompose into W/D/L probabilities ---
+        # Draw probability modeled as Gaussian: peaks when teams are equal,
+        # decreases as the gap widens (lopsided matches rarely draw)
+        draw_rate = 0.26 * math.exp(-(elo_delta ** 2) / (2 * 350 ** 2))
+        
+        p_win = E_adjusted * (1 - draw_rate)
+        p_loss = (1 - E_adjusted) * (1 - draw_rate)
+        p_draw = draw_rate
+        
+        # Normalize to ensure they sum to 1.0
+        total = p_win + p_draw + p_loss
+        p_win /= total
+        p_draw /= total
+        p_loss /= total
+        
+        # --- Scoreline prediction (Poisson model) ---
+        lambda_for, lambda_against = self._get_scoring_lambdas(elo_delta)
+        
+        # Adjust lambdas by form (mild adjustment)
+        if E_base > 0.01:
+            adjustment_ratio = E_adjusted / E_base
+            lambda_for = max(0.3, lambda_for * (0.7 + 0.3 * adjustment_ratio))
+            lambda_against = max(0.3, lambda_against * (1.3 - 0.3 * adjustment_ratio))
+        
+        # Generate scoreline probability matrix
+        scorelines = {}
+        for gf in range(7):
+            for ga in range(7):
+                p = poisson.pmf(gf, lambda_for) * poisson.pmf(ga, lambda_against)
+                scorelines[(gf, ga)] = p
+        
+        # Sort by probability, return top 5
+        top_scores = sorted(scorelines.items(), key=lambda x: -x[1])[:5]
+        
+        return {
+            "p_win": round(p_win, 4),
+            "p_draw": round(p_draw, 4),
+            "p_loss": round(p_loss, 4),
+            "expected_gf": round(lambda_for, 2),
+            "expected_ga": round(lambda_against, 2),
+            "form_a": round(form_a, 4),
+            "form_b": round(form_b, 4),
+            "elo_delta": round(elo_delta, 1),
+            "top_scorelines": [
+                (f"{s[0]}-{s[1]}", round(p * 100, 1)) for s, p in top_scores
+            ],
+        }
+    
+    def _get_scoring_lambdas(self, elo_delta: float) -> tuple:
+        """
+        Get expected goals for/against based on Elo delta.
+        Uses historical model if available, otherwise linear approximation.
+        
+        Returns
+        -------
+        tuple (lambda_for, lambda_against)
+        """
+        if self.scoring_model:
+            bin_key = round(elo_delta / 50) * 50
+            if bin_key in self.scoring_model:
+                return (
+                    self.scoring_model[bin_key]["lambda_for"],
+                    self.scoring_model[bin_key]["lambda_against"],
+                )
+        
+        # Fallback: league average ~1.35 goals/team, adjusted by Elo
+        league_avg = 1.35
+        lambda_for = max(0.3, league_avg + elo_delta / 600)
+        lambda_against = max(0.3, league_avg - elo_delta / 600)
+        return lambda_for, lambda_against
+    
+    # =========================================================================
+    # SEASONAL OPERATIONS
+    # =========================================================================
+    
+    def seasonal_reset(
+        self,
+        team: dict,
+        division_mean: float,
+        regression_factor: float = 0.25,
+        games_played_reduction: int = 5,
+    ) -> None:
+        """
+        Apply between-season regression toward division mean.
+        
+        Accounts for roster turnover, coaching changes, and mean reversion.
+        Also partially resets games_played to allow slightly elevated K at
+        season start for faster adaptation to new squad compositions.
+        
+        Parameters
+        ----------
+        team : dict
+            Team dictionary (modified in place).
+        division_mean : float
+            Average Elo of the team's division.
+        regression_factor : float
+            How much to pull toward mean (0.0 = no change, 1.0 = full reset).
+            Recommended: 0.20-0.30.
+        games_played_reduction : int
+            How many games to "forget" from the provisional counter.
+            Creates a mild provisional period at season start.
+        """
+        # Regress rating toward division mean
+        team["rating"] += regression_factor * (division_mean - team["rating"])
+        
+        # Partially reset games played (but don't go below half threshold)
+        team["games_played"] = max(
+            self.provisional_threshold // 2,
+            team["games_played"] - games_played_reduction,
+        )
+        
+        # Clear form history (new season = fresh slate)
+        team["recent_matches"] = []
+    
+    # =========================================================================
+    # EVALUATION METRICS
+    # =========================================================================
+    
+    @staticmethod
+    def brier_score(predictions: list, actuals: list) -> float:
+        """
+        Calculate Brier Score for probabilistic predictions.
+        
+        Measures calibration and discrimination of W/D/L predictions.
+        Lower is better: 0.0 = perfect, 0.667 = uniform guessing.
+        
+        Parameters
+        ----------
+        predictions : list of dicts
+            Each dict has keys: p_win, p_draw, p_loss
+        actuals : list of lists
+            Each is [1,0,0] (win), [0,1,0] (draw), or [0,0,1] (loss)
+        
+        Returns
+        -------
+        float
+            Average Brier score across all predictions.
+        """
+        scores = []
+        for pred, actual in zip(predictions, actuals):
+            score = (
+                (pred["p_win"] - actual[0]) ** 2
+                + (pred["p_draw"] - actual[1]) ** 2
+                + (pred["p_loss"] - actual[2]) ** 2
+            )
+            scores.append(score)
+        return np.mean(scores)
+
+
+# =============================================================================
+# TEAM FACTORY — Helper to create properly structured team dictionaries
+# =============================================================================
+
+def create_team(name: str, initial_rating: float) -> dict:
+    """
+    Create a new team dictionary with all required fields.
+    
+    Parameters
+    ----------
+    name : str
+        Team display name.
+    initial_rating : float
+        Starting Elo rating (typically based on division placement).
+    
+    Returns
+    -------
+    dict
+        Team dictionary ready for use with EloSystem.
+    """
+    return {
+        "name": name,
+        "rating": initial_rating,
+        "games_played": 0,
+        "recent_matches": [],  # Stores last N matches for form calculation
+    }
+
+
+# =============================================================================
+# MATCH SIMULATION ENGINE (for testing/validation only)
+# =============================================================================
+
+def simulate_match(
+    team_a: dict,
+    team_b: dict,
+    true_strength_key: str = "true_strength",
+    league_avg_goals: float = 1.35,
+    noise_range: tuple = (0.8, 1.2),
+) -> tuple:
+    """
+    Simulate a match result based on teams' true underlying strengths.
+    
+    Uses Poisson model with strength-derived lambda values plus random noise.
+    This is for TESTING ONLY — in production, you'd use real match results.
+    
+    Parameters
+    ----------
+    team_a, team_b : dict
+        Team dictionaries with true_strength field.
+    true_strength_key : str
+        Key in team dict containing the "true" hidden strength.
+    league_avg_goals : float
+        Average goals per team per match in this league.
+    noise_range : tuple
+        (min, max) multiplier for per-match randomness.
+    
+    Returns
+    -------
+    tuple (goals_a, goals_b)
+    """
+    strength_diff = team_a[true_strength_key] - team_b[true_strength_key]
+    
+    # Convert strength difference to goal-scoring rates
+    lambda_a = max(0.4, league_avg_goals + strength_diff / 600)
+    lambda_b = max(0.4, league_avg_goals - strength_diff / 600)
+    
+    # Add per-match noise (form, motivation, luck)
+    lambda_a *= np.random.uniform(*noise_range)
+    lambda_b *= np.random.uniform(*noise_range)
+    
+    # Generate goals from Poisson distribution
+    goals_a = np.random.poisson(lambda_a)
+    goals_b = np.random.poisson(lambda_b)
+    
+    return goals_a, goals_b
+
+
+# =============================================================================
+# EXAMPLE USAGE
+# =============================================================================
+
+if __name__ == "__main__":
+    
+    np.random.seed(42)
+    
+    # Create the Elo system
+    elo = EloSystem(
+        K_base=32,
+        provisional_threshold=20,
+        form_window=5,
+        form_weight=0.12,
+        form_decay=0.80,
+    )
+    
+    # Create two divisions (seeded by division strength)
+    premier_teams = [
+        {**create_team("Titans", 1600), "true_strength": 1750},
+        {**create_team("Wolves", 1600), "true_strength": 1700},
+        {**create_team("Eagles", 1600), "true_strength": 1650},
+        {**create_team("Sharks", 1600), "true_strength": 1620},
+        {**create_team("Lions", 1600), "true_strength": 1580},
+        {**create_team("Hawks", 1600), "true_strength": 1540},
+        {**create_team("Bears", 1600), "true_strength": 1500},
+    ]
+    
+    championship_teams = [
+        {**create_team("Foxes", 1350), "true_strength": 1480},
+        {**create_team("Stags", 1350), "true_strength": 1430},
+        {**create_team("Vipers", 1350), "true_strength": 1380},
+        {**create_team("Rams", 1350), "true_strength": 1350},
+        {**create_team("Cobras", 1350), "true_strength": 1320},
+        {**create_team("Falcons", 1350), "true_strength": 1280},
+        {**create_team("Otters", 1350), "true_strength": 1240},
+    ]
+    
+    # Run 3 seasons of double round-robin
+    for season in range(1, 4):
+        for teams in [premier_teams, championship_teams]:
+            matches = [
+                (teams[i], teams[j])
+                for i in range(len(teams))
+                for j in range(len(teams))
+                if i != j
+            ]
+            np.random.shuffle(matches)
+            
+            for team_a, team_b in matches:
+                goals_a, goals_b = simulate_match(team_a, team_b)
+                elo.process_match(team_a, team_b, goals_a, goals_b)
+        
+        elo.build_models()
+        print(f"Season {season} complete. Data points: {len(elo.historical_results)}")
+    
+    # Show results
+    all_teams = sorted(premier_teams + championship_teams, key=lambda t: -t["rating"])
+    print(f"\n{'Team':<12} {'True':<8} {'Elo':<8} {'Error':<8}")
+    for t in all_teams:
+        print(f"{t['name']:<12} {t['true_strength']:<8} {t['rating']:<8.1f} {t['rating']-t['true_strength']:<+8.1f}")
+    
+    # Example prediction
+    pred = elo.predict(premier_teams[0], premier_teams[6])
+    print(f"\nTitans vs Bears: W {pred['p_win']*100:.0f}% D {pred['p_draw']*100:.0f}% L {pred['p_loss']*100:.0f}%")
+    print(f"Expected: {pred['expected_gf']:.1f} - {pred['expected_ga']:.1f}")
+    print(f"Top scores: {pred['top_scorelines']}")
+
+
+"""
+=============================================================================
+ELO RATING SYSTEM WITH CONTEXTUAL GOAL DIFFERENCE & FORM WEIGHTING
+=============================================================================
+
+A modified Elo rating system designed for small-division leagues (6-8 teams)
+that incorporates:
+    1. Tie handling (W/D/L scoring)
+    2. Historically-calibrated goal difference multipliers
+    3. Elo-conditional GD expectations (contextual surprisingness)
+    4. 5-game exponential decay form weighting
+    5. Provisional K-factor for new teams
+    6. Match outcome & scoreline prediction via Poisson model
+    7. Zero-sum rating constraint to prevent inflation
+
+Author: Generated via collaborative design session
+License: MIT
+"""
+
+import math
+import numpy as np
+from collections import defaultdict
+from scipy.stats import poisson, spearmanr
+
+
+# =============================================================================
+# CORE ELO SYSTEM CLASS
+# =============================================================================
+
+class EloSystem:
+    """
+    Complete Elo rating system with historical calibration, form weighting,
+    and match prediction capabilities.
+    
+    Parameters
+    ----------
+    K_base : float
+        Base K-factor controlling maximum rating change per game.
+        Higher = more volatile. Typical range: 20-40.
+    
+    provisional_threshold : int
+        Number of games before a team is considered "established".
+        During provisional period, K-factor is elevated for faster convergence.
+    
+    form_window : int
+        Number of recent matches to consider for form calculation.
+        Shorter = more reactive to streaks. Recommended: 5 for small leagues.
+    
+    form_weight : float
+        How much form adjusts predictions (0.0 = ignore form, 0.20 = heavy).
+        Recommended: 0.10-0.15 for small leagues with frequent matchups.
+    
+    form_decay : float
+        Exponential decay factor for form weighting.
+        0.80 = aggressive (most recent game worth 5x the 5th most recent).
+        0.90 = gentle (most recent game worth 1.5x the 5th most recent).
+    """
+    
+    def __init__(
+        self,
+        K_base: float = 32,
+        provisional_threshold: int = 20,
+        form_window: int = 5,
+        form_weight: float = 0.12,
+        form_decay: float = 0.80,
+    ):
+        self.K_base = K_base
+        self.provisional_threshold = provisional_threshold
+        self.form_window = form_window
+        self.form_weight = form_weight
+        self.form_decay = form_decay
+        
+        # Historical data storage — populated as matches are processed
+        self.historical_results = []
+        
+        # Learned models — built from historical data
+        self.gd_model = None       # Elo delta → expected goal difference distribution
+        self.scoring_model = None  # Elo delta → expected goals for/against (Poisson λ)
+    
+    # =========================================================================
+    # MODEL BUILDING — Call after each season to recalibrate
+    # =========================================================================
+    
+    def build_models(self, min_samples_per_bin: int = 3):
+        """
+        Build the historical GD and scoring models from accumulated match data.
+        
+        Should be called:
+            - After each season (recommended)
+            - NOT mid-season (changes rules during competition)
+            - Only when sufficient data exists (50+ matches minimum)
+        
+        The models bin historical results by Elo delta (in 50-point increments)
+        and calculate the mean/std of goal differences and goal rates for each bin.
+        
+        Parameters
+        ----------
+        min_samples_per_bin : int
+            Minimum number of matches in a bin to include it in the model.
+            Bins with fewer samples are excluded (fallback interpolation used).
+        """
+        if len(self.historical_results) < 50:
+            return  # Not enough data — continue using fallback multiplier
+        
+        # --- Goal Difference Model ---
+        # Maps: Elo delta bin → {mean GD, std GD}
+        # Used by: contextual multiplier (how surprising was this result?)
+        gd_bins = defaultdict(list)
+        
+        # --- Scoring Model ---
+        # Maps: Elo delta bin → {λ_for, λ_against}
+        # Used by: Poisson scoreline prediction
+        scoring_bins = defaultdict(lambda: {"goals_for": [], "goals_against": []})
+        
+        for result in self.historical_results:
+            bin_key = round(result["elo_delta"] / 50) * 50
+            gd_bins[bin_key].append(result["goal_diff"])
+            scoring_bins[bin_key]["goals_for"].append(result["goals_for"])
+            scoring_bins[bin_key]["goals_against"].append(result["goals_against"])
+        
+        # Build GD model (only bins with sufficient data)
+        self.gd_model = {}
+        for bin_key, gd_values in gd_bins.items():
+            if len(gd_values) >= min_samples_per_bin:
+                self.gd_model[bin_key] = {
+                    "mean": np.mean(gd_values),
+                    "std": max(np.std(gd_values), 0.5),  # Floor at 0.5 to prevent div/0
+                }
+        
+        # Build scoring model (only bins with sufficient data)
+        self.scoring_model = {}
+        for bin_key, goals in scoring_bins.items():
+            if len(goals["goals_for"]) >= min_samples_per_bin:
+                self.scoring_model[bin_key] = {
+                    "lambda_for": np.mean(goals["goals_for"]),
+                    "lambda_against": np.mean(goals["goals_against"]),
+                }
+    
+    # =========================================================================
+    # CONTEXTUAL GOAL DIFFERENCE MULTIPLIER
+    # =========================================================================
+    
+    def get_contextual_multiplier(self, signed_gd: int, elo_delta: float) -> float:
+        """
+        Calculate how surprising a goal difference is given the Elo gap.
+        
+        This is the key innovation: instead of a generic ln(GD+1) multiplier,
+        we ask "how many standard deviations away from expected is this result?"
+        
+        A 3-0 win by a heavy favourite is LESS surprising (lower multiplier)
+        than a 3-0 win by an underdog (higher multiplier).
+        
+        Parameters
+        ----------
+        signed_gd : int
+            Goal difference from the perspective of the team being updated.
+            Positive = team won by this margin. Negative = team lost.
+        
+        elo_delta : float
+            Rating difference (team_rating - opponent_rating) at match time.
+        
+        Returns
+        -------
+        float
+            Multiplier in range [0.5, 2.0].
+            - 1.0 = result was exactly as expected
+            - >1.0 = result was better than expected (amplifies rating change)
+            - <1.0 = result was worse than expected (dampens rating change)
+        """
+        # --- Fallback: use ln-based multiplier if no historical model exists ---
+        if self.gd_model is None:
+            return max(1.0, math.log(abs(signed_gd) + 1))
+        
+        # --- Look up expected GD for this Elo delta bin ---
+        bin_key = round(elo_delta / 50) * 50
+        
+        if bin_key in self.gd_model:
+            expected_gd = self.gd_model[bin_key]["mean"]
+            std_gd = self.gd_model[bin_key]["std"]
+        else:
+            # Fallback: linear approximation for bins without enough data
+            # Assumes ~1 goal advantage per 200 Elo points
+            expected_gd = elo_delta / 200
+            std_gd = 1.5
+        
+        # --- Calculate z-score: how many SDs above/below expected? ---
+        z_score = (signed_gd - expected_gd) / std_gd
+        
+        # --- Map z-score to multiplier with bounded range ---
+        # 0.4 controls sensitivity: higher = more reactive to surprises
+        multiplier = 1.0 + 0.4 * z_score
+        
+        # Clamp to prevent extreme values
+        return max(0.5, min(2.0, multiplier))
+    
+    # =========================================================================
+    # FORM CALCULATION
+    # =========================================================================
+    
+    def get_form(self, team: dict) -> float:
+        """
+        Calculate Elo-adjusted form over recent matches.
+        
+        Form measures how much a team has OVER/UNDER-performed relative to
+        their Elo expectations in recent games. This is superior to raw W/D/L
+        form because it accounts for opponent strength.
+        
+        A team that won 5 games against bottom-table opponents may have
+        NEGATIVE form if Elo expected them to win those games easily.
+        
+        Parameters
+        ----------
+        team : dict
+            Team dictionary containing "recent_matches" list.
+        
+        Returns
+        -------
+        float
+            Form value, typically in range [-0.5, +0.5].
+            - Positive = outperforming Elo expectations
+            - Negative = underperforming Elo expectations
+            - 0.0 = performing exactly as Elo predicts
+        """
+        if len(team["recent_matches"]) == 0:
+            return 0.0
+        
+        form = 0.0
+        weight_sum = 0.0
+        
+        # Take the most recent N matches
+        recent = team["recent_matches"][-self.form_window:]
+        
+        # Weight most recent games more heavily (exponential decay)
+        for i, match in enumerate(reversed(recent)):
+            weight = self.form_decay ** i  # Most recent = weight 1.0
+            form += weight * match["performance"]  # performance = S - E from that game
+            weight_sum += weight
+        
+        return form / weight_sum if weight_sum > 0 else 0.0
+    
+    # =========================================================================
+    # K-FACTOR (PROVISIONAL HANDLING)
+    # =========================================================================
+    
+    def get_k_factor(self, team: dict) -> float:
+        """
+        Calculate K-factor with provisional elevation for new teams.
+        
+        New teams start with K = 2.5 * K_base and linearly decay to K_base
+        over the provisional threshold period. This allows rapid convergence
+        to true strength without permanent volatility.
+        
+        Parameters
+        ----------
+        team : dict
+            Team dictionary containing "games_played" count.
+        
+        Returns
+        -------
+        float
+            Effective K-factor for this team's next update.
+        """
+        if team["games_played"] < self.provisional_threshold:
+            # Linear decay from 2.5x to 1.0x over provisional period
+            progress = team["games_played"] / self.provisional_threshold
+            k_multiplier = 2.5 - 1.5 * progress
+            return self.K_base * k_multiplier
+        
+        return self.K_base
+    
+    # =========================================================================
+    # MATCH PROCESSING (RATING UPDATE)
+    # =========================================================================
+    
+    def process_match(
+        self,
+        team_a: dict,
+        team_b: dict,
+        goals_a: int,
+        goals_b: int,
+    ) -> tuple:
+        """
+        Process a completed match and update both teams' ratings.
+        
+        This is the core update function. It:
+            1. Determines the actual score (W/D/L → 1.0/0.5/0.0)
+            2. Calculates expected scores from Elo difference
+            3. Computes the contextual GD multiplier (same for both teams)
+            4. Applies provisional K-factors independently
+            5. Updates ratings (approximately zero-sum)
+            6. Stores match data for form and historical model
+        
+        IMPORTANT: The GD multiplier is computed ONCE from team_a's perspective
+        and applied to both teams. This ensures the match is approximately
+        zero-sum (exact zero-sum when both teams have the same K-factor).
+        
+        Parameters
+        ----------
+        team_a : dict
+            Home/first team dictionary (modified in place).
+        team_b : dict
+            Away/second team dictionary (modified in place).
+        goals_a : int
+            Goals scored by team_a.
+        goals_b : int
+            Goals scored by team_b.
+        
+        Returns
+        -------
+        tuple (delta_a, delta_b)
+            Rating changes applied to each team.
+        """
+        # --- Record Elo delta at time of match (before update) ---
+        elo_delta = team_a["rating"] - team_b["rating"]
+        
+        # --- Determine actual scores ---
+        # W=1.0, D=0.5, L=0.0 (standard Elo three-outcome scoring)
+        if goals_a > goals_b:
+            S_a, S_b = 1.0, 0.0
+        elif goals_a == goals_b:
+            S_a, S_b = 0.5, 0.5
+        else:
+            S_a, S_b = 0.0, 1.0
+        
+        # --- Calculate expected scores (base Elo, no form adjustment) ---
+        # Form is used for PREDICTION but not for the update formula.
+        # This keeps the rating as a pure long-term strength measure.
+        E_a = 1.0 / (1.0 + 10 ** (-elo_delta / 400))
+        E_b = 1.0 - E_a  # Complementary (zero-sum property)
+        
+        # --- Contextual GD multiplier (computed once, applied to both) ---
+        signed_gd_a = goals_a - goals_b
+        G = self.get_contextual_multiplier(signed_gd_a, elo_delta)
+        
+        # --- K-factors (may differ if one team is provisional) ---
+        K_a = self.get_k_factor(team_a)
+        K_b = self.get_k_factor(team_b)
+        
+        # --- Apply updates ---
+        delta_a = K_a * G * (S_a - E_a)
+        delta_b = K_b * G * (S_b - E_b)
+        
+        team_a["rating"] += delta_a
+        team_b["rating"] += delta_b
+        team_a["games_played"] += 1
+        team_b["games_played"] += 1
+        
+        # --- Store match data for form calculation ---
+        team_a["recent_matches"].append({
+            "performance": S_a - E_a,  # How much better/worse than expected
+            "gd": signed_gd_a,
+            "goals_for": goals_a,
+            "goals_against": goals_b,
+            "opp_rating": team_b["rating"],
+        })
+        team_b["recent_matches"].append({
+            "performance": S_b - E_b,
+            "gd": -signed_gd_a,
+            "goals_for": goals_b,
+            "goals_against": goals_a,
+            "opp_rating": team_a["rating"],
+        })
+        
+        # --- Store for historical model (one record per match, not two) ---
+        self.historical_results.append({
+            "elo_delta": elo_delta,
+            "goal_diff": signed_gd_a,
+            "goals_for": goals_a,
+            "goals_against": goals_b,
+        })
+        
+        return delta_a, delta_b
+    
+    # =========================================================================
+    # MATCH PREDICTION
+    # =========================================================================
+    
+    def predict(self, team_a: dict, team_b: dict) -> dict:
+        """
+        Generate a full pre-match prediction including:
+            - Win/Draw/Loss probabilities
+            - Expected goals for each team
+            - Most likely scorelines (Poisson model)
+            - Form context
+        
+        The prediction blends Elo-based expectations with recent form.
+        Scoreline predictions use the historical scoring model (if available)
+        parameterized by the Elo delta, with Poisson distribution for each team.
+        
+        Parameters
+        ----------
+        team_a : dict
+            Team dictionary for the team whose win probability is "p_win".
+        team_b : dict
+            Opponent team dictionary.
+        
+        Returns
+        -------
+        dict with keys:
+            - p_win, p_draw, p_loss: Outcome probabilities for team_a
+            - expected_gf, expected_ga: Expected goals for team_a
+            - form_a, form_b: Current form values
+            - elo_delta: Rating difference (a - b)
+            - top_scorelines: List of (score_string, probability%) tuples
+        """
+        elo_delta = team_a["rating"] - team_b["rating"]
+        
+        # --- Base expected score from Elo ---
+        E_base = 1.0 / (1.0 + 10 ** (-elo_delta / 400))
+        
+        # --- Form adjustment ---
+        form_a = self.get_form(team_a)
+        form_b = self.get_form(team_b)
+        form_adjustment = self.form_weight * (form_a - form_b)
+        
+        # --- Adjusted expected score (clamped to valid probability range) ---
+        E_adjusted = max(0.05, min(0.95, E_base + form_adjustment))
+        
+        # --- Decompose into W/D/L probabilities ---
+        # Draw probability modeled as Gaussian: peaks when teams are equal,
+        # decreases as the gap widens (lopsided matches rarely draw)
+        draw_rate = 0.26 * math.exp(-(elo_delta ** 2) / (2 * 350 ** 2))
+        
+        p_win = E_adjusted * (1 - draw_rate)
+        p_loss = (1 - E_adjusted) * (1 - draw_rate)
+        p_draw = draw_rate
+        
+        # Normalize to ensure they sum to 1.0
+        total = p_win + p_draw + p_loss
+        p_win /= total
+        p_draw /= total
+        p_loss /= total
+        
+        # --- Scoreline prediction (Poisson model) ---
+        lambda_for, lambda_against = self._get_scoring_lambdas(elo_delta)
+        
+        # Adjust lambdas by form (mild adjustment)
+        if E_base > 0.01:
+            adjustment_ratio = E_adjusted / E_base
+            lambda_for = max(0.3, lambda_for * (0.7 + 0.3 * adjustment_ratio))
+            lambda_against = max(0.3, lambda_against * (1.3 - 0.3 * adjustment_ratio))
+        
+        # Generate scoreline probability matrix
+        scorelines = {}
+        for gf in range(7):
+            for ga in range(7):
+                p = poisson.pmf(gf, lambda_for) * poisson.pmf(ga, lambda_against)
+                scorelines[(gf, ga)] = p
+        
+        # Sort by probability, return top 5
+        top_scores = sorted(scorelines.items(), key=lambda x: -x[1])[:5]
+        
+        return {
+            "p_win": round(p_win, 4),
+            "p_draw": round(p_draw, 4),
+            "p_loss": round(p_loss, 4),
+            "expected_gf": round(lambda_for, 2),
+            "expected_ga": round(lambda_against, 2),
+            "form_a": round(form_a, 4),
+            "form_b": round(form_b, 4),
+            "elo_delta": round(elo_delta, 1),
+            "top_scorelines": [
+                (f"{s[0]}-{s[1]}", round(p * 100, 1)) for s, p in top_scores
+            ],
+        }
+    
+    def _get_scoring_lambdas(self, elo_delta: float) -> tuple:
+        """
+        Get expected goals for/against based on Elo delta.
+        Uses historical model if available, otherwise linear approximation.
+        
+        Returns
+        -------
+        tuple (lambda_for, lambda_against)
+        """
+        if self.scoring_model:
+            bin_key = round(elo_delta / 50) * 50
+            if bin_key in self.scoring_model:
+                return (
+                    self.scoring_model[bin_key]["lambda_for"],
+                    self.scoring_model[bin_key]["lambda_against"],
+                )
+        
+        # Fallback: league average ~1.35 goals/team, adjusted by Elo
+        league_avg = 1.35
+        lambda_for = max(0.3, league_avg + elo_delta / 600)
+        lambda_against = max(0.3, league_avg - elo_delta / 600)
+        return lambda_for, lambda_against
+    
+    # =========================================================================
+    # SEASONAL OPERATIONS
+    # =========================================================================
+    
+    def seasonal_reset(
+        self,
+        team: dict,
+        division_mean: float,
+        regression_factor: float = 0.25,
+        games_played_reduction: int = 5,
+    ) -> None:
+        """
+        Apply between-season regression toward division mean.
+        
+        Accounts for roster turnover, coaching changes, and mean reversion.
+        Also partially resets games_played to allow slightly elevated K at
+        season start for faster adaptation to new squad compositions.
+        
+        Parameters
+        ----------
+        team : dict
+            Team dictionary (modified in place).
+        division_mean : float
+            Average Elo of the team's division.
+        regression_factor : float
+            How much to pull toward mean (0.0 = no change, 1.0 = full reset).
+            Recommended: 0.20-0.30.
+        games_played_reduction : int
+            How many games to "forget" from the provisional counter.
+            Creates a mild provisional period at season start.
+        """
+        # Regress rating toward division mean
+        team["rating"] += regression_factor * (division_mean - team["rating"])
+        
+        # Partially reset games played (but don't go below half threshold)
+        team["games_played"] = max(
+            self.provisional_threshold // 2,
+            team["games_played"] - games_played_reduction,
+        )
+        
+        # Clear form history (new season = fresh slate)
+        team["recent_matches"] = []
+    
+    # =========================================================================
+    # EVALUATION METRICS
+    # =========================================================================
+    
+    @staticmethod
+    def brier_score(predictions: list, actuals: list) -> float:
+        """
+        Calculate Brier Score for probabilistic predictions.
+        
+        Measures calibration and discrimination of W/D/L predictions.
+        Lower is better: 0.0 = perfect, 0.667 = uniform guessing.
+        
+        Parameters
+        ----------
+        predictions : list of dicts
+            Each dict has keys: p_win, p_draw, p_loss
+        actuals : list of lists
+            Each is [1,0,0] (win), [0,1,0] (draw), or [0,0,1] (loss)
+        
+        Returns
+        -------
+        float
+            Average Brier score across all predictions.
+        """
+        scores = []
+        for pred, actual in zip(predictions, actuals):
+            score = (
+                (pred["p_win"] - actual[0]) ** 2
+                + (pred["p_draw"] - actual[1]) ** 2
+                + (pred["p_loss"] - actual[2]) ** 2
+            )
+            scores.append(score)
+        return np.mean(scores)
+
+
+# =============================================================================
+# TEAM FACTORY — Helper to create properly structured team dictionaries
+# =============================================================================
+
+def create_team(name: str, initial_rating: float) -> dict:
+    """
+    Create a new team dictionary with all required fields.
+    
+    Parameters
+    ----------
+    name : str
+        Team display name.
+    initial_rating : float
+        Starting Elo rating (typically based on division placement).
+    
+    Returns
+    -------
+    dict
+        Team dictionary ready for use with EloSystem.
+    """
+    return {
+        "name": name,
+        "rating": initial_rating,
+        "games_played": 0,
+        "recent_matches": [],  # Stores last N matches for form calculation
+    }
+
+
+# =============================================================================
+# MATCH SIMULATION ENGINE (for testing/validation only)
+# =============================================================================
+
+def simulate_match(
+    team_a: dict,
+    team_b: dict,
+    true_strength_key: str = "true_strength",
+    league_avg_goals: float = 1.35,
+    noise_range: tuple = (0.8, 1.2),
+) -> tuple:
+    """
+    Simulate a match result based on teams' true underlying strengths.
+    
+    Uses Poisson model with strength-derived lambda values plus random noise.
+    This is for TESTING ONLY — in production, you'd use real match results.
+    
+    Parameters
+    ----------
+    team_a, team_b : dict
+        Team dictionaries with true_strength field.
+    true_strength_key : str
+        Key in team dict containing the "true" hidden strength.
+    league_avg_goals : float
+        Average goals per team per match in this league.
+    noise_range : tuple
+        (min, max) multiplier for per-match randomness.
+    
+    Returns
+    -------
+    tuple (goals_a, goals_b)
+    """
+    strength_diff = team_a[true_strength_key] - team_b[true_strength_key]
+    
+    # Convert strength difference to goal-scoring rates
+    lambda_a = max(0.4, league_avg_goals + strength_diff / 600)
+    lambda_b = max(0.4, league_avg_goals - strength_diff / 600)
+    
+    # Add per-match noise (form, motivation, luck)
+    lambda_a *= np.random.uniform(*noise_range)
+    lambda_b *= np.random.uniform(*noise_range)
+    
+    # Generate goals from Poisson distribution
+    goals_a = np.random.poisson(lambda_a)
+    goals_b = np.random.poisson(lambda_b)
+    
+    return goals_a, goals_b
+
+
+# =============================================================================
+# EXAMPLE USAGE
+# =============================================================================
+
+if __name__ == "__main__":
+    
+    np.random.seed(42)
+    
+    # Create the Elo system
+    elo = EloSystem(
+        K_base=32,
+        provisional_threshold=20,
+        form_window=5,
+        form_weight=0.12,
+        form_decay=0.80,
+    )
+    
+    # Create two divisions (seeded by division strength)
+    premier_teams = [
+        {**create_team("Titans", 1600), "true_strength": 1750},
+        {**create_team("Wolves", 1600), "true_strength": 1700},
+        {**create_team("Eagles", 1600), "true_strength": 1650},
+        {**create_team("Sharks", 1600), "true_strength": 1620},
+        {**create_team("Lions", 1600), "true_strength": 1580},
+        {**create_team("Hawks", 1600), "true_strength": 1540},
+        {**create_team("Bears", 1600), "true_strength": 1500},
+    ]
+    
+    championship_teams = [
+        {**create_team("Foxes", 1350), "true_strength": 1480},
+        {**create_team("Stags", 1350), "true_strength": 1430},
+        {**create_team("Vipers", 1350), "true_strength": 1380},
+        {**create_team("Rams", 1350), "true_strength": 1350},
+        {**create_team("Cobras", 1350), "true_strength": 1320},
+        {**create_team("Falcons", 1350), "true_strength": 1280},
+        {**create_team("Otters", 1350), "true_strength": 1240},
+    ]
+    
+    # Run 3 seasons of double round-robin
+    for season in range(1, 4):
+        for teams in [premier_teams, championship_teams]:
+            matches = [
+                (teams[i], teams[j])
+                for i in range(len(teams))
+                for j in range(len(teams))
+                if i != j
+            ]
+            np.random.shuffle(matches)
+            
+            for team_a, team_b in matches:
+                goals_a, goals_b = simulate_match(team_a, team_b)
+                elo.process_match(team_a, team_b, goals_a, goals_b)
+        
+        elo.build_models()
+        print(f"Season {season} complete. Data points: {len(elo.historical_results)}")
+    
+    # Show results
+    all_teams = sorted(premier_teams + championship_teams, key=lambda t: -t["rating"])
+    print(f"\n{'Team':<12} {'True':<8} {'Elo':<8} {'Error':<8}")
+    for t in all_teams:
+        print(f"{t['name']:<12} {t['true_strength']:<8} {t['rating']:<8.1f} {t['rating']-t['true_strength']:<+8.1f}")
+    
+    # Example prediction
+    pred = elo.predict(premier_teams[0], premier_teams[6])
+    print(f"\nTitans vs Bears: W {pred['p_win']*100:.0f}% D {pred['p_draw']*100:.0f}% L {pred['p_loss']*100:.0f}%")
+    print(f"Expected: {pred['expected_gf']:.1f} - {pred['expected_ga']:.1f}")
+    print(f"Top scores: {pred['top_scorelines']}")
+
