@@ -4,8 +4,8 @@ import numpy as np
 
 st.set_page_config(layout="wide")
 
-game_df = pd.read_csv('game_graph_fall_25.csv')
-rank_df = pd.read_csv('output_ratings_fall_25.csv')
+game_df = pd.read_csv('game_graph_fall_26.csv')
+rank_df = pd.read_csv('output_ratings_fall_26.csv')
 
 game_df.index.name = None
 rank_df.index.name = None

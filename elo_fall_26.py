@@ -7,7 +7,7 @@ from datetime import *
 def find_value_index(df, column_name, value):
     return df.index[df[column_name] == value].astype('int64').tolist()
 
-df = pd.read_csv("summer_schedule_26.csv")
+df = pd.read_csv("fall_schedule_26.csv")
 
 for i, _ in enumerate(df.index):
 
@@ -91,7 +91,11 @@ remove = ["40+ Advanced White",
           '40+ Geri Hat Tricks (4)',
           '40+ Carl''s Seniors (6)',
           '40+ Coldtimers (3)',
-          '40+ Red Flags (2)'            
+          '40+ Red Flags (2)',
+          '40+ Advanced Whalers',
+          '40+ Advanced Spoilers',
+          'Otters',
+          'Shake N Bake'            
           ]
 
 a_result_dict = {0:'Loss',0.5:'Tie',1:'Win'}
@@ -129,7 +133,7 @@ df["Home ELO Posterior"] = 0
 df["Home ELO Posterior"] = df["Home ELO Posterior"].astype("float64")
 df["Home Delta"] = 0
 
-initial_ratings = pd.read_csv("Initial_26_Summer.csv")
+initial_ratings = pd.read_csv("initial_26_Fall.csv")
 live_ratings = initial_ratings
 
 df_game_graph = pd.DataFrame()
@@ -240,6 +244,6 @@ df["Home Delta"] = df["Home ELO Posterior"] - df["Home ELO Prior"]
 
 print(live_ratings.to_string(index=False))
 
-df.to_csv("output_gamelog_summer_26.csv")
-live_ratings.to_csv("output_ratings_summer_26.csv", index=False)
-df_game_graph.to_csv("game_graph_summer_26.csv", index=False)
+df.to_csv("output_gamelog_fall_26.csv")
+live_ratings.to_csv("output_ratings_fall_26.csv", index=False)
+df_game_graph.to_csv("game_graph_fall_26.csv", index=False)
