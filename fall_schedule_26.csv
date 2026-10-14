@@ -8,7 +8,7 @@ Game#,Date,Arena,Away Team,Away Score,Home Team,Home Score,Away Division,Home Di
 ,20-Sep-26,accesso ShoWare Center,Puckleberries,0,Rip-Its,9,Division 10,Division 10,REG
 ,20-Sep-26,Kent Valley Ice Centre,Blackbirds,9,Fighting Clams,2,Division 9,Division 9,REG
 ,20-Sep-26,Angel of the Winds Arena,Orange Crush,2,Mighty Moose,5,Division 8,Division 9,REG
-,20-Sep-26,KCI Starbucks Rink,Division 10B Purple,0,Redrum,9,Division 10,Division 10,REG
+,20-Sep-26,KCI Starbucks Rink,Salish Stellers,0,Redrum,9,Division 10,Division 10,REG
 ,20-Sep-26,Everett Comm Ice Rink,SEA Cucumbers,1,Hungry Hatchlings,1,Division 8,Division 8,REG
 ,20-Sep-26,KCI VMFH Rink,Rainiers,3,Toe Dragons,4,Division 8,Division 8,REG
 ,20-Sep-26,KCI Smartsheet Rink,Seal Team Sticks,0,Pythons,6,Division 8,Division 8,REG
@@ -22,7 +22,7 @@ Game#,Date,Arena,Away Team,Away Score,Home Team,Home Score,Away Division,Home Di
 ,20-Sep-26,Kent Valley Ice Centre,Iced Awesome,4,BLU Bombers,7,Division 7,Division 7,REG
 ,20-Sep-26,accesso ShoWare Center,Khaos,3,Purple Reign,8,Division 8,Division 8,REG
 ,20-Sep-26,Angel of the Winds Arena,LKI,0,Seattle Seals,4,Division 7,Division 7,REG
-,20-Sep-26,KCI Starbucks Rink,Division 10B Red,0,Mad Hat Tricks,7,Division 10,Division 10,REG
+,20-Sep-26,KCI Starbucks Rink,Sound Check,0,Mad Hat Tricks,7,Division 10,Division 10,REG
 ,20-Sep-26,Everett Comm Ice Rink,Cascadians HC,7,Los Tigres,1,Division 7,Division 7,REG
 ,20-Sep-26,KCI VMFH Rink,Quacken,5,Birrds,1,Division 7,Division 7,REG
 ,20-Sep-26,KCI Smartsheet Rink,Fluffy Bunnies,1,Seattle Freeze,6,Division 7,Division 7,REG
@@ -86,7 +86,7 @@ Game#,Date,Arena,Away Team,Away Score,Home Team,Home Score,Away Division,Home Di
 ,24-Sep-26,Lynnwood Ice Center,Pheasants,4,Red Dog,4,Division 2,Division 2,REG
 ,24-Sep-26,KCI Starbucks Rink,The Mighty Geoducks,1,Fighting Narwhals,0,Division 2,Division 2,REG
 ,27-Sep-26,Olympic View Arena,Toe Dragons,4,Purple Reign,2,Division 8,Division 8,REG
-,27-Sep-26,accesso ShoWare Center,Division 10B Purple,5,Division 10B Red,7,Division 10,Division 10,REG
+,27-Sep-26,accesso ShoWare Center,Salish Stellers,5,Sound Check,7,Division 10,Division 10,REG
 ,27-Sep-26,Kent Valley Ice Centre,Dumb Pucks,2,Greenhorns,3,Division 6,Division 6,REG
 ,27-Sep-26,KCI Starbucks Rink,Seal Team Sticks,2,Seattle Slapshots,2,Division 8,Division 8,REG
 ,27-Sep-26,Olympic View Arena,Pythons,10,Scrooge McPuck,2,Division 8,Division 8,REG
@@ -172,33 +172,122 @@ Game#,Date,Arena,Away Team,Away Score,Home Team,Home Score,Away Division,Home Di
 ,1-Oct-26,Lynnwood Ice Center,NW Stars,5,ALTP,7,Division 1,Division 1,REG
 ,1-Oct-26,Kent Valley Ice Centre,Falcons,6,ESB,9,Division 1,Division 1,REG
 ,1-Oct-26,KCI Starbucks Rink,LLUA,5,Edible Arrangements,4,Division 4,Division 4,REG
-,4-Oct-26,Olympic View Arena,Seattle Seals,,Cascadians HC,,Division 7,Division 7,
-,4-Oct-26,accesso ShoWare Center,Scrooge McPuck,,Khaos,,Division 8,Division 8,
-,4-Oct-26,Kent Valley Ice Centre,Chucklepucks,,Seattle Freeze,,Division 7,Division 7,
-,4-Oct-26,KCI Starbucks Rink,Iced Awesome,,Nordekes,,Division 7,Division 7,
-,4-Oct-26,Olympic View Arena,Fluffy Bunnies,,LKI,,Division 7,Division 7,
-,4-Oct-26,accesso ShoWare Center,Bandits,,BLU Bombers,,Division 8,Division 7,
-,4-Oct-26,Kent Valley Ice Centre,Lagooners,,Los Tigres,,Division 7,Division 7,
-,4-Oct-26,KCI Starbucks Rink,Seattle Dogs,,Orcas,,Division 7,Division 8,
-,4-Oct-26,KCI Smartsheet Rink,Glow Sticks,,Pythons,,Division 8,Division 8,
-,4-Oct-26,accesso ShoWare Center,Pond Pigeons,,Seal Team Sticks,,Division 8,Division 8,
-,4-Oct-26,Kent Valley Ice Centre,Spicy Kittens HC-9,,Banana Blades,,Division 9,Division 10,
-,4-Oct-26,KCI VMFH Rink,Rainiers,,Seattle Slapshots,,Division 8,Division 8,
-,4-Oct-26,KCI Starbucks Rink,Toe Dragons,,SEA Cucumbers,,Division 8,Division 8,
-,4-Oct-26,KCI Smartsheet Rink,Purple Reign,,Hungry Hatchlings,,Division 8,Division 8,
-,4-Oct-26,Kent Valley Ice Centre,Mighty Moose,,Rainier Reindeers HC-9,,Division 9,Division 9,
-,4-Oct-26,accesso ShoWare Center,Ice Breakers,,Beer Dragons,,Division 9,Division 10,
-,4-Oct-26,KCI VMFH Rink,Blackbirds,,Orange Crush,,Division 9,Division 8,
-,4-Oct-26,Everett Comm Ice Rink,The Axolotls,,Mad Hat Tricks,,Division 10,Division 10,
-,4-Oct-26,KCI Starbucks Rink,Fighting Clams,,Yacht Flippers,,Division 9,Division 9,
-,4-Oct-26,KCI Smartsheet Rink,Rip-Its,,Purple Puck Eaters,,Division 10,Division 9,
-,4-Oct-26,Kent Valley Ice Centre,Red Zeppelin,,Thursday Cryptids,,Division 9,Division 9,
-,4-Oct-26,Olympic View Arena,Division 10B Red,,Galactic Penguins,,Division 10,Division 10,
-,4-Oct-26,KCI VMFH Rink,Tropical Punchers,,Gremlins Hockey,,Division 9,Division 9,
-,4-Oct-26,Everett Comm Ice Rink,Division 10B Purple,,Maelstrom,,Division 10,Division 10,
-,4-Oct-26,KCI Starbucks Rink,Puckleberries,,Redrum,,Division 10,Division 10,
-,4-Oct-26,Kent Valley Ice Centre,Spicy Kittens HC-8,,Spittin'' Llamas,,Division 8,Division 8,
-,4-Oct-26,KCI VMFH Rink,Blackouts,,Roughnecks Mobile Infantry,,Division 8,Division 7,
-,4-Oct-26,Olympic View Arena,Trash Pandas Garbage Legacy,,Birrds,,Division 7,Division 7,
-,4-Oct-26,Everett Comm Ice Rink,Hampton West Hockey Club,,Hackers,,Division 6,Division 6,
-,4-Oct-26,KCI Starbucks Rink,Real Bacon,,Quacken,,Division 7,Division 7,
+,4-Oct-26,,Seattle Seals,7,Cascadians HC,1,Division 7,Division 7,REG
+,4-Oct-26,,Scrooge McPuck,1,Khaos,11,Division 8,Division 8,REG
+,4-Oct-26,,Chucklepucks,6,Seattle Freeze,3,Division 7,Division 7,REG
+,4-Oct-26,,Iced Awesome,1,Nordekes,3,Division 7,Division 7,REG
+,4-Oct-26,,Fluffy Bunnies,5,LKI,0,Division 7,Division 7,REG
+,4-Oct-26,,Bandits,1,BLU Bombers,4,Division 8,Division 7,REG
+,4-Oct-26,,Lagooners,1,Los Tigres,7,Division 7,Division 7,REG
+,4-Oct-26,,Seattle Dogs,3,Orcas,4,Division 7,Division 8,REG
+,4-Oct-26,,Glow Sticks,4,Pythons,1,Division 8,Division 8,REG
+,4-Oct-26,,Pond Pigeons,3,Seal Team Sticks,2,Division 8,Division 8,REG
+,4-Oct-26,,Spicy Kittens HC-9,6,Banana Blades,4,Division 9,Division 10,REG
+,4-Oct-26,,Rainiers,2,Seattle Slapshots,2,Division 8,Division 8,REG
+,4-Oct-26,,Toe Dragons,5,SEA Cucumbers,1,Division 8,Division 8,REG
+,4-Oct-26,,Purple Reign,2,Hungry Hatchlings,3,Division 8,Division 8,REG
+,4-Oct-26,,Mighty Moose,0,Rainier Reindeers HC-9,4,Division 9,Division 9,REG
+,4-Oct-26,,Ice Breakers,1,Beer Dragons,6,Division 9,Division 10,REG
+,4-Oct-26,,Blackbirds,4,Orange Crush,0,Division 9,Division 8,REG
+,4-Oct-26,,The Axolotls,5,Mad Hat Tricks,3,Division 10,Division 10,REG
+,4-Oct-26,,Fighting Clams,2,Yacht Flippers,4,Division 9,Division 9,REG
+,4-Oct-26,,Rip-Its,5,Purple Puck Eaters,2,Division 10,Division 9,REG
+,4-Oct-26,,Red Zeppelin,9,Thursday Cryptids,1,Division 9,Division 9,REG
+,4-Oct-26,,Sound Check,1,Galactic Penguins,3,Division 10,Division 10,REG
+,4-Oct-26,,Tropical Punchers,2,Gremlins Hockey,3,Division 9,Division 9,REG
+,4-Oct-26,,Salish Stellers,0,Maelstrom,2,Division 10,Division 10,REG
+,4-Oct-26,,Puckleberries,1,Redrum,3,Division 10,Division 10,REG
+,4-Oct-26,,Spicy Kittens HC-8,4,Spittin'' Llamas,4,Division 8,Division 8,REG
+,4-Oct-26,,Blackouts,5,Roughnecks Mobile Infantry,5,Division 8,Division 7,REG
+,4-Oct-26,,Trash Pandas Garbage Legacy,7,Birrds,5,Division 7,Division 7,REG
+,4-Oct-26,,Hampton West Hockey Club,3,Hackers,0,Division 6,Division 6,REG
+,4-Oct-26,,Real Bacon,2,Quacken,5,Division 7,Division 7,REG
+,5-Oct-26,,Icemen,2,Squids,7,Division 6,Division 6,REG
+,5-Oct-26,,Black Katz,3,Seattle Warriors,2,Division 5,Division 6,REG
+,5-Oct-26,,Cherry Pickers,12,Jokres,1,Division 6,Division 6,REG
+,5-Oct-26,,Flying Monkeys,1,Honey Badgers,11,Division 6,Division 6,REG
+,5-Oct-26,,Seals,4,Brewzers OGB,1,Division 5,Division 5,REG
+,5-Oct-26,,Dumb Pucks,10,Mighty Boosh,5,Division 6,Division 6,REG
+,5-Oct-26,,Piranhas,5,Lumberjacks,7,Division 5,Division 5,REG
+,5-Oct-26,,Highlanders,6,Bullets,5,Division 5,Division 5,REG
+,5-Oct-26,,Wranglers,4,Fossils,2,Division 6,Division 6,REG
+,5-Oct-26,,Midnight Twist,6,Dirty Couch Hockey Club,2,Division 5,Division 6,REG
+,5-Oct-26,,Blades,,Not Sure 6,,Division 6,Division 6,
+,5-Oct-26,,Mudflaps,2,Monarchs 6,7,Division 6,Division 6,REG
+,5-Oct-26,,Mad Dawgs,1,Barrel Aged Brewzers,5,Division 6,Division 6,REG
+,5-Oct-26,,Monarchs 5,12,PussyCats,1,Division 5,Division 5,REG
+,5-Oct-26,,Trash Pandas,4,Raiders,3,Division 6,Division 6,REG
+,6-Oct-26,,Black Sheesh,0,Grey Dust Bunnies,3,Women''s Division Fall 26,Women''s Division Fall 26,REG
+,6-Oct-26,,Sirens,1,Shake N Bake,1,Women''s Division Fall 26,Women''s Division Fall 26,REG
+,6-Oct-26,,White Yetis,4,Rink Flamingos,0,Women''s Division Fall 26,Women''s Division Fall 26,REG
+,6-Oct-26,,Moose Knuckle,4,Dead Rabbits,1,Division 5,Division 5,REG
+,6-Oct-26,,40+ Advanced Gritty Pylons,9,40+ Advanced Falk,1,40+ Advanced Fall 26,40+ Advanced Fall 26,REG
+,6-Oct-26,,Top Cheddar,1,WKUTP-5,3,Division 4,Division 5,REG
+,6-Oct-26,,40+ Advanced Bakers Dozen,0,40+ Advanced Whalers,6,40+ Advanced Fall 26,40+ Advanced Fall 26,REG
+,6-Oct-26,,Kraken Up,6,Edible Arrangements,1,Division 4,Division 4,REG
+,6-Oct-26,,Yetis,7,Reapers,1,Division 5,Division 5,REG
+,6-Oct-26,,Red Hots,5,Otters,2,Women''s Division Fall 26,Women''s Division Fall 26,REG
+,6-Oct-26,,Blue Footed Bloobies,5,Pineapple Express,3,Women''s Division Fall 26,Women''s Division Fall 26,REG
+,6-Oct-26,,Coconut Corgis,6,Night Owls,5,Division 4,Division 4,REG
+,6-Oct-26,,40+ Advanced Spoilers,0,40+ Advanced Rotting Rebels,3,40+ Advanced Fall 26,40+ Advanced Fall 26,REG
+,6-Oct-26,,Sabercats,7,Skateful Dead,7,Division 4,Division 4,REG
+,6-Oct-26,,Seagulls,7,Renegades,5,Division 5,Division 5,REG
+,7-Oct-26,,DevilFish,2,Wolves,2,Division 4,Division 4,REG
+,7-Oct-26,,Alpuckas,9,Dumpster Fire,6,Division 5,Division 5,REG
+,7-Oct-26,,Eagles,8,Bombers,4,Division 3,Division 3,REG
+,7-Oct-26,,Sasquatch,7,Shockers,3,Division 3,Division 3,REG
+,7-Oct-26,,Breakers,4,Chinooks,0,Division 4,Division 3,REG
+,7-Oct-26,,40+ Old Navy,6,40+ Coldtimers,3,40+ Fall 26,40+ Fall 26,REG
+,7-Oct-26,,40+ Geri Hat Tricks,3,40+ Mid-Ice Crisis,5,40+ Fall 26,40+ Fall 26,REG
+,7-Oct-26,,40+ Gritty Pylons,3,40+ Assisted Living,2,40+ Fall 26,40+ Fall 26,REG
+,7-Oct-26,,MMHC,9,Goal Diggers,1,Division 3,Division 3,REG
+,7-Oct-26,,Greasy Weasels,3,Hooligans,3,Division 4,Division 4,REG
+,7-Oct-26,,Puget Sound Pigeons,0,Puckbuddies,7,Division 3,Division 3,REG
+,7-Oct-26,,Mighty Mallards,5,Skeletons,1,Division 4,Division 4,REG
+,7-Oct-26,,40+ Rusty Blades,1,40+ Red Flags,2,40+ Fall 26,40+ Fall 26,REG
+,7-Oct-26,,40+ Puck Dynasty,5,40+ Carl''s Seniors,4,40+ Fall 26,40+ Fall 26,REG
+,8-Oct-26,,Steelhead,7,Maple Bars,1,Division 4,Division 4,REG
+,8-Oct-26,,ALTP,8,Seattle Supernova,2,Division 1,Division 1,REG
+,8-Oct-26,,NW Stars,4,Falcons,3,Division 1,Division 1,REG
+,8-Oct-26,,Not Sure 5,5,Stingers,6,Division 5,Division 5,REG
+,8-Oct-26,,Schilling Cider,3,LLUA,3,Division 4,Division 4,REG
+,8-Oct-26,,Pheasants,4,Mavericks,8,Division 2,Division 2,REG
+,8-Oct-26,,ESB,10,Northwest Crabs,6,Division 1,Division 2,REG
+,8-Oct-26,,The Brigade,11,Chiefs,6,Division 2,Division 2,REG
+,8-Oct-26,,The Mighty Geoducks,5,Rhinos,6,Division 2,Division 3,REG
+,8-Oct-26,,Red Dog,3,Pull Tab Bandits,2,Division 2,Division 3,REG
+,8-Oct-26,,Fighting Narwhals,10,The Herd,4,Division 2,Division 3,REG
+,8-Oct-26,,BSOD,2,Ice-O-Topes,3,Division 5,Division 5,REG
+,11-Oct-26,,Mighty Boosh,1,Blades,2,Division 6,Division 6,REG
+,11-Oct-26,,Raiders,3,Hampton West Hockey Club,3,Division 6,Division 6,REG
+,11-Oct-26,,Seattle Freeze,,Hackers,,Division 7,Division 6,
+,11-Oct-26,,Pythons,2,Spicy Kittens HC-8,1,Division 8,Division 8,REG
+,11-Oct-26,,Quacken,2,Fluffy Bunnies,0,Division 7,Division 7,REG
+,11-Oct-26,,Seattle Seals,4,Real Bacon,2,Division 7,Division 7,REG
+,11-Oct-26,,Beer Dragons,1,Puckleberries,1,Division 10,Division 10,
+,11-Oct-26,,Yacht Flippers,3,Rip-Its,4,Division 9,Division 10,REG
+,11-Oct-26,,Maelstrom,7,Redrum,1,Division 10,Division 10,REG
+,11-Oct-26,,Rainiers,5,Spittin'' Llamas,3,Division 8,Division 8,REG
+,11-Oct-26,,Salish Stellers,3,Sound Check,3,Division 10,Division 10,
+,11-Oct-26,,Banana Blades,1,The Axolotls,5,Division 10,Division 10,REG
+,11-Oct-26,,Purple Puck Eaters,4,Ice Breakers,1,Division 9,Division 9,REG
+,11-Oct-26,,Galactic Penguins,2,Mad Hat Tricks,1,Division 10,Division 10,REG
+,11-Oct-26,,Birrds,8,LKI,6,Division 7,Division 7,REG
+,11-Oct-26,,BLU Bombers,1,Nordekes,6,Division 7,Division 7,REG
+,11-Oct-26,,Hungry Hatchlings,4,Orange Crush,3,Division 8,Division 8,REG
+,11-Oct-26,,Lagooners,9,Bandits,2,Division 7,Division 8,REG
+,11-Oct-26,,Los Tigres,2,Iced Awesome,3,Division 7,Division 7,REG
+,11-Oct-26,,Thursday Cryptids,2,Tropical Punchers,5,Division 9,Division 9,REG
+,11-Oct-26,,Gremlins Hockey,1,Spicy Kittens HC-9,2,Division 9,Division 9,REG
+,11-Oct-26,,Blackouts,6,Orcas,2,Division 8,Division 8,REG
+,11-Oct-26,,Purple Reign,1,Blackbirds,7,Division 8,Division 9,REG
+,11-Oct-26,,SEA Cucumbers,2,Mighty Moose,6,Division 8,Division 9,
+,11-Oct-26,,Red Zeppelin,8,Khaos,1,Division 9,Division 8,REG
+,11-Oct-26,,Roughnecks Mobile Infantry,2,Seattle Dogs,8,Division 7,Division 7,REG
+,11-Oct-26,,Rainier Reindeers HC-9,6,Fighting Clams,3,Division 9,Division 9,REG
+,11-Oct-26,,Cascadians HC,3,Trash Pandas Garbage Legacy,4,Division 7,Division 7,REG
+,11-Oct-26,,Trash Pandas,5,Chucklepucks,3,Division 6,Division 7,REG
+,11-Oct-26,,Glow Sticks,9,Seal Team Sticks,3,Division 8,Division 8,REG
+,11-Oct-26,,Rainier Reindeer HC-6,2,Greenhorns,2,Division 6,Division 6,REG
+,11-Oct-26,,Pond Pigeons,2,Seattle Slapshots,2,Division 8,Division 8,
+,11-Oct-26,,Scrooge McPuck,2,Toe Dragons,10,Division 8,Division 8,REG
