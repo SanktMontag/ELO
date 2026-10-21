@@ -7,10 +7,10 @@ Date,Team,ELO,Opponent,Opp ELO,Delta,Win %,Tie %,Loss %,GF,GA,Result,+/- ELO,ELO
 09/20/26,Beer Dragons,984,Gremlins Hockey,1050,-66,37.9,5.4,56.7,1,2,Loss,-32,952
 09/20/26,Red Zeppelin,1121,Ice Breakers,1300,-179,24.1,4.3,71.5,4,3,Win,57,1178
 09/20/26,Ice Breakers,1300,Red Zeppelin,1121,179,71.5,4.3,24.1,3,4,Loss,-57,1243
-09/20/26,Tropical Punchers,1196,Spicy Kittens HC-9,1048,148,67.8,4.7,27.6,3,0,Win,42,1238
-09/20/26,Spicy Kittens HC-9,1048,Tropical Punchers,1196,-148,27.6,4.7,67.8,0,3,Loss,-42,1006
-09/20/26,Thursday Cryptids,1175,Rainier Reindeers HC-9,1291,-116,31.4,5.0,63.6,2,3,Loss,-24,1151
-09/20/26,Rainier Reindeers HC-9,1291,Thursday Cryptids,1175,116,63.6,5.0,31.4,3,2,Win,24,1315
+09/20/26,Tropical Punchers,1196,Spicy Kittens HC-9B,1048,148,67.8,4.7,27.6,3,0,Win,42,1238
+09/20/26,Spicy Kittens HC-9B,1048,Tropical Punchers,1196,-148,27.6,4.7,67.8,0,3,Loss,-42,1006
+09/20/26,Thursday Cryptids,1175,Rainier Reindeers HC-9A,1291,-116,31.4,5.0,63.6,2,3,Loss,-24,1151
+09/20/26,Rainier Reindeers HC-9A,1291,Thursday Cryptids,1175,116,63.6,5.0,31.4,3,2,Win,24,1315
 09/20/26,Puckleberries,990,Rip-Its,1153,-163,25.9,4.5,69.6,0,9,Loss,-48,942
 09/20/26,Rip-Its,1153,Puckleberries,990,163,69.6,4.5,25.9,9,0,Win,48,1201
 09/20/26,Blackbirds,1568,Fighting Clams,1279,289,82.6,3.0,14.4,9,2,Win,29,1597
@@ -33,8 +33,8 @@ Date,Team,ELO,Opponent,Opp ELO,Delta,Win %,Tie %,Loss %,GF,GA,Result,+/- ELO,ELO
 09/20/26,Spittin'' Llamas,1688,Scrooge McPuck,1596,92,60.3,5.2,34.4,8,0,Win,61,1749
 09/20/26,Pond Pigeons,1795,Blackouts,1742,53,54.8,5.5,39.7,2,6,Loss,-77,1718
 09/20/26,Blackouts,1742,Pond Pigeons,1795,-53,39.7,5.5,54.8,6,2,Win,77,1819
-09/20/26,Monarchs 6,2673,Icemen,2515,158,69.0,4.6,26.4,5,7,Loss,-78,2595
-09/20/26,Icemen,2515,Monarchs 6,2673,-158,26.4,4.6,69.0,7,5,Win,78,2593
+09/20/26,Monarchs 6B,2673,Icemen,2515,158,69.0,4.6,26.4,5,7,Loss,-78,2595
+09/20/26,Icemen,2515,Monarchs 6B,2673,-158,26.4,4.6,69.0,7,5,Win,78,2593
 09/20/26,Seattle Dogs,1864,Roughnecks Mobile Infantry,1879,-15,45.0,5.6,49.4,5,3,Win,62,1926
 09/20/26,Roughnecks Mobile Infantry,1879,Seattle Dogs,1864,15,49.4,5.6,45.0,3,5,Loss,-62,1817
 09/20/26,Nordekes,1865,Lagooners,1807,58,55.5,5.4,39.0,2,4,Loss,-62,1803
@@ -53,12 +53,12 @@ Date,Team,ELO,Opponent,Opp ELO,Delta,Win %,Tie %,Loss %,GF,GA,Result,+/- ELO,ELO
 09/20/26,Birrds,2127,Quacken,2016,111,62.9,5.1,32.0,1,5,Loss,-96,2031
 09/20/26,Fluffy Bunnies,2169,Seattle Freeze,2071,98,61.2,5.2,33.7,1,6,Loss,-92,2077
 09/20/26,Seattle Freeze,2071,Fluffy Bunnies,2169,-98,33.7,5.2,61.2,6,1,Win,92,2163
-09/20/26,Not Sure 6,2353,Chucklepucks,2309,44,53.5,5.5,40.9,2,3,Loss,-40,2313
-09/20/26,Chucklepucks,2309,Not Sure 6,2353,-44,40.9,5.5,53.5,3,2,Win,40,2349
+09/20/26,Not Sure 6D,2353,Chucklepucks,2309,44,53.5,5.5,40.9,2,3,Loss,-40,2313
+09/20/26,Chucklepucks,2309,Not Sure 6D,2353,-44,40.9,5.5,53.5,3,2,Win,40,2349
 09/20/26,Real Bacon,2270,Trash Pandas Garbage Legacy,2118,152,68.3,4.7,27.1,1,0,Win,24,2294
 09/20/26,Trash Pandas Garbage Legacy,2118,Real Bacon,2270,-152,27.1,4.7,68.3,0,1,Loss,-24,2094
-09/20/26,Spicy Kittens HC-8,1760,Bandits,1856,-96,33.9,5.2,60.9,3,8,Loss,-51,1709
-09/20/26,Bandits,1856,Spicy Kittens HC-8,1760,96,60.9,5.2,33.9,8,3,Win,51,1907
+09/20/26,Spicy Kittens HC-8A,1760,Bandits,1856,-96,33.9,5.2,60.9,3,8,Loss,-51,1709
+09/20/26,Bandits,1856,Spicy Kittens HC-8A,1760,96,60.9,5.2,33.9,8,3,Win,51,1907
 09/20/26,Mudflaps,2551,Raiders,2359,192,73.0,4.2,22.8,4,2,Win,30,2581
 09/20/26,Raiders,2359,Mudflaps,2551,-192,22.8,4.2,73.0,2,4,Loss,-30,2329
 09/20/26,Hampton West Hockey Club,2499,Trash Pandas,2624,-125,30.3,4.9,64.8,3,10,Loss,-51,2448
@@ -73,8 +73,8 @@ Date,Team,ELO,Opponent,Opp ELO,Delta,Win %,Tie %,Loss %,GF,GA,Result,+/- ELO,ELO
 09/20/26,Dumb Pucks,2604,Seattle Warriors,2579,25,50.8,5.6,43.6,5,9,Loss,-79,2525
 09/20/26,Highlanders,2797,Midnight Twist,2717,80,58.7,5.3,36.0,3,2,Win,31,2828
 09/20/26,Midnight Twist,2717,Highlanders,2797,-80,36.0,5.3,58.7,2,3,Loss,-31,2686
-09/20/26,Mad Dawgs,2471,Rainier Reindeer HC-6,2537,-66,37.9,5.4,56.7,0,6,Loss,-60,2411
-09/20/26,Rainier Reindeer HC-6,2537,Mad Dawgs,2471,66,56.7,5.4,37.9,6,0,Win,60,2597
+09/20/26,Mad Dawgs,2471,Rainier Reindeer HC-6B,2537,-66,37.9,5.4,56.7,0,6,Loss,-60,2411
+09/20/26,Rainier Reindeer HC-6B,2537,Mad Dawgs,2471,66,56.7,5.4,37.9,6,0,Win,60,2597
 09/20/26,Flying Monkeys ,2614,Cherry Pickers,2471,143,67.1,4.7,28.1,2,4,Loss,-76,2538
 09/20/26,Cherry Pickers,2471,Flying Monkeys ,2614,-143,28.1,4.7,67.1,4,2,Win,76,2547
 09/20/26,Monarchs 5,2521,Honey Badgers,2709,-188,23.2,4.2,72.6,10,4,Win,122,2643
@@ -97,8 +97,8 @@ Date,Team,ELO,Opponent,Opp ELO,Delta,Win %,Tie %,Loss %,GF,GA,Result,+/- ELO,ELO
 09/21/26,Ice-O-Topes,3006,Dead Rabbits,3073,-67,37.8,5.4,56.8,3,2,Win,43,3049
 09/21/26,Yetis,2977,Alpuckas,2990,-13,45.3,5.6,49.1,2,8,Loss,-72,2905
 09/21/26,Alpuckas,2990,Yetis,2977,13,49.1,5.6,45.3,8,2,Win,72,3062
-09/21/26,WKUTP-5,3050,Dumpster Fire,3121,-71,37.2,5.4,57.4,10,3,Win,106,3156
-09/21/26,Dumpster Fire,3121,WKUTP-5,3050,71,57.4,5.4,37.2,3,10,Loss,-106,3015
+09/21/26,WKUTP-4,3050,Dumpster Fire,3121,-71,37.2,5.4,57.4,10,3,Win,106,3156
+09/21/26,Dumpster Fire,3121,WKUTP-4,3050,71,57.4,5.4,37.2,3,10,Loss,-106,3015
 09/21/26,BSOD,3131,Moose Knuckle,3096,35,52.2,5.5,42.2,3,8,Loss,-78,3053
 09/21/26,Moose Knuckle,3096,BSOD,3131,-35,42.2,5.5,52.2,8,3,Win,78,3174
 09/21/26,Skeletons,3443,Schilling Cider,3258,185,72.2,4.3,23.5,3,3,Tie,-17,3426
@@ -155,8 +155,8 @@ Date,Team,ELO,Opponent,Opp ELO,Delta,Win %,Tie %,Loss %,GF,GA,Result,+/- ELO,ELO
 09/27/26,Seattle Slapshots,1633,Seal Team Sticks,1538,96,60.8,5.2,34.0,2,2,Tie,-12,1621
 09/27/26,Pythons,1820,Scrooge McPuck,1535,286,82.3,3.0,14.7,10,2,Win,32,1852
 09/27/26,Scrooge McPuck,1535,Pythons,1820,-286,14.7,3.0,82.3,2,10,Loss,-32,1503
-09/27/26,Monarchs 6,2595,Rainier Reindeer HC-6,2597,-2,46.9,5.6,47.5,3,3,Tie,2,2598
-09/27/26,Rainier Reindeer HC-6,2597,Monarchs 6,2595,2,47.5,5.6,46.9,3,3,Tie,-2,2595
+09/27/26,Monarchs 6B,2595,Rainier Reindeer HC-6B,2597,-2,46.9,5.6,47.5,3,3,Tie,2,2598
+09/27/26,Rainier Reindeer HC-6B,2597,Monarchs 6B,2595,2,47.5,5.6,46.9,3,3,Tie,-2,2595
 09/27/26,Monarchs 5,2643,Seattle Warriors,2658,-15,45.1,5.6,49.3,3,4,Loss,-34,2610
 09/27/26,Seattle Warriors,2658,Monarchs 5,2643,15,49.3,5.6,45.1,4,3,Win,34,2692
 09/27/26,Glow Sticks,1785,Pond Pigeons,1718,67,56.8,5.4,37.8,3,1,Win,49,1833
@@ -175,8 +175,8 @@ Date,Team,ELO,Opponent,Opp ELO,Delta,Win %,Tie %,Loss %,GF,GA,Result,+/- ELO,ELO
 09/27/26,Mudflaps,2581,Hackers,2324,258,79.8,3.4,16.8,7,1,Win,27,2608
 09/27/26,Chucklepucks,2349,Hampton West Hockey Club,2448,-99,33.6,5.2,61.3,3,3,Tie,12,2361
 09/27/26,Hampton West Hockey Club,2448,Chucklepucks,2349,99,61.3,5.2,33.6,3,3,Tie,-12,2436
-09/27/26,Raiders,2329,Not Sure 6,2313,16,49.5,5.6,44.9,2,3,Loss,-37,2292
-09/27/26,Not Sure 6,2313,Raiders,2329,-16,44.9,5.6,49.5,3,2,Win,37,2350
+09/27/26,Raiders,2329,Not Sure 6D,2313,16,49.5,5.6,44.9,2,3,Loss,-37,2292
+09/27/26,Not Sure 6D,2313,Raiders,2329,-16,44.9,5.6,49.5,3,2,Win,37,2350
 09/27/26,Cascadians HC,2328,Real Bacon,2294,34,52.1,5.5,42.3,5,5,Tie,-2,2326
 09/27/26,Real Bacon,2294,Cascadians HC,2328,-34,42.3,5.5,52.1,5,5,Tie,2,2295
 09/27/26,Maelstrom,957,Mad Hat Tricks,1006,-48,40.3,5.5,54.2,5,3,Win,67,1025
@@ -189,8 +189,8 @@ Date,Team,ELO,Opponent,Opp ELO,Delta,Win %,Tie %,Loss %,GF,GA,Result,+/- ELO,ELO
 09/27/26,Banana Blades,873,Beer Dragons,952,-79,36.2,5.3,58.5,3,2,Win,44,917
 09/27/26,Rip-Its,1201,Gremlins Hockey,1082,119,64.0,5.0,31.0,3,3,Tie,-10,1191
 09/27/26,Gremlins Hockey,1082,Rip-Its,1201,-119,31.0,5.0,64.0,3,3,Tie,10,1093
-09/27/26,Spicy Kittens HC-9,1006,Ice Breakers,1243,-237,18.5,3.6,77.9,6,5,Win,61,1067
-09/27/26,Ice Breakers,1243,Spicy Kittens HC-9,1006,237,77.9,3.6,18.5,5,6,Loss,-61,1182
+09/27/26,Spicy Kittens HC-9B,1006,Ice Breakers,1243,-237,18.5,3.6,77.9,6,5,Win,61,1067
+09/27/26,Ice Breakers,1243,Spicy Kittens HC-9B,1006,237,77.9,3.6,18.5,5,6,Loss,-61,1182
 09/27/26,Purple Puck Eaters,1179,Red Zeppelin,1178,1,47.3,5.6,47.1,2,10,Loss,-84,1094
 09/27/26,Red Zeppelin,1178,Purple Puck Eaters,1179,-1,47.1,5.6,47.3,10,2,Win,84,1262
 09/27/26,Yacht Flippers,1380,Tropical Punchers,1238,142,67.0,4.8,28.3,2,4,Loss,-75,1305
@@ -205,8 +205,8 @@ Date,Team,ELO,Opponent,Opp ELO,Delta,Win %,Tie %,Loss %,GF,GA,Result,+/- ELO,ELO
 09/27/26,SEA Cucumbers,1581,Rainiers,1816,-235,18.7,3.7,77.6,0,5,Loss,-34,1547
 09/27/26,Trash Pandas Garbage Legacy,2094,Quacken,2112,-17,44.7,5.6,49.7,1,0,Win,41,2136
 09/27/26,Quacken,2112,Trash Pandas Garbage Legacy,2094,17,49.7,5.6,44.7,0,1,Loss,-41,2070
-09/27/26,Orange Crush,1536,Rainier Reindeers HC-9,1315,222,76.3,3.8,19.9,4,2,Win,27,1563
-09/27/26,Rainier Reindeers HC-9,1315,Orange Crush,1536,-222,19.9,3.8,76.3,2,4,Loss,-27,1288
+09/27/26,Orange Crush,1536,Rainier Reindeers HC-9A,1315,222,76.3,3.8,19.9,4,2,Win,27,1563
+09/27/26,Rainier Reindeers HC-9A,1315,Orange Crush,1536,-222,19.9,3.8,76.3,2,4,Loss,-27,1288
 09/27/26,Seattle Freeze,2163,Birrds,2031,131,65.6,4.9,29.5,9,2,Win,58,2221
 09/27/26,Birrds,2031,Seattle Freeze,2163,-131,29.5,4.9,65.6,2,9,Loss,-58,1973
 09/27/26,LKI,1872,Bandits,1907,-35,42.3,5.5,52.2,4,4,Tie,6,1878
@@ -245,8 +245,8 @@ Date,Team,ELO,Opponent,Opp ELO,Delta,Win %,Tie %,Loss %,GF,GA,Result,+/- ELO,ELO
 09/28/26,Mighty Boosh,2310,Fossils,2679,-369,9.6,2.1,88.3,1,4,Loss,-15,2295
 09/29/26,Seagulls,3055,Yetis,2905,150,68.0,4.7,27.3,6,3,Win,42,3097
 09/29/26,Yetis,2905,Seagulls,3055,-150,27.3,4.7,68.0,3,6,Loss,-42,2863
-09/29/26,WKUTP-5,3156,BSOD,3053,103,61.9,5.1,33.0,4,3,Win,29,3185
-09/29/26,BSOD,3053,WKUTP-5,3156,-103,33.0,5.1,61.9,3,4,Loss,-29,3024
+09/29/26,WKUTP-4,3156,BSOD,3053,103,61.9,5.1,33.0,4,3,Win,29,3185
+09/29/26,BSOD,3053,WKUTP-4,3156,-103,33.0,5.1,61.9,3,4,Loss,-29,3024
 09/29/26,Greasy Weasels,3271,DevilFish,3252,18,49.9,5.6,44.6,3,3,Tie,0,3271
 09/29/26,DevilFish,3252,Greasy Weasels,3271,-18,44.6,5.6,49.9,3,3,Tie,0,3252
 09/29/26,Skateful Dead,3500,Steelhead,3428,72,57.5,5.4,37.1,4,2,Win,48,3548
@@ -313,16 +313,16 @@ Date,Team,ELO,Opponent,Opp ELO,Delta,Win %,Tie %,Loss %,GF,GA,Result,+/- ELO,ELO
 10/04/26,Pythons,1852,Glow Sticks,1833,19,49.9,5.6,44.5,1,4,Loss,-73,1779
 10/04/26,Pond Pigeons,1669,Seal Team Sticks,1550,120,64.1,5.0,31.0,3,2,Win,27,1696
 10/04/26,Seal Team Sticks,1550,Pond Pigeons,1669,-120,31.0,5.0,64.1,2,3,Loss,-27,1523
-10/04/26,Spicy Kittens HC-9,1067,Banana Blades,917,150,68.0,4.7,27.3,6,4,Win,36,1103
-10/04/26,Banana Blades,917,Spicy Kittens HC-9,1067,-150,27.3,4.7,68.0,4,6,Loss,-36,881
+10/04/26,Spicy Kittens HC-9B,1067,Banana Blades,917,150,68.0,4.7,27.3,6,4,Win,36,1103
+10/04/26,Banana Blades,917,Spicy Kittens HC-9B,1067,-150,27.3,4.7,68.0,4,6,Loss,-36,881
 10/04/26,Rainiers,1850,Seattle Slapshots,1621,228,76.9,3.7,19.3,2,2,Tie,-20,1829
 10/04/26,Seattle Slapshots,1621,Rainiers,1850,-228,19.3,3.7,76.9,2,2,Tie,20,1642
 10/04/26,Toe Dragons,1699,SEA Cucumbers,1547,152,68.2,4.7,27.1,5,1,Win,45,1744
 10/04/26,SEA Cucumbers,1547,Toe Dragons,1699,-152,27.1,4.7,68.2,1,5,Loss,-45,1503
 10/04/26,Purple Reign,1537,Hungry Hatchlings,1617,-79,36.1,5.3,58.6,2,3,Loss,-27,1510
 10/04/26,Hungry Hatchlings,1617,Purple Reign,1537,79,58.6,5.3,36.1,3,2,Win,27,1644
-10/04/26,Mighty Moose,1535,Rainier Reindeers HC-9,1288,247,78.8,3.5,17.7,0,4,Loss,-111,1424
-10/04/26,Rainier Reindeers HC-9,1288,Mighty Moose,1535,-247,17.7,3.5,78.8,4,0,Win,111,1399
+10/04/26,Mighty Moose,1535,Rainier Reindeers HC-9A,1288,247,78.8,3.5,17.7,0,4,Loss,-111,1424
+10/04/26,Rainier Reindeers HC-9A,1288,Mighty Moose,1535,-247,17.7,3.5,78.8,4,0,Win,111,1399
 10/04/26,Ice Breakers,1182,Beer Dragons,908,274,81.3,3.2,15.5,1,6,Loss,-122,1060
 10/04/26,Beer Dragons,908,Ice Breakers,1182,-274,15.5,3.2,81.3,6,1,Win,122,1030
 10/04/26,Blackbirds,1634,Orange Crush,1563,71,57.4,5.4,37.2,4,0,Win,60,1694
@@ -343,8 +343,8 @@ Date,Team,ELO,Opponent,Opp ELO,Delta,Win %,Tie %,Loss %,GF,GA,Result,+/- ELO,ELO
 10/04/26,Maelstrom,1025,Salish Stellers,795,229,77.1,3.7,19.2,2,0,Win,22,1046
 10/04/26,Puckleberries,922,Redrum,878,44,53.6,5.5,40.9,1,3,Loss,-60,862
 10/04/26,Redrum,878,Puckleberries,922,-44,40.9,5.5,53.6,3,1,Win,60,939
-10/04/26,Spicy Kittens HC-8,1709,Spittin'' Llamas,1689,20,50.1,5.6,44.3,4,4,Tie,0,1709
-10/04/26,Spittin'' Llamas,1689,Spicy Kittens HC-8,1709,-20,44.3,5.6,50.1,4,4,Tie,0,1689
+10/04/26,Spicy Kittens HC-8A,1709,Spittin'' Llamas,1689,20,50.1,5.6,44.3,4,4,Tie,0,1709
+10/04/26,Spittin'' Llamas,1689,Spicy Kittens HC-8A,1709,-20,44.3,5.6,50.1,4,4,Tie,0,1689
 10/04/26,Blackouts,1879,Roughnecks Mobile Infantry,1793,86,59.6,5.3,35.2,5,5,Tie,-7,1872
 10/04/26,Roughnecks Mobile Infantry,1793,Blackouts,1879,-86,35.2,5.3,59.6,5,5,Tie,7,1800
 10/04/26,Trash Pandas Garbage Legacy,2136,Birrds,1973,162,69.5,4.5,25.9,7,5,Win,34,2170
@@ -373,8 +373,10 @@ Date,Team,ELO,Opponent,Opp ELO,Delta,Win %,Tie %,Loss %,GF,GA,Result,+/- ELO,ELO
 10/05/26,Fossils,2695,Wranglers,2620,75,57.9,5.3,36.7,2,4,Loss,-71,2624
 10/05/26,Midnight Twist,2618,Dirty Couch Hockey Club,2709,-91,34.6,5.2,60.1,6,2,Win,92,2710
 10/05/26,Dirty Couch Hockey Club,2709,Midnight Twist,2618,91,60.1,5.2,34.6,2,6,Loss,-92,2617
-10/05/26,Mudflaps,2608,Monarchs 6,2598,10,48.7,5.6,45.7,2,7,Loss,-73,2535
-10/05/26,Monarchs 6,2598,Mudflaps,2608,-10,45.7,5.6,48.7,7,2,Win,73,2671
+10/05/26,Blades,2596,Not Sure 6D,2350,246,78.7,3.5,17.8,4,2,Win,24,2620
+10/05/26,Not Sure 6D,2350,Blades,2596,-246,17.8,3.5,78.7,2,4,Loss,-24,2326
+10/05/26,Mudflaps,2608,Monarchs 6B,2598,10,48.7,5.6,45.7,2,7,Loss,-73,2535
+10/05/26,Monarchs 6B,2598,Mudflaps,2608,-10,45.7,5.6,48.7,7,2,Win,73,2671
 10/05/26,Mad Dawgs,2381,Barrel Aged Brewzers,2493,-113,31.8,5.0,63.2,1,5,Loss,-45,2336
 10/05/26,Barrel Aged Brewzers,2493,Mad Dawgs,2381,113,63.2,5.0,31.8,5,1,Win,45,2538
 10/05/26,Monarchs 5,2610,PussyCats,2722,-112,31.9,5.1,63.0,12,1,Win,140,2750
@@ -383,8 +385,8 @@ Date,Team,ELO,Opponent,Opp ELO,Delta,Win %,Tie %,Loss %,GF,GA,Result,+/- ELO,ELO
 10/05/26,Raiders,2292,Trash Pandas,2584,-292,14.2,3.0,82.8,3,4,Loss,-13,2279
 10/06/26,Moose Knuckle,3215,Dead Rabbits,3090,125,64.7,4.9,30.3,4,1,Win,46,3261
 10/06/26,Dead Rabbits,3090,Moose Knuckle,3215,-125,30.3,4.9,64.7,1,4,Loss,-46,3044
-10/06/26,Top Cheddar,3214,WKUTP-5,3185,29,51.4,5.6,43.0,1,3,Loss,-58,3156
-10/06/26,WKUTP-5,3185,Top Cheddar,3214,-29,43.0,5.6,51.4,3,1,Win,58,3242
+10/06/26,Top Cheddar,3214,WKUTP-4,3185,29,51.4,5.6,43.0,1,3,Loss,-58,3156
+10/06/26,WKUTP-4,3185,Top Cheddar,3214,-29,43.0,5.6,51.4,3,1,Win,58,3242
 10/06/26,Kraken Up,3422,Edible Arrangements,3243,179,71.5,4.3,24.1,6,1,Win,43,3464
 10/06/26,Edible Arrangements,3243,Kraken Up,3422,-179,24.1,4.3,71.5,1,6,Loss,-43,3200
 10/06/26,Yetis,2863,Reapers,2733,130,65.4,4.9,29.7,7,1,Win,55,2918
@@ -437,12 +439,14 @@ Date,Team,ELO,Opponent,Opp ELO,Delta,Win %,Tie %,Loss %,GF,GA,Result,+/- ELO,ELO
 10/08/26,The Herd,3890,Fighting Narwhals,3923,-34,42.4,5.5,52.1,4,10,Loss,-76,3813
 10/08/26,BSOD,3024,Ice-O-Topes,2957,67,56.9,5.4,37.7,2,3,Loss,-43,2981
 10/08/26,Ice-O-Topes,2957,BSOD,3024,-67,37.7,5.4,56.9,3,2,Win,43,2999
-10/11/26,Mighty Boosh,2253,Blades,2596,-343,11.0,2.4,86.6,1,2,Loss,-8,2245
-10/11/26,Blades,2596,Mighty Boosh,2253,343,86.6,2.4,11.0,2,1,Win,8,2604
+10/11/26,Mighty Boosh,2253,Blades,2620,-367,9.7,2.2,88.1,1,2,Loss,-7,2246
+10/11/26,Blades,2620,Mighty Boosh,2253,367,88.1,2.2,9.7,2,1,Win,7,2627
 10/11/26,Raiders,2279,Hampton West Hockey Club,2479,-201,21.9,4.1,74.0,3,3,Tie,21,2300
 10/11/26,Hampton West Hockey Club,2479,Raiders,2279,201,74.0,4.1,21.9,3,3,Tie,-21,2458
-10/11/26,Pythons,1779,Spicy Kittens HC-8,1709,70,57.2,5.4,37.4,2,1,Win,32,1811
-10/11/26,Spicy Kittens HC-8,1709,Pythons,1779,-70,37.4,5.4,57.2,1,2,Loss,-32,1677
+10/11/26,Seattle Freeze,2177,Hackers,2253,-76,36.6,5.3,58.1,2,4,Loss,-41,2136
+10/11/26,Hackers,2253,Seattle Freeze,2177,76,58.1,5.3,36.6,4,2,Win,41,2294
+10/11/26,Pythons,1779,Spicy Kittens HC-8A,1709,70,57.2,5.4,37.4,2,1,Win,32,1811
+10/11/26,Spicy Kittens HC-8A,1709,Pythons,1779,-70,37.4,5.4,57.2,1,2,Loss,-32,1677
 10/11/26,Quacken,2171,Fluffy Bunnies,2060,111,62.9,5.1,32.1,2,0,Win,42,2212
 10/11/26,Fluffy Bunnies,2060,Quacken,2171,-111,32.1,5.1,62.9,0,2,Loss,-42,2018
 10/11/26,Seattle Seals,2269,Real Bacon,2195,74,57.8,5.4,36.9,4,2,Win,48,2316
@@ -475,8 +479,8 @@ Date,Team,ELO,Opponent,Opp ELO,Delta,Win %,Tie %,Loss %,GF,GA,Result,+/- ELO,ELO
 10/11/26,Iced Awesome,1770,Los Tigres,2021,-252,17.3,3.5,79.2,3,2,Win,59,1829
 10/11/26,Thursday Cryptids,1052,Tropical Punchers,1257,-205,21.5,4.0,74.5,2,5,Loss,-28,1024
 10/11/26,Tropical Punchers,1257,Thursday Cryptids,1052,205,74.5,4.0,21.5,5,2,Win,28,1285
-10/11/26,Gremlins Hockey,1150,Spicy Kittens HC-9,1103,47,54.0,5.5,40.5,1,2,Loss,-41,1110
-10/11/26,Spicy Kittens HC-9,1103,Gremlins Hockey,1150,-47,40.5,5.5,54.0,2,1,Win,41,1143
+10/11/26,Gremlins Hockey,1150,Spicy Kittens HC-9B,1103,47,54.0,5.5,40.5,1,2,Loss,-41,1110
+10/11/26,Spicy Kittens HC-9B,1103,Gremlins Hockey,1150,-47,40.5,5.5,54.0,2,1,Win,41,1143
 10/11/26,Blackouts,1872,Orcas,1977,-105,32.8,5.1,62.1,6,2,Win,94,1967
 10/11/26,Orcas,1977,Blackouts,1872,105,62.1,5.1,32.8,2,6,Loss,-94,1882
 10/11/26,Purple Reign,1510,Blackbirds,1694,-184,23.6,4.3,72.1,1,7,Loss,-38,1472
@@ -487,17 +491,167 @@ Date,Team,ELO,Opponent,Opp ELO,Delta,Win %,Tie %,Loss %,GF,GA,Result,+/- ELO,ELO
 10/11/26,Khaos,1612,Red Zeppelin,1318,294,83.0,2.9,14.1,1,8,Loss,-145,1467
 10/11/26,Roughnecks Mobile Infantry,1800,Seattle Dogs,1846,-46,40.6,5.5,53.9,2,8,Loss,-65,1735
 10/11/26,Seattle Dogs,1846,Roughnecks Mobile Infantry,1800,46,53.9,5.5,40.6,8,2,Win,65,1911
-10/11/26,Rainier Reindeers HC-9,1399,Fighting Clams,1242,157,68.8,4.6,26.6,6,3,Win,41,1440
-10/11/26,Fighting Clams,1242,Rainier Reindeers HC-9,1399,-157,26.6,4.6,68.8,3,6,Loss,-41,1201
+10/11/26,Rainier Reindeers HC-9A,1399,Fighting Clams,1242,157,68.8,4.6,26.6,6,3,Win,41,1440
+10/11/26,Fighting Clams,1242,Rainier Reindeers HC-9A,1399,-157,26.6,4.6,68.8,3,6,Loss,-41,1201
 10/11/26,Cascadians HC,2205,Trash Pandas Garbage Legacy,2170,36,52.3,5.5,42.1,3,4,Loss,-39,2166
 10/11/26,Trash Pandas Garbage Legacy,2170,Cascadians HC,2205,-36,42.1,5.5,52.3,4,3,Win,39,2209
 10/11/26,Trash Pandas,2597,Chucklepucks,2405,192,73.0,4.2,22.8,5,3,Win,30,2627
 10/11/26,Chucklepucks,2405,Trash Pandas,2597,-192,22.8,4.2,73.0,3,5,Loss,-30,2375
 10/11/26,Glow Sticks,1906,Seal Team Sticks,1523,383,89.1,2.0,8.9,9,3,Win,17,1923
 10/11/26,Seal Team Sticks,1523,Glow Sticks,1906,-383,8.9,2.0,89.1,3,9,Loss,-17,1505
-10/11/26,Rainier Reindeer HC-6,2595,Greenhorns,2502,94,60.5,5.2,34.2,2,2,Tie,-8,2587
-10/11/26,Greenhorns,2502,Rainier Reindeer HC-6,2595,-94,34.2,5.2,60.5,2,2,Tie,8,2509
+10/11/26,Rainier Reindeer HC-6B,2595,Greenhorns,2502,94,60.5,5.2,34.2,2,2,Tie,-8,2587
+10/11/26,Greenhorns,2502,Rainier Reindeer HC-6B,2595,-94,34.2,5.2,60.5,2,2,Tie,8,2509
 10/11/26,Pond Pigeons,1696,Seattle Slapshots,1642,55,55.1,5.5,39.5,2,2,Tie,-4,1692
 10/11/26,Seattle Slapshots,1642,Pond Pigeons,1696,-55,39.5,5.5,55.1,2,2,Tie,4,1645
 10/11/26,Scrooge McPuck,1416,Toe Dragons,1744,-327,11.9,2.6,85.5,2,10,Loss,-21,1395
 10/11/26,Toe Dragons,1744,Scrooge McPuck,1416,327,85.5,2.6,11.9,10,2,Win,21,1765
+10/12/26,Dumb Pucks,2523,Mad Dawgs,2336,188,72.5,4.2,23.2,3,3,Tie,-17,2507
+10/12/26,Mad Dawgs,2336,Dumb Pucks,2523,-188,23.2,4.2,72.5,3,3,Tie,17,2353
+10/12/26,Seagulls,3122,Not Sure 5,2833,289,82.6,3.0,14.4,9,5,Win,24,3147
+10/12/26,Not Sure 5,2833,Seagulls,3122,-289,14.4,3.0,82.6,5,9,Loss,-24,2808
+10/12/26,Yetis,2918,Seals,3007,-89,34.9,5.3,59.9,3,1,Win,73,2991
+10/12/26,Seals,3007,Yetis,2918,89,59.9,5.3,34.9,1,3,Loss,-73,2933
+10/12/26,Fossils,2624,Monarchs 6B,2671,-47,40.5,5.5,54.0,3,4,Loss,-30,2593
+10/12/26,Monarchs 6B,2671,Fossils,2624,47,54.0,5.5,40.5,4,3,Win,30,2701
+10/12/26,Seattle Warriors,2664,PussyCats,2581,83,59.0,5.3,35.7,5,4,Win,31,2694
+10/12/26,PussyCats,2581,Seattle Warriors,2664,-83,35.7,5.3,59.0,4,5,Loss,-31,2550
+10/12/26,Barrel Aged Brewzers,2538,Not Sure 6D,2326,212,75.2,3.9,20.8,3,1,Win,28,2566
+10/12/26,Not Sure 6D,2326,Barrel Aged Brewzers,2538,-212,20.8,3.9,75.2,1,3,Loss,-28,2298
+10/12/26,Honey Badgers,2687,Dirty Couch Hockey Club,2617,70,57.2,5.4,37.4,3,3,Tie,-5,2681
+10/12/26,Dirty Couch Hockey Club,2617,Honey Badgers,2687,-70,37.4,5.4,57.2,3,3,Tie,5,2622
+10/12/26,Midnight Twist,2710,Monarchs 5,2750,-40,41.5,5.5,53.0,4,3,Win,44,2754
+10/12/26,Monarchs 5,2750,Midnight Twist,2710,40,53.0,5.5,41.5,3,4,Loss,-44,2706
+10/12/26,Squids,2489,Mudflaps,2535,-46,40.7,5.5,53.8,1,1,Tie,7,2496
+10/12/26,Mudflaps,2535,Squids,2489,46,53.8,5.5,40.7,1,1,Tie,-7,2528
+10/12/26,Reapers,2678,Piranhas,2890,-212,20.8,3.9,75.2,0,3,Loss,-27,2650
+10/12/26,Piranhas,2890,Reapers,2678,212,75.2,3.9,20.8,3,0,Win,27,2917
+10/12/26,Alpuckas,3130,Moose Knuckle,3261,-131,29.5,4.9,65.6,1,3,Loss,-33,3097
+10/12/26,Moose Knuckle,3261,Alpuckas,3130,131,65.6,4.9,29.5,3,1,Win,33,3294
+10/12/26,Brewzers OGB,2846,Highlanders,2910,-64,38.2,5.4,56.4,5,2,Win,81,2927
+10/12/26,Highlanders,2910,Brewzers OGB,2846,64,56.4,5.4,38.2,2,5,Loss,-81,2829
+10/12/26,Lumberjacks,2902,Bullets,2719,183,72.0,4.3,23.7,8,3,Win,42,2944
+10/12/26,Bullets,2719,Lumberjacks,2902,-183,23.7,4.3,72.0,3,8,Loss,-42,2677
+10/12/26,Icemen,2420,Wranglers,2691,-271,15.7,3.2,81.1,3,5,Loss,-18,2402
+10/12/26,Wranglers,2691,Icemen,2420,271,81.1,3.2,15.7,5,3,Win,18,2709
+10/12/26,Black Katz,2825,Cherry Pickers,2708,117,63.7,5.0,31.3,1,5,Loss,-90,2735
+10/12/26,Cherry Pickers,2708,Black Katz,2825,-117,31.3,5.0,63.7,5,1,Win,90,2798
+10/13/26,Renegades,2836,Stingers,3088,-252,17.2,3.4,79.3,8,2,Win,132,2967
+10/13/26,Stingers,3088,Renegades,2836,252,79.3,3.4,17.2,2,8,Loss,-132,2956
+10/13/26,BSOD,2981,Dead Rabbits,3044,-63,38.4,5.4,56.2,1,2,Loss,-29,2953
+10/13/26,Dead Rabbits,3044,BSOD,2981,63,56.2,5.4,38.4,2,1,Win,29,3073
+10/13/26,Flying Monkeys ,2538,Jokres,2542,-4,46.6,5.6,47.8,1,7,Loss,-74,2464
+10/13/26,Jokres,2542,Flying Monkeys ,2538,4,47.8,5.6,46.6,7,1,Win,74,2617
+10/13/26,Greasy Weasels,3256,Top Cheddar,3156,100,61.4,5.2,33.4,4,3,Win,29,3285
+10/13/26,Top Cheddar,3156,Greasy Weasels,3256,-100,33.4,5.2,61.4,3,4,Loss,-29,3127
+10/14/26,DevilFish,3256,Hooligans,3119,137,66.3,4.8,28.9,2,3,Loss,-50,3207
+10/14/26,Hooligans,3119,DevilFish,3256,-137,28.9,4.8,66.3,3,2,Win,50,3169
+10/14/26,Ice-O-Topes,2999,Dumpster Fire,2925,74,57.8,5.4,36.8,2,1,Win,32,3031
+10/14/26,Dumpster Fire,2925,Ice-O-Topes,2999,-74,36.8,5.4,57.8,1,2,Loss,-32,2893
+10/14/26,Maple Bars,3410,Skeletons,3305,105,62.1,5.1,32.8,2,3,Loss,-47,3363
+10/14/26,Skeletons,3305,Maple Bars,3410,-105,32.8,5.1,62.1,3,2,Win,47,3352
+10/14/26,Night Owls,3367,Sabercats,3436,-69,37.5,5.4,57.1,3,8,Loss,-56,3310
+10/14/26,Sabercats,3436,Night Owls,3367,69,57.1,5.4,37.5,8,3,Win,56,3492
+10/14/26,Wolves,3266,WKUTP-4,3242,24,50.6,5.6,43.8,5,4,Win,37,3303
+10/14/26,WKUTP-4,3242,Wolves,3266,-24,43.8,5.6,50.6,4,5,Loss,-37,3205
+10/14/26,Shockers,3666,MMHC,3766,-100,33.4,5.2,61.4,2,8,Loss,-53,3613
+10/14/26,MMHC,3766,Shockers,3666,100,61.4,5.2,33.4,8,2,Win,53,3819
+10/14/26,Edible Arrangements,3200,Schilling Cider,3326,-126,30.2,4.9,64.9,6,6,Tie,15,3215
+10/14/26,Schilling Cider,3326,Edible Arrangements,3200,126,64.9,4.9,30.2,6,6,Tie,-15,3311
+10/15/26,The Mighty Geoducks,4086,Chiefs,4070,16,49.5,5.6,45.0,6,4,Win,57,4142
+10/15/26,Chiefs,4070,The Mighty Geoducks,4086,-16,45.0,5.6,49.5,4,6,Loss,-57,4013
+10/15/26,ESB,4416,ALTP,4564,-149,27.5,4.7,67.8,2,5,Loss,-36,4379
+10/15/26,ALTP,4564,ESB,4416,149,67.8,4.7,27.5,5,2,Win,36,4600
+10/15/26,Falcons,4200,Seattle Supernova,4115,85,59.4,5.3,35.4,3,7,Loss,-83,4117
+10/15/26,Seattle Supernova,4115,Falcons,4200,-85,35.4,5.3,59.4,7,3,Win,83,4199
+10/15/26,Chinooks,3429,Skateful Dead,3533,-104,32.9,5.1,61.9,6,3,Win,88,3517
+10/15/26,Skateful Dead,3533,Chinooks,3429,104,61.9,5.1,32.9,3,6,Loss,-88,3445
+10/15/26,Mavericks,4240,Red Dog,4116,125,64.7,4.9,30.3,6,2,Win,50,4290
+10/15/26,Red Dog,4116,Mavericks,4240,-125,30.3,4.9,64.7,2,6,Loss,-50,4066
+10/15/26,Fighting Narwhals,4000,Rhinos,4083,-84,35.5,5.3,59.2,4,4,Tie,11,4011
+10/15/26,Rhinos,4083,Fighting Narwhals,4000,84,59.2,5.3,35.5,4,4,Tie,-11,4073
+10/15/26,The Brigade,4215,Pheasants,3930,285,82.3,3.0,14.7,9,6,Win,23,4239
+10/15/26,Pheasants,3930,The Brigade,4215,-285,14.7,3.0,82.3,6,9,Loss,-23,3907
+10/15/26,Pull Tab Bandits,4029,The Herd,3813,216,75.7,3.9,20.4,9,0,Win,46,4075
+10/15/26,The Herd,3813,Pull Tab Bandits,4029,-216,20.4,3.9,75.7,0,9,Loss,-46,3768
+10/15/26,Northwest Crabs,4347,Mustangs,4095,253,79.4,3.4,17.2,2,4,Loss,-89,4258
+10/15/26,Mustangs,4095,Northwest Crabs,4347,-253,17.2,3.4,79.4,4,2,Win,89,4184
+10/15/26,Puckbuddies,3980,Sasquatch,3908,72,57.6,5.4,37.1,2,3,Loss,-43,3937
+10/15/26,Sasquatch,3908,Puckbuddies,3980,-72,37.1,5.4,57.6,3,2,Win,43,3951
+10/15/26,Kraken Up,3464,LLUA,3399,65,56.6,5.4,38.0,3,10,Loss,-96,3369
+10/15/26,LLUA,3399,Kraken Up,3464,-65,38.0,5.4,56.6,10,3,Win,96,3495
+10/15/26,Puget Sound Pigeons,3738,Eagles,4019,-281,15.0,3.1,81.9,3,6,Loss,-20,3718
+10/15/26,Eagles,4019,Puget Sound Pigeons,3738,281,81.9,3.1,15.0,6,3,Win,20,4039
+10/15/26,Steelhead,3495,Mighty Mallards,3447,48,54.1,5.5,40.4,4,7,Loss,-71,3424
+10/15/26,Mighty Mallards,3447,Steelhead,3495,-48,40.4,5.5,54.1,7,4,Win,71,3518
+10/18/26,Puckleberries,877,Mad Hat Tricks,880,-3,46.8,5.6,47.7,2,1,Win,40,917
+10/18/26,Mad Hat Tricks,880,Puckleberries,877,3,47.7,5.6,46.8,1,2,Loss,-40,840
+10/18/26,Scrooge McPuck,1395,Rainier Reindeers HC-9A,1440,-44,40.9,5.5,53.6,6,8,Loss,-46,1349
+10/18/26,Rainier Reindeers HC-9A,1440,Scrooge McPuck,1395,44,53.6,5.5,40.9,8,6,Win,46,1486
+10/18/26,Beer Dragons,1015,Purple Puck Eaters,1116,-101,33.3,5.2,61.6,4,6,Loss,-37,977
+10/18/26,Purple Puck Eaters,1116,Beer Dragons,1015,101,61.6,5.2,33.3,6,4,Win,37,1153
+10/18/26,The Axolotls,1252,Redrum,879,373,88.5,2.1,9.4,6,3,Win,15,1267
+10/18/26,Redrum,879,The Axolotls,1252,-373,9.4,2.1,88.5,3,6,Loss,-15,864
+10/18/26,Purple Reign,1472,SEA Cucumbers,1420,52,54.7,5.5,39.8,3,3,Tie,-4,1469
+10/18/26,SEA Cucumbers,1420,Purple Reign,1472,-52,39.8,5.5,54.7,3,3,Tie,4,1424
+10/18/26,Toe Dragons,1765,Hungry Hatchlings,1669,96,60.9,5.2,33.9,3,3,Tie,-8,1757
+10/18/26,Hungry Hatchlings,1669,Toe Dragons,1765,-96,33.9,5.2,60.9,3,3,Tie,8,1677
+10/18/26,Pond Pigeons,1692,Seal Team Sticks,1505,187,72.5,4.2,23.3,4,0,Win,39,1731
+10/18/26,Seal Team Sticks,1505,Pond Pigeons,1692,-187,23.3,4.2,72.5,0,4,Loss,-39,1467
+10/18/26,Seattle Slapshots,1645,Spittin'' Llamas,1652,-6,46.3,5.6,48.1,2,2,Tie,3,1648
+10/18/26,Spittin'' Llamas,1652,Seattle Slapshots,1645,6,48.1,5.6,46.3,2,2,Tie,-3,1649
+10/18/26,Roughnecks Mobile Infantry,1735,Pythons,1811,-76,36.6,5.3,58.1,3,2,Win,48,1783
+10/18/26,Pythons,1811,Roughnecks Mobile Infantry,1735,76,58.1,5.3,36.6,2,3,Loss,-48,1764
+10/18/26,Orcas,1882,Glow Sticks,1923,-41,41.4,5.5,53.1,1,4,Loss,-54,1828
+10/18/26,Glow Sticks,1923,Orcas,1882,41,53.1,5.5,41.4,4,1,Win,54,1978
+10/18/26,BLU Bombers,1997,Lagooners,1953,44,53.5,5.5,41.0,3,7,Loss,-75,1921
+10/18/26,Lagooners,1953,BLU Bombers,1997,-44,41.0,5.5,53.5,7,3,Win,75,2028
+10/18/26,Spicy Kittens HC-8A,1677,Rainiers,1867,-190,23.0,4.2,72.8,1,2,Loss,-17,1660
+10/18/26,Rainiers,1867,Spicy Kittens HC-8A,1677,190,72.8,4.2,23.0,2,1,Win,17,1884
+10/18/26,Trash Pandas Garbage Legacy,2209,Fluffy Bunnies,2018,191,72.9,4.2,22.9,4,3,Win,20,2230
+10/18/26,Fluffy Bunnies,2018,Trash Pandas Garbage Legacy,2209,-191,22.9,4.2,72.9,3,4,Loss,-20,1998
+10/18/26,Blackouts,1967,Seattle Dogs,1911,56,55.2,5.5,39.3,4,5,Loss,-41,1925
+10/18/26,Seattle Dogs,1911,Blackouts,1967,-56,39.3,5.5,55.2,5,4,Win,41,1952
+10/18/26,Cascadians HC,2166,Hackers,2294,-128,29.9,4.9,65.2,5,1,Win,99,2265
+10/18/26,Hackers,2294,Cascadians HC,2166,128,65.2,4.9,29.9,1,5,Loss,-99,2196
+10/18/26,Hampton West Hockey Club,2458,Real Bacon,2147,311,84.3,2.7,12.9,1,7,Loss,-134,2324
+10/18/26,Real Bacon,2147,Hampton West Hockey Club,2458,-311,12.9,2.7,84.3,7,1,Win,134,2282
+10/18/26,Bandits,1778,Iced Awesome,1829,-51,40.0,5.5,54.6,0,5,Loss,-60,1718
+10/18/26,Iced Awesome,1829,Bandits,1778,51,54.6,5.5,40.0,5,0,Win,60,1889
+10/18/26,LKI,1785,Nordekes,2014,-229,19.3,3.7,77.0,1,4,Loss,-25,1760
+10/18/26,Nordekes,2014,LKI,1785,229,77.0,3.7,19.3,4,1,Win,25,2039
+10/18/26,Seattle Seals,2316,Quacken,2212,104,61.9,5.1,33.0,6,0,Win,61,2377
+10/18/26,Quacken,2212,Seattle Seals,2316,-104,33.0,5.1,61.9,0,6,Loss,-61,2152
+10/18/26,Los Tigres,1962,Birrds,1981,-19,44.5,5.6,49.9,2,5,Loss,-58,1903
+10/18/26,Birrds,1981,Los Tigres,1962,19,49.9,5.6,44.5,5,2,Win,58,2039
+10/18/26,Raiders,2300,Seattle Freeze,2136,164,69.7,4.5,25.8,6,3,Win,40,2340
+10/18/26,Seattle Freeze,2136,Raiders,2300,-164,25.8,4.5,69.7,3,6,Loss,-40,2096
+10/18/26,Red Zeppelin,1463,Orange Crush,1478,-15,45.0,5.6,49.4,3,1,Win,62,1525
+10/18/26,Orange Crush,1478,Red Zeppelin,1463,15,49.4,5.6,45.0,1,3,Loss,-62,1416
+10/18/26,Khaos,1467,Blackbirds,1732,-265,16.2,3.3,80.5,2,5,Loss,-21,1446
+10/18/26,Blackbirds,1732,Khaos,1467,265,80.5,3.3,16.2,5,2,Win,21,1753
+10/18/26,Mighty Moose,1506,Yacht Flippers,1309,198,73.7,4.1,22.2,1,1,Tie,-18,1488
+10/18/26,Yacht Flippers,1309,Mighty Moose,1506,-198,22.2,4.1,73.7,1,1,Tie,18,1326
+10/18/26,Thursday Cryptids,1024,Spicy Kittens HC-9B,1143,-120,30.9,5.0,64.1,3,5,Loss,-35,989
+10/18/26,Spicy Kittens HC-9B,1143,Thursday Cryptids,1024,120,64.1,5.0,30.9,5,3,Win,35,1178
+10/18/26,Fighting Clams,1201,Gremlins Hockey,1110,92,60.3,5.2,34.5,2,3,Loss,-45,1156
+10/18/26,Gremlins Hockey,1110,Fighting Clams,1201,-92,34.5,5.2,60.3,3,2,Win,45,1155
+10/18/26,Rip-Its,1290,Tropical Punchers,1285,5,47.9,5.6,46.5,1,5,Loss,-67,1222
+10/18/26,Tropical Punchers,1285,Rip-Its,1290,-5,46.5,5.6,47.9,5,1,Win,67,1352
+10/19/26,Trash Pandas,2627,Not Sure 6D,2298,329,85.6,2.5,11.8,6,1,Win,22,2649
+10/19/26,Not Sure 6D,2298,Trash Pandas,2627,-329,11.8,2.5,85.6,1,6,Loss,-22,2277
+10/19/26,Mudflaps,2528,Chucklepucks,2375,153,68.4,4.6,26.9,6,2,Win,44,2572
+10/19/26,Chucklepucks,2375,Mudflaps,2528,-153,26.9,4.6,68.4,2,6,Loss,-44,2330
+10/19/26,Greenhorns,2509,Mad Dawgs,2353,157,68.8,4.6,26.6,6,1,Win,47,2556
+10/19/26,Mad Dawgs,2353,Greenhorns,2509,-157,26.6,4.6,68.8,1,6,Loss,-47,2306
+10/19/26,Fossils,2593,Rainier Reindeer HC-6B,2587,6,48.1,5.6,46.3,2,2,Tie,1,2595
+10/19/26,Rainier Reindeer HC-6B,2587,Fossils,2593,-6,46.3,5.6,48.1,2,2,Tie,-1,2586
+10/19/26,Flying Monkeys ,2464,Monarchs 6B,2701,-237,18.5,3.6,77.8,4,4,Tie,24,2488
+10/19/26,Monarchs 6B,2701,Flying Monkeys ,2464,237,77.8,3.6,18.5,4,4,Tie,-24,2678
+10/19/26,PussyCats,2550,Icemen,2402,148,67.8,4.7,27.5,5,5,Tie,-13,2537
+10/19/26,Icemen,2402,PussyCats,2550,-148,27.5,4.7,67.8,5,5,Tie,13,2415
+10/19/26,Squids,2496,Honey Badgers,2681,-185,23.5,4.3,72.2,8,6,Win,86,2582
+10/19/26,Honey Badgers,2681,Squids,2496,185,72.2,4.3,23.5,6,8,Loss,-86,2595
+10/19/26,Mighty Boosh,2246,Barrel Aged Brewzers,2566,-320,12.4,2.6,85.0,1,5,Loss,-17,2229
+10/19/26,Barrel Aged Brewzers,2566,Mighty Boosh,2246,320,85.0,2.6,12.4,5,1,Win,17,2583
+10/19/26,Cherry Pickers,2798,Midnight Twist,2754,44,53.6,5.5,40.9,4,2,Win,52,2850
+10/19/26,Midnight Twist,2754,Cherry Pickers,2798,-44,40.9,5.5,53.6,2,4,Loss,-52,2701

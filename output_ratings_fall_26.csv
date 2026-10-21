@@ -1,151 +1,151 @@
 Ranking,Team,Div,ELO
-1,ALTP,1,4564
-2,ESB,1,4415
+1,ALTP,1,4600
+2,ESB,1,4379
 3,NW Stars,1,4354
-4,Northwest Crabs,2,4347
-5,Mavericks,2,4240
-6,The Brigade,2,4215
-7,Falcons,1,4200
-8,Seattle Supernova,1,4115
-9,Red Dog,2,4115
-10,Mustangs,1,4094
-11,The Mighty Geoducks,2,4085
-12,Rhinos,3A,4083
-13,Chiefs,2,4069
-14,Pull Tab Bandits,3A,4029
-15,Eagles,3A,4019
-16,Fighting Narwhals,2,3999
-17,Puckbuddies,3A,3979
-18,Pheasants,2,3929
-19,Sasquatch,3B,3907
-20,The Herd,3A,3813
-21,MMHC,3A,3766
+4,Mavericks,2,4289
+5,Northwest Crabs,2,4258
+6,The Brigade,2,4238
+7,Seattle Supernova,1,4198
+8,Mustangs,1,4183
+9,The Mighty Geoducks,2,4142
+10,Falcons,1,4116
+11,Pull Tab Bandits,3A,4074
+12,Rhinos,3A,4072
+13,Red Dog,2,4066
+14,Eagles,3A,4038
+15,Chiefs,2,4013
+16,Fighting Narwhals,2,4010
+17,Sasquatch,3B,3950
+18,Puckbuddies,3A,3936
+19,Pheasants,2,3906
+20,MMHC,3A,3819
+21,The Herd,3A,3767
 22,Bombers,3B,3742
-23,Puget Sound Pigeons,3A,3737
-24,Shockers,3B,3666
+23,Puget Sound Pigeons,3A,3718
+24,Shockers,3B,3613
 25,Breakers,4A,3586
 26,Goal Diggers,3B,3540
-27,Skateful Dead,4A,3533
-28,Steelhead,4A,3495
-29,Kraken Up,4B,3464
-30,Coconut Corgis,4A,3457
-31,Mighty Mallards,4B,3447
-32,Sabercats,4A,3435
-33,Chinooks,3B,3429
-34,Maple Bars,4A,3409
-35,LLUA,4B,3399
-36,Night Owls,4A,3366
-37,Schilling Cider,4B,3325
-38,Skeletons,4C,3305
-39,Wolves,4C,3265
-40,Moose Knuckle,5A,3261
-41,DevilFish,4C,3256
-42,Greasy Weasels,4C,3255
-43,WKUTP-5,5A,3242
-44,Edible Arrangements,4B,3199
-45,Top Cheddar,4C,3155
-46,Alpuckas,5C,3129
-47,Seagulls,5B,3122
-48,Hooligans,4B,3119
-49,Stingers,5C,3087
-50,Dead Rabbits,5A,3043
-51,Seals,5D,3006
-52,Ice-O-Topes,5B,2999
-53,BSOD,5A,2981
-54,Dumpster Fire,5A,2925
-55,Yetis,5C,2917
-56,Highlanders,5D,2910
-57,Lumberjacks,5D,2901
-58,Piranhas,5C,2889
-59,Brewzers OGB,5D,2846
-60,Renegades,5B,2835
-61,Not Sure 5,5A,2832
-62,Black Katz,5D,2824
-63,Monarchs 5,5D,2750
-64,Bullets,5C,2718
-65,Midnight Twist,5C,2709
-66,Cherry Pickers,6C,2708
-67,Wranglers,6C,2691
-68,Honey Badgers,6A,2686
-69,Reapers,5B,2677
-70,Monarchs 6,6B,2670
-71,Seattle Warriors,6A,2663
-72,Trash Pandas,6A,2627
-73,Fossils,6A,2623
-74,Dirty Couch Hockey Club,6A,2616
-75,Blades,6C,2604
-76,Rainier Reindeer HC-6,6B,2587
-77,PussyCats,5D,2581
-78,Jokres,6B,2542
-79,Barrel Aged Brewzers,6C,2538
-80,Flying Monkeys ,6A,2538
-81,Mudflaps,6C,2535
-82,Dumb Pucks,6B,2523
-83,Greenhorns,6B,2509
+27,Mighty Mallards,4B,3518
+28,Chinooks,3B,3517
+29,LLUA,4B,3494
+30,Sabercats,4A,3491
+31,Coconut Corgis,4A,3457
+32,Skateful Dead,4A,3445
+33,Steelhead,4A,3424
+34,Kraken Up,4B,3368
+35,Maple Bars,4A,3363
+36,Skeletons,4C,3351
+37,Night Owls,4A,3310
+38,Schilling Cider,4B,3310
+39,Wolves,4C,3302
+40,Moose Knuckle,5A,3294
+41,Greasy Weasels,4C,3284
+42,Edible Arrangements,4B,3214
+43,DevilFish,4C,3206
+44,WKUTP-4,5A,3205
+45,Hooligans,4B,3169
+46,Seagulls,5B,3146
+47,Top Cheddar,4C,3126
+48,Alpuckas,5C,3096
+49,Dead Rabbits,5A,3072
+50,Ice-O-Topes,5B,3030
+51,Yetis,5C,2991
+52,Renegades,5B,2967
+53,Stingers,5C,2955
+54,BSOD,5A,2952
+55,Lumberjacks,5D,2943
+56,Seals,5D,2933
+57,Brewzers OGB,5D,2927
+58,Piranhas,5C,2916
+59,Dumpster Fire,5A,2893
+60,Cherry Pickers,6C,2850
+61,Highlanders,5D,2828
+62,Not Sure 5,5A,2808
+63,Black Katz,5D,2735
+64,Wranglers,6C,2708
+65,Monarchs 5,5D,2706
+66,Midnight Twist,5C,2701
+67,Seattle Warriors,6A,2694
+68,Monarchs 6B,6B,2677
+69,Bullets,5C,2676
+70,Reapers,5B,2650
+71,Trash Pandas,6A,2648
+72,Blades,6C,2627
+73,Dirty Couch Hockey Club,6A,2622
+74,Jokres,6B,2616
+75,Honey Badgers,6A,2595
+76,Fossils,6A,2594
+77,Rainier Reindeer HC-6B,6B,2585
+78,Barrel Aged Brewzers,6C,2583
+79,Squids,6A,2582
+80,Mudflaps,6C,2572
+81,Greenhorns,6B,2556
+82,PussyCats,5D,2536
+83,Dumb Pucks,6B,2506
 84,Flying Monkeys,5D,2505
-85,Squids,6A,2489
-86,Hampton West Hockey Club,6D,2458
-87,Icemen,6A,2419
-88,Chucklepucks,7A,2374
-89,Not Sure 6,6D,2349
-90,Mad Dawgs,6C,2335
-91,Seattle Seals,7B,2316
-92,Raiders,6C,2299
-93,Hackers,6B,2252
-94,Mighty Boosh,6B,2245
-95,Quacken,7A,2212
-96,Trash Pandas Garbage Legacy,7A,2209
-97,Seattle Freeze,7A,2177
-98,Cascadians HC,7A,2166
-99,Real Bacon,7A,2147
-100,Fluffy Bunnies,7A,2018
-101,Nordekes,7B,2013
-102,BLU Bombers,7B,1996
-103,Birrds,7A,1980
-104,Blackouts,8A,1966
-105,Los Tigres,7A,1961
-106,Lagooners,7B,1952
-107,Glow Sticks,8A,1923
-108,Seattle Dogs,7B,1910
-109,Orcas,8A,1882
-110,Rainiers,8B,1866
-111,Iced Awesome,7A,1829
-112,Pythons,8B,1811
-113,LKI,7A,1784
-114,Bandits,8A,1778
-115,Toe Dragons,8B,1764
-116,Roughnecks Mobile Infantry,7B,1735
-117,Blackbirds,9A,1731
-118,Pond Pigeons,8A,1692
-119,Spicy Kittens HC-8,8A,1676
-120,Hungry Hatchlings,8B,1668
-121,Spittin'' Llamas,8A,1651
-122,Seattle Slapshots,8B,1645
-123,Mighty Moose,9A,1506
-124,Seal Team Sticks,8A,1505
-125,Orange Crush,8B,1478
-126,Purple Reign,8B,1472
-127,Khaos,8B,1467
-128,Red Zeppelin,9B,1463
-129,Rainier Reindeers HC-9,9B,1439
-130,SEA Cucumbers,8B,1420
-131,Scrooge McPuck,8A,1395
-132,Yacht Flippers,9A,1308
-133,Rip-Its,10B,1289
-134,Tropical Punchers,9B,1284
-135,The Axolotls,10B,1251
-136,Fighting Clams,9A,1201
-137,Spicy Kittens HC-9,9B,1143
-138,Purple Puck Eaters,9B,1115
-139,Gremlins Hockey,9B,1109
+85,Flying Monkeys ,6A,2487
+86,Icemen,6A,2415
+87,Seattle Seals,7B,2376
+88,Raiders,6C,2339
+89,Chucklepucks,7A,2330
+90,Hampton West Hockey Club,6D,2323
+91,Mad Dawgs,6C,2305
+92,Real Bacon,7A,2281
+93,Not Sure 6D,6D,2276
+94,Cascadians HC,7A,2264
+95,Trash Pandas Garbage Legacy,7A,2229
+96,Mighty Boosh,6B,2228
+97,Hackers,6B,2195
+98,Quacken,7A,2151
+99,Seattle Freeze,7A,2096
+100,Birrds,7A,2038
+101,Nordekes,7B,2038
+102,Lagooners,7B,2028
+103,Fluffy Bunnies,7A,1997
+104,Glow Sticks,8A,1977
+105,Seattle Dogs,7B,1952
+106,Blackouts,8A,1925
+107,BLU Bombers,7B,1921
+108,Los Tigres,7A,1903
+109,Iced Awesome,7A,1889
+110,Rainiers,8B,1884
+111,Orcas,8A,1828
+112,Roughnecks Mobile Infantry,7B,1782
+113,Pythons,8B,1763
+114,LKI,7A,1759
+115,Toe Dragons,8B,1756
+116,Blackbirds,9A,1753
+117,Pond Pigeons,8A,1731
+118,Bandits,8A,1718
+119,Hungry Hatchlings,8B,1676
+120,Spicy Kittens HC-8A,8A,1659
+121,Spittin'' Llamas,8A,1649
+122,Seattle Slapshots,8B,1648
+123,Red Zeppelin,9B,1525
+124,Mighty Moose,9A,1488
+125,Rainier Reindeers HC-9A,9B,1485
+126,Purple Reign,8B,1468
+127,Seal Team Sticks,8A,1466
+128,Khaos,8B,1445
+129,SEA Cucumbers,8B,1423
+130,Orange Crush,8B,1416
+131,Tropical Punchers,9B,1352
+132,Scrooge McPuck,8A,1349
+133,Yacht Flippers,9A,1326
+134,The Axolotls,10B,1266
+135,Rip-Its,10B,1222
+136,Spicy Kittens HC-9B,9B,1178
+137,Fighting Clams,9A,1155
+138,Gremlins Hockey,9B,1154
+139,Purple Puck Eaters,9B,1153
 140,Maelstrom,10B,1106
-141,Thursday Cryptids,9B,1023
-142,Beer Dragons,10A,1014
-143,Ice Breakers,9B,987
+141,Thursday Cryptids,9B,988
+142,Ice Breakers,9B,987
+143,Beer Dragons,10A,977
 144,Galactic Penguins,10B,973
-145,Mad Hat Tricks,10B,880
-146,Redrum,10B,878
-147,Puckleberries,10B,877
-148,Banana Blades,10A,866
-149,Sound Check,10B,859
+145,Puckleberries,10B,917
+146,Banana Blades,10A,866
+147,Redrum,10B,863
+148,Sound Check,10B,859
+149,Mad Hat Tricks,10B,840
 150,Salish Stellers,10B,785

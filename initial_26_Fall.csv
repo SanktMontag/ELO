@@ -47,7 +47,7 @@ Ranking,Team,Div,ELO
 46,Dumpster Fire,5A,3121
 47,Moose Knuckle,5A,3096
 48,Dead Rabbits,5A,3073
-49,WKUTP-5,5A,3050
+49,WKUTP-4,5A,3050
 50,Seagulls,5B,3022
 51,Seals,5D,3009
 52,Ice-O-Topes,5B,3006
@@ -67,7 +67,7 @@ Ranking,Team,Div,ELO
 66,Midnight Twist,5C,2717
 67,Honey Badgers,6A,2709
 68,Jokres,6B,2684
-69,Monarchs 6,6B,2673
+69,Monarchs 6B,6B,2673
 70,Fossils,6A,2662
 71,Dirty Couch Hockey Club,6A,2653
 72,Trash Pandas,6A,2624
@@ -77,7 +77,7 @@ Ranking,Team,Div,ELO
 76,Dumb Pucks,6B,2604
 77,Seattle Warriors,6A,2579
 78,Mudflaps,6C,2551
-79,Rainier Reindeer HC-6,6B,2537
+79,Rainier Reindeer HC-6B,6B,2537
 80,Monarchs 5,5D,2521
 81,Icemen,6A,2515
 82,Hampton West Hockey Club,6D,2499
@@ -89,7 +89,7 @@ Ranking,Team,Div,ELO
 88,Squids,6A,2386
 89,Hackers,6B,2359
 90,Raiders,6C,2359
-91,Not Sure 6,6D,2353
+91,Not Sure 6D,6D,2353
 92,Mighty Boosh,6B,2340
 93,Chucklepucks,7A,2309
 94,Cascadians HC,7A,2289
@@ -114,7 +114,7 @@ Ranking,Team,Div,ELO
 113,Pond Pigeons,8A,1795
 114,Pythons,8B,1788
 115,Seattle Slapshots,8B,1770
-116,Spicy Kittens HC-8,8A,1760
+116,Spicy Kittens HC-8A,8A,1760
 117,Blackouts,8A,1742
 118,Khaos,8B,1740
 119,Spittin'' Llamas,8A,1688
@@ -130,7 +130,7 @@ Ranking,Team,Div,ELO
 129,Purple Reign,8B,1464
 130,Yacht Flippers,9A,1340
 131,Ice Breakers,9B,1300
-132,Rainier Reindeers HC-9,9B,1291
+132,Rainier Reindeers HC-9A,9B,1291
 133,Fighting Clams,9A,1279
 134,Purple Puck Eaters,9B,1219
 135,Tropical Punchers,9B,1196
@@ -139,11 +139,11 @@ Ranking,Team,Div,ELO
 138,Rip-Its,10B,1153
 139,Red Zeppelin,9B,1121
 140,Gremlins Hockey,9B,1050
-141,Spicy Kittens HC-9,9B,1048
+141,Spicy Kittens HC-9B,9B,1048
 142,Galactic Penguins,10B,992
 143,Maelstrom,10B,990
-144,Division 10B Purple,10B,990
-145,Division 10B Red,10B,990
+144,Salish Stellers,10B,990
+145,Sound Check,10B,990
 146,Puckleberries,10B,990
 147,Beer Dragons,10A,984
 148,Mad Hat Tricks,10B,906
