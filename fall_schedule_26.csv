@@ -382,5 +382,64 @@ Game#,Date,Arena,Away Team,Away Score,Home Team,Home Score,Away Division,Home Di
 ,19-Oct-26,Olympic View Arena,PussyCats,5,Icemen,5,Division 6A,Division 6,REG
 ,19-Oct-26,KCI Starbucks Rink,Squids,8,Honey Badgers,6,Division 6,Division 6,REG
 ,19-Oct-26,KCI VMFH Rink,Mighty Boosh,1,Barrel Aged Brewzers,5,Division 6C,Division 6C,REG
-,19-Oct-26,Kent Valley Ice Centre,Dumb Pucks,,Blades,,Division 6C,Division 6C,
+,19-Oct-26,Kent Valley Ice Centre,Dumb Pucks,4,Blades,2,Division 6C,Division 6C,REG
 ,19-Oct-26,Everett Comm Ice Rink,Cherry Pickers,4,Midnight Twist,2,Division 5C,Division 5D,REG
+,20-Oct-26,Kent Valley Ice Centre,Otters,4,Black Sheesh,4,Women''s Division Fall 26,Women''s Division Fall 26,REG
+,20-Oct-26,Lynnwood Ice Center,Rink Flamingos,4,Red Hots,1,Women''s Division Fall 26,Women''s Division Fall 26,REG
+,20-Oct-26,KCI VMFH Rink,40+ Advanced Falk,4,40+ Advanced Spoilers,4,40+ Advanced Fall 26,40+ Advanced Fall 26,REG
+,20-Oct-26,KCI Smartsheet Rink,Jokres,2,Wranglers,2,Division 6,Division 6,REG
+,20-Oct-26,Olympic View Arena,Shake N Bake,1,Pineapple Express,3,Women's Division Fall 26,Women's Division Fall 26,REG
+,20-Oct-26,KCI Starbucks Rink,Seattle Warriors,6,Dirty Couch Hockey Club,6,Division 5D,Division 5D,REG
+,20-Oct-26,Kent Valley Ice Centre,Sirens,1,Grey Dust Bunnies,2,Women's Division Fall 26,Women's Division Fall 26,REG
+,20-Oct-26,Lynnwood Ice Center,White Yetis,6,Blue Footed Bloobies,0,Women''s Division Fall 26,Women''s Division Fall 26,REG
+,20-Oct-26,KCI VMFH Rink,40+ Advanced Rotting Rebels,4,40+ Advanced Whalers,2,40+ Advanced Fall 26,40+ Advanced Fall 26,REG
+,20-Oct-26,KCI Smartsheet Rink,40+ Advanced Bakers Dozen,2,40+ Advanced Gritty Pylons,2,40+ Advanced Fall 26,40+ Advanced Fall 26,REG
+,21-Oct-26,KCI Smartsheet Rink,Black Katz,4,Monarchs 5,4,Division 5D,Division 5D,REG
+,21-Oct-26,Kent Valley Ice Centre,40+ Puck Dynasty,3,40+ Old Navy,5,40+ Fall 26,40+ Fall 26,REG
+,21-Oct-26,KCI Starbucks Rink,Brewzers OGB,3,Bullets,0,Division 5B,Division 5D,REG
+,21-Oct-26,KCI VMFH Rink,Seals,5,Lumberjacks,3,Division 5C,Division 5C,REG
+,21-Oct-26,Everett Comm Ice Rink,40+ Rusty Blades,6,40+ Gritty Pylons,1,40+ Fall 26,40+ Fall 26,REG
+,21-Oct-26,Olympic View Arena,40+ Carl''s Seniors,1,40+ Geri Hat Tricks,2,40+ Fall 26,40+ Fall 26,REG
+,21-Oct-26,KCI Smartsheet Rink,Stingers,4,Reapers,2,Division 5B,Division 5C,REG
+,21-Oct-26,Kent Valley Ice Centre,40+ Red Flags,2,40+ Mid-Ice Crisis,2,40+ Fall 26,40+ Fall 26,REG
+,21-Oct-26,KCI Starbucks Rink,Not Sure 5,5,Yetis,6,Division 5B,Division 5B,REG
+,21-Oct-26,KCI VMFH Rink,The Mighty Geoducks,5,Mavericks,5,Division 2,Division 2,REG
+,21-Oct-26,Everett Comm Ice Rink,40+ Assisted Living,8,40+ Coldtimers,4,40+ Fall 26,40+ Fall 26,REG
+,22-Oct-26,Kent Valley Ice Centre,Top Cheddar,2,Dead Rabbits,0,Division 4C,Division 5,REG
+,22-Oct-26,KCI Smartsheet Rink,Mustangs,2,ALTP,3,Division 1,Division 1,REG
+,22-Oct-26,Lynnwood Ice Center,Piranhas,4,Highlanders,4,Division 5C,Division 5C,REG
+,22-Oct-26,Kent Valley Ice Centre,Wolves,3,BSOD,2,Division 4C,Division 5,REG
+,22-Oct-26,KCI Starbucks Rink,Northwest Crabs,2,Seattle Supernova,5,Division 1,Division 1,REG
+,22-Oct-26,Olympic View Arena,DevilFish,,WKUTP-4,,Division 4C,Division 4C,
+,22-Oct-26,KCI Smartsheet Rink,Moose Knuckle,7,Ice-O-Topes,2,Division 5,Division 5,REG
+,22-Oct-26,Lynnwood Ice Center,Dumpster Fire,3,Renegades,5,Division 5B,Division 5,REG
+,22-Oct-26,Kent Valley Ice Centre,NW Stars,4,ESB,4,Division 1,Division 1,REG
+,22-Oct-26,KCI Starbucks Rink,Alpuckas,2,Seagulls,3,Division 5B,Division 5,REG
+,24-Oct-26,KCI Smartsheet Rink,Redrum,5,Mad Hat Tricks,0,Division 10,Division 10,REG
+,24-Oct-26,KCI Smartsheet Rink,Ice Breakers,7,Puckleberries,1,Division 10A-B,Division 10,REG
+,25-Oct-26,Olympic View Arena,Spittin'' Llamas,3,Blackbirds,1,Division 8B,Division 8B,REG
+,25-Oct-26,Kent Valley Ice Centre,Roughnecks Mobile Infantry,0,Pond Pigeons,8,Division 8A,Division 8,REG
+,25-Oct-26,Olympic View Arena,Spicy Kittens HC-8A,0,Seattle Slapshots,4,Division 8A,Division 8,REG
+,25-Oct-26,Kent Valley Ice Centre,Bandits,2,Glow Sticks,2,Division 7C,Division 7C,REG
+,25-Oct-26,KCI Starbucks Rink,BLU Bombers,3,Orcas,5,Division 7C,Division 7C,REG
+,25-Oct-26,KCI Smartsheet Rink,Nordekes,1,Los Tigres,2,Division 7B,Division 7B,REG
+,25-Oct-26,Kent Valley Ice Centre,Not Sure 6D,4,Hampton West Hockey Club,2,"Division 6C,6D,7A","Division 6C,6D,7A",REG
+,25-Oct-26,KCI Starbucks Rink,Seattle Seals,4,Trash Pandas Garbage Legacy,2,"Division 6C,6D,7A","Division 6C,6D,7A",REG
+,25-Oct-26,KCI VMFH Rink,Lagooners,8,Blackouts,5,Division 7B,Division 7C,REG
+,25-Oct-26,KCI Smartsheet Rink,Seal Team Sticks,3,Toe Dragons,1,Division 8B,Division 8B,REG
+,25-Oct-26,Kent Valley Ice Centre,Thursday Cryptids,3,Gremlins Hockey,4,Division 9B,Division 9,REG
+,25-Oct-26,KCI Starbucks Rink,Scrooge McPuck,4,Yacht Flippers,0,Division 8C,Division 9,REG
+,25-Oct-26,KCI VMFH Rink,Cascadians HC,0,Fluffy Bunnies,3,"Division 6C,6D,7A","Division 6C,6D,7A",REG
+,25-Oct-26,Everett Comm Ice Rink,Fighting Clams,6,Spicy Kittens HC-9B,3,Division 9,Division 9B,REG
+,25-Oct-26,KCI Smartsheet Rink,Purple Reign,0,Mighty Moose,7,Division 8C,Division 8C,REG
+,25-Oct-26,Kent Valley Ice Centre,Khaos,1,Tropical Punchers,5,Division 8C,Division 9,REG
+,25-Oct-26,Olympic View Arena,Hungry Hatchlings,4,Red Zeppelin,4,Division 8B,Division 8B,REG
+,25-Oct-26,KCI Starbucks Rink,LKI,7,Seattle Dogs,1,Division 7B,Division 7C,REG
+,25-Oct-26,KCI VMFH Rink,Orange Crush,10,Rip-Its,0,Division 8C,Division 9,REG
+,25-Oct-26,Everett Comm Ice Rink,Iced Awesome,3,Birrds,3,Division 7B,Division 7B,REG
+,25-Oct-26,KCI Smartsheet Rink,Maelstrom,2,Banana Blades,6,Division 10,Division 9B,REG
+,25-Oct-26,Kent Valley Ice Centre,Sound Check,1,Galactic Penguins,9,Division 10,Division 10,REG
+,25-Oct-26,KCI Starbucks Rink,SEA Cucumbers,5,Rainier Reindeers HC-9A,0,Division 8C,Division 9A,REG
+,25-Oct-26,KCI VMFH Rink,The Axolotls,1,Purple Puck Eaters,11,Division 9B,Division 9B,REG
+,25-Oct-26,Olympic View Arena,Salish Stellers,1,Beer Dragons,12,Division 10,Division 9B,
+,25-Oct-26,Everett Comm Ice Rink,Pythons,2,Rainiers,2,Division 8,Division 8,REG
