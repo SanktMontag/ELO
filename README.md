@@ -31,9 +31,11 @@ py -3.14 -m venv .venv
 .venv\Scripts\python -m pytest          # all tests should pass
 ```
 
-**Publishing:** the website runs `app/streamlit_app.py` on Streamlit Community Cloud, from this project's
-GitHub repo. `requirements.txt` installs the project. The site only reads files in `output/`, so changes
-appear once you commit and push.
+**Publishing:** the website (https://khlelo.streamlit.app/) runs on Streamlit Community Cloud from the
+`main` branch of this project's GitHub repo, with `streamlit.py` as its main file; that file just runs
+`app/streamlit_app.py`. `requirements.txt` installs the project. The site only reads files in `output/`,
+so changes appear once you commit and push to `main`. (Because of the root `streamlit.py`, run plain
+`python -c "import streamlit"`-style commands from outside the repo root; `streamlit run` and `khl` are fine.)
 
 ## 2. Every session: activate the environment
 
