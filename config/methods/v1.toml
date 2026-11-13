@@ -1,0 +1,35 @@
+name = "v1"
+description = "Legacy model with S−E update fix, formula GD multiplier, tuned draw factor"
+
+# Tuned 2026-11-13 with `khl backtest` over Fall 25, Summer 26, Fall 26 (3,271 games):
+#   legacy (k=75, scale=400, d=0.888): ES-Brier 0.2144, log-loss 0.998, ties predicted 4.5% vs 11.5% actual
+#   v1     (k=50, scale=800, d=0.75):  ES-Brier ~0.204, log-loss 0.929, ties predicted 11.5%
+# Re-run the backtest each season and adjust if calibration drifts.
+
+# Logistic scale: a `scale`-point gap means 10:1 expected-score odds.
+# 400 was badly overconfident given how seeds are spread across the ladder.
+scale = 800
+# Base K-factor (rating points per unit of S−E, before the GD multiplier).
+k = 50
+# Splits expected score E into Win/Tie/Loss: tie = 2·E·(1−E)·(1−draw_factor).
+# Display/prediction only; does not change ratings.
+draw_factor = 0.75
+
+[gd]
+# Goal-difference multiplier G: 1 goal, 2 goals, 3 goals, +step per extra goal, capped.
+one_goal = 1.0
+two_goals = 1.5
+three_goals = 1.75
+step = 0.125
+cap = 3.25
+
+[season]
+# Applied when building next season's seeds (`khl season new`):
+#   R_start = R_end + f × (division_mean − R_end),  f = min(1, offseason_regression + hiatus_per_season × missed)
+# division_mean = mean of carried ratings in the division the team is listed in for the new season.
+# Chained backtest (carry v1 ratings Fall 25 -> Summer 26 -> Fall 26, ES-Brier on the carried seasons):
+#   f=0: 0.2031   0.25: 0.1997   0.33: 0.1991   0.5: 0.1982   0.75: 0.1984   1.0: 0.2003
+#   (hand-made seeds scored 0.1981, so 0.5 matches them without manual work)
+offseason_regression = 0.5
+# Extra pull per missed season: 1 missed -> 75%, 2+ missed -> 100% (full reset to division mean)
+hiatus_per_season = 0.25

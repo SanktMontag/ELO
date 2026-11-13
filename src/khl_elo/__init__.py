@@ -1,0 +1,1 @@
+"""KHL ELO rating pipeline."""
