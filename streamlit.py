@@ -1,4 +1,8 @@
-import streamlit as st
+"""Entry point for the deployed app (Streamlit Cloud's main file is streamlit.py).
 
-pg = st.navigation([st.Page("khl_elo.py", title="KHL ELO", icon=":material/line_axis:"), st.Page("elo_explained.py", title="What is ELO?", icon=":material/help:")])
-pg.run()
+The app itself lives in app/streamlit_app.py; this just runs it.
+"""
+import runpy
+from pathlib import Path
+
+runpy.run_path(str(Path(__file__).resolve().parent / "app" / "streamlit_app.py"), run_name="__main__")

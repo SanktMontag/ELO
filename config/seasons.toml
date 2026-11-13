@@ -1,0 +1,37 @@
+# Ordered list of seasons (oldest first). Order matters: it drives carry-over
+# and hiatus counting.
+#
+# legacy = true  -> season was computed by the old scripts (method "legacy-v0").
+#                   Its outputs are kept read-only under data/legacy/v0 and
+#                   shown in the app with a "different method" notice.
+# legacy = false -> season is computed by this pipeline from `schedule` + `seed`.
+
+[[season]]
+id = "2025-fall"
+label = "Fall 2025"
+legacy = true
+schedule = "data/legacy/v0/raw/fall_schedule_25.csv"
+legacy_seed = "data/legacy/v0/raw/initial_25_Fall.csv"
+legacy_ratings = "data/legacy/v0/output_ratings_fall_25.csv"
+legacy_team_games = "data/legacy/v0/game_graph_fall_25.csv"
+
+[[season]]
+id = "2026-summer"
+label = "Summer 2026"
+legacy = true
+schedule = "data/legacy/v0/raw/summer_schedule_26.csv"
+legacy_seed = "data/legacy/v0/raw/initial_26_Summer.csv"
+legacy_ratings = "data/legacy/v0/output_ratings_summer_26.csv"
+legacy_team_games = "data/legacy/v0/game_graph_summer_26.csv"
+
+[[season]]
+id = "2026-fall"
+label = "Fall 2026"
+legacy = false
+schedule = "data/raw/schedules/2026-fall.csv"
+seed = "data/seeds/2026-fall.csv"
+methods = ["v1"]
+# The legacy scripts also produced Fall 2026 output; kept for comparison.
+legacy_seed = "data/legacy/v0/raw/initial_26_Fall.csv"
+legacy_ratings = "data/legacy/v0/output_ratings_fall_26.csv"
+legacy_team_games = "data/legacy/v0/game_graph_fall_26.csv"

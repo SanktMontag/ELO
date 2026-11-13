@@ -1,0 +1,150 @@
+Ranking,team_id,Team,Div,ELO,GP,W,L,T,GF,GA,Start ELO,Season +/-,Status
+1,T0001,ALTP,1,4554,6,5,1,0,37,24,4481,73,active
+2,T0004,NW Stars,1,4433,6,4,1,1,30,25,4336,97,active
+3,T0006,ESB,1,4388,7,5,1,1,46,30,4192,196,active
+4,T0002,Northwest Crabs,1,4283,6,2,3,1,27,29,4392,-109,active
+5,T0008,Mavericks,2,4232,6,3,1,2,35,25,4150,82,active
+6,T0005,The Brigade,2,4196,6,2,3,1,32,32,4238,-42,active
+7,T0009,Seattle Supernova,1,4178,6,2,3,1,25,28,4149,29,active
+8,T0011,The Mighty Geoducks,2,4177,7,4,1,2,36,26,4058,119,active
+9,T0003,Falcons,1,4150,5,0,5,0,18,32,4343,-193,active
+10,T0016,Pull Tab Bandits,3A,4138,6,4,1,1,27,9,4006,132,active
+11,T0010,Mustangs,1,4137,6,2,3,1,21,28,4144,-7,active
+12,T0013,Rhinos,2,4118,5,3,1,1,32,27,4053,65,active
+13,T0012,Eagles,3A,4099,6,3,2,1,44,27,4055,44,active
+14,T0014,Fighting Narwhals,2,4017,5,1,2,2,23,21,4024,-7,active
+15,T0007,Chiefs,2,4005,5,0,4,1,27,42,4169,-164,active
+16,T0017,Pheasants,2,3952,5,1,3,1,24,29,3984,-32,active
+17,T0015,Red Dog,2,3948,6,2,3,1,17,27,4018,-70,active
+18,T0019,Puckbuddies,3A,3877,6,4,2,0,35,32,3815,62,active
+19,T0022,MMHC,3B,3876,6,4,2,0,30,20,3789,87,active
+20,T0020,Sasquatch,3A,3872,5,3,1,1,22,20,3813,59,active
+21,T0021,Puget Sound Pigeons,3A,3814,6,2,3,1,27,26,3796,18,active
+22,T0018,The Herd,3A,3754,6,1,5,0,27,47,3925,-171,active
+23,T0024,Bombers,3B,3665,4,2,2,0,15,23,3704,-39,active
+24,T0023,Goal Diggers,3B,3661,5,2,2,1,15,23,3711,-50,active
+25,T0030,Breakers,3B,3558,5,3,1,1,21,13,3438,120,active
+26,T0026,Sabercats,4A,3547,6,2,3,1,31,25,3587,-40,active
+27,T0031,Skateful Dead,4A,3543,6,4,1,1,34,24,3436,107,active
+28,T0025,Shockers,3B,3517,6,1,5,0,18,32,3663,-146,active
+29,T0027,Chinooks,3B,3473,5,1,3,1,13,21,3527,-54,active
+30,T0036,Mighty Mallards,4A,3454,6,4,2,0,31,21,3347,107,active
+31,T0028,LLUA,4B,3439,5,2,2,1,19,19,3474,-35,active
+32,T0029,Skeletons,4B,3436,6,2,2,2,20,21,3443,-7,active
+33,T0038,Kraken Up,4B,3429,6,4,1,1,31,22,3325,104,active
+34,T0032,Steelhead,4A,3427,6,2,3,1,23,20,3436,-9,active
+35,T0041,Schilling Cider,4B,3391,6,3,0,3,30,18,3258,133,active
+36,T0040,Wolves,4C,3349,6,4,1,1,23,19,3295,54,active
+37,T0033,Coconut Corgis,4A,3338,5,2,3,0,16,28,3406,-68,active
+38,T0035,Maple Bars,4B,3338,5,2,3,0,15,20,3383,-45,active
+39,T0034,Night Owls,4A,3316,6,1,3,2,21,30,3385,-69,active
+40,T0043,Greasy Weasels,4C,3250,6,3,1,2,20,17,3203,47,active
+41,T0039,DevilFish,4C,3233,6,1,3,2,18,21,3297,-64,active
+42,T0050,Seagulls,5A,3231,7,7,0,0,41,20,3022,209,active
+43,T0037,Edible Arrangements,4B,3229,6,1,4,1,23,36,3345,-116,active
+44,T0047,Moose Knuckle,5A,3186,7,5,2,0,32,19,3096,90,active
+45,T0049,WKUTP-4,4C,3177,6,4,2,0,29,17,3050,127,active
+46,T0042,Top Cheddar,4C,3114,7,2,5,0,21,27,3212,-98,active
+47,T0044,Hooligans,4C,3108,5,1,3,1,12,24,3195,-87,active
+48,T0053,Alpuckas,5B,3104,7,5,2,0,40,26,2990,114,active
+49,T0055,Stingers,5B,3087,7,6,1,0,30,22,2973,114,active
+50,T0048,Dead Rabbits,5A,3021,7,3,4,0,22,23,3073,-52,active
+51,T0052,Ice-O-Topes,5A,3007,7,4,3,0,18,23,3006,1,active
+52,T0046,Dumpster Fire,5B,3002,7,2,5,0,27,33,3121,-119,active
+53,T0045,BSOD,5A,2988,7,1,6,0,16,28,3131,-143,active
+54,T0061,Renegades,5A,2974,7,4,3,0,38,29,2823,151,active
+55,T0056,Piranhas,5C,2957,7,3,1,3,29,22,2912,45,active
+56,T0054,Yetis,5B,2947,6,3,3,0,21,25,2977,-30,active
+57,T0051,Seals,5C,2929,7,2,4,1,21,23,3009,-80,active
+58,T0057,Lumberjacks,5C,2857,6,2,3,1,32,31,2886,-29,active
+59,T0062,Highlanders,5C,2850,7,4,2,1,27,25,2797,53,active
+60,T0059,Brewzers OGB,5B,2845,6,3,3,0,21,24,2850,-5,active
+61,T0064,Black Katz,5D,2778,7,3,2,2,24,21,2783,-5,active
+62,T0058,Not Sure 5,5B,2728,7,1,6,0,29,46,2853,-125,active
+63,T0084,Cherry Pickers,5C,2721,7,4,0,3,35,16,2471,250,active
+64,T0069,Monarchs 6B,6B,2716,7,3,1,3,29,23,2673,43,active
+65,T0068,Jokres,6A,2689,7,4,2,1,25,26,2684,5,active
+66,T0060,Bullets,5D,2679,7,1,6,0,18,33,2831,-152,active
+67,T0065,PussyCats,6A,2678,7,3,3,1,32,39,2724,-46,active
+68,T0066,Midnight Twist,5D,2675,7,3,4,0,18,20,2717,-42,active
+69,T0071,Dirty Couch Hockey Club,5D,2673,7,2,1,4,23,23,2653,20,active
+70,T0074,Wranglers,6A,2666,7,4,1,2,30,22,2608,58,active
+71,T0063,Reapers,5C,2665,6,1,5,0,10,29,2784,-119,active
+72,T0082,Blades,6C,2654,7,6,1,0,32,16,2497,157,active
+73,T0077,Mudflaps,6B,2651,7,5,1,1,30,17,2551,100,active
+74,T0076,Seattle Warriors,5D,2650,7,4,2,1,30,26,2579,71,active
+75,T0070,Fossils,6B,2646,7,3,3,1,27,23,2662,-16,active
+76,T0083,Barrel Aged Brewzers,6C,2643,7,6,1,0,29,17,2471,172,active
+77,T0072,Trash Pandas,6C,2630,6,4,2,0,29,20,2624,6,active
+78,T0067,Honey Badgers,6A,2580,7,1,4,2,28,31,2709,-129,active
+79,T0075,Dumb Pucks,6C,2576,7,3,3,1,33,31,2604,-28,active
+80,T0079,Monarchs 5,5D,2568,7,2,4,1,35,23,2521,47,active
+81,T0080,Icemen,6A,2546,7,3,3,1,36,38,2515,31,active
+82,T0078,Rainier Reindeer HC-6B,6B,2529,6,1,2,3,18,15,2537,-8,active
+83,T0086,Greenhorns,6B,2491,6,3,1,2,19,15,2429,62,active
+84,T0087,Squids,6A,2431,7,2,3,2,27,28,2386,45,active
+85,T0073,Flying Monkeys,6B,2403,7,0,5,2,16,41,2614,-211,active
+86,T0100,Seattle Seals,6D/7A,2393,8,8,0,0,44,9,2035,358,active
+87,T0081,Hampton West Hockey Club,6D/7A,2328,7,1,4,2,17,30,2499,-171,active
+88,T0094,Real Bacon,6D/7A,2307,6,3,2,1,20,16,2270,37,active
+89,T0093,Cascadians HC,6D/7A,2302,8,4,3,1,34,25,2289,13,active
+90,T0089,Raiders,6D/7A,2290,6,1,4,1,17,20,2359,-69,active
+91,T0092,Chucklepucks,6C,2289,6,2,3,1,20,25,2309,-20,active
+92,T0085,Mad Dawgs,6C,2266,7,0,6,1,9,33,2471,-205,active
+93,T0090,Not Sure 6D,6D/7A,2266,7,2,5,0,13,25,2353,-87,active
+94,T0097,Trash Pandas Garbage Legacy,6D/7A,2211,7,5,2,0,25,19,2118,93,active
+95,T0091,Mighty Boosh,6D/7A,2206,7,1,6,0,14,29,2340,-134,active
+96,T0088,Hackers,6D/7A,2190,6,1,5,0,8,29,2359,-169,active
+97,T0101,Quacken,6D/7A,2177,7,5,2,0,19,13,2016,161,active
+98,T0111,Lagooners,7B,2036,7,6,1,0,40,22,1807,229,active
+99,T0095,Fluffy Bunnies,6D/7A,2031,8,2,6,0,18,30,2169,-138,active
+100,T0108,Nordekes,7B,2018,7,5,2,0,25,12,1865,153,active
+101,T0099,Seattle Freeze,6D/7A,2004,7,2,5,0,28,34,2071,-67,active
+102,T0096,Birrds,7B,1998,7,2,4,1,25,38,2127,-129,active
+103,T0119,Glow Sticks,7C,1993,8,7,0,1,46,10,1648,345,active
+104,T0104,Orcas,7C,1967,7,5,2,0,21,20,1925,42,active
+105,T0102,Iced Awesome,7B,1954,7,3,3,1,22,20,1947,7,active
+106,T0098,Los Tigres,7B,1925,7,2,5,0,17,30,2074,-149,active
+107,T0103,BLU Bombers,7C,1895,8,4,4,0,31,31,1925,-30,active
+108,T0113,Pythons,8A,1894,8,5,2,1,33,15,1788,106,active
+109,T0107,Rainiers,8A,1884,8,4,2,2,26,21,1878,6,active
+110,T0109,Seattle Dogs,7C,1843,8,4,4,0,31,35,1864,-21,active
+111,T0112,Pond Pigeons,7C,1834,8,4,3,1,31,16,1795,39,active
+112,T0105,LKI,7B,1802,7,1,5,1,20,33,1916,-114,active
+113,T0125,Blackbirds,8B,1775,8,7,1,0,35,10,1568,207,active
+114,T0116,Blackouts,7C,1761,8,3,4,1,37,33,1742,19,active
+115,T0114,Seattle Slapshots,8A,1748,8,2,2,4,18,24,1770,-22,active
+116,T0110,Bandits,7C,1697,8,1,5,2,21,37,1856,-159,active
+117,T0118,Spittin' Llamas,8B,1684,8,2,3,3,26,23,1688,-4,active
+118,T0122,Toe Dragons,8B,1664,8,5,2,1,32,22,1588,76,active
+119,T0106,Roughnecks Mobile Infantry,8A,1655,8,1,6,1,17,39,1879,-224,active
+120,T0115,Spicy Kittens HC-8A,8A,1628,7,1,5,1,11,29,1760,-132,active
+121,T0127,Mighty Moose,8C,1589,7,4,2,1,24,12,1484,105,active
+122,T0126,Hungry Hatchlings,8B,1564,8,3,1,4,24,21,1519,45,active
+123,T0123,SEA Cucumbers,8C,1545,8,2,3,3,21,26,1586,-41,active
+124,T0117,Khaos,8C,1541,8,2,5,1,32,37,1740,-199,active
+125,T0124,Seal Team Sticks,8B,1515,8,2,5,1,19,32,1570,-55,active
+126,T0120,Orange Crush,8C,1453,8,2,6,0,23,25,1624,-171,active
+127,T0131,Rainier Reindeers HC-9A,9A,1439,8,6,2,0,35,22,1291,148,active
+128,T0138,Red Zeppelin,8B,1426,8,6,1,1,44,19,1121,305,active
+129,T0128,Purple Reign,8C,1380,8,2,5,1,23,36,1464,-84,active
+130,T0129,Yacht Flippers,9A,1373,8,4,3,1,28,21,1340,33,active
+131,T0121,Scrooge McPuck,8C,1365,7,1,6,0,16,56,1596,-231,active
+132,T0134,Tropical Punchers,9A,1304,8,5,3,0,32,20,1196,108,active
+133,T0132,Fighting Clams,9A,1222,8,3,5,0,27,37,1279,-57,active
+134,T0130,Ice Breakers,10A-B,1219,7,3,4,0,33,23,1300,-81,active
+135,T0133,Purple Puck Eaters,9B,1196,8,4,4,0,31,34,1219,-23,active
+136,T0140,Spicy Kittens HC-9B,9B,1188,8,6,2,0,34,26,1048,140,active
+137,T0136,The Axolotls,9B,1180,8,6,2,0,28,24,1165,15,active
+138,T0139,Gremlins Hockey,9A,1151,8,5,2,1,23,20,1050,101,active
+139,T0137,Rip-Its,9A,1094,8,3,4,1,24,40,1153,-59,active
+140,T0142,Maelstrom,10A-B,1027,7,4,2,1,22,17,990,37,active
+141,T0141,Galactic Penguins,10A-B,1006,7,3,2,2,17,12,992,14,active
+142,T0135,Thursday Cryptids,9B,995,8,1,7,0,25,38,1175,-180,active
+143,T0146,Beer Dragons,9B,973,8,2,5,1,28,20,984,-11,active
+144,T0147,Mad Hat Tricks,10A-B,906,8,3,5,0,32,21,906,0,active
+145,T0148,Banana Blades,9B,876,7,4,3,0,27,27,750,126,active
+146,T0145,Puckleberries,10A-B,848,8,1,5,2,7,26,990,-142,active
+147,T0144,Sound Check,10A-B,832,7,1,4,2,13,33,990,-158,active
+148,T0149,Redrum,10A-B,827,8,3,3,2,28,30,732,95,active
+149,T0143,Salish Stellers,10A-B,714,7,0,5,2,10,48,990,-276,active

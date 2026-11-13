@@ -1,0 +1,507 @@
+game_id,Date,Game Type,Away,Home,Away Score,Home Score,Away Div,Home Div,Away ELO Prior,Home ELO Prior,Away E %,Away Delta,Home Delta,Away ELO Post,Home ELO Post,away_id,home_id
+2026-09-20|The Axolotls@Maelstrom|KCI Starbucks Rink,2026-09-20,REG,The Axolotls,Maelstrom,3,1,10,10,1165,990,62.3,28,-28,1193,962,T0136,T0142
+2026-09-20|Banana Blades@Galactic Penguins|Olympic View Arena,2026-09-20,REG,Banana Blades,Galactic Penguins,5,0,10,10,750,992,33.3,67,-67,817,925,T0148,T0141
+2026-09-20|Gremlins Hockey@Beer Dragons|Kent Valley Ice Centre,2026-09-20,REG,Gremlins Hockey,Beer Dragons,2,1,9,10,1050,984,54.7,23,-23,1073,961,T0139,T0146
+2026-09-20|Red Zeppelin@Ice Breakers|KCI Starbucks Rink,2026-09-20,REG,Red Zeppelin,Ice Breakers,4,3,9,9,1121,1300,37.4,31,-31,1152,1269,T0138,T0130
+2026-09-20|Tropical Punchers@Spicy Kittens HC-9B|KCI VMFH Rink,2026-09-20,REG,Tropical Punchers,Spicy Kittens HC-9B,3,0,9,9,1196,1048,60.5,35,-35,1231,1013,T0134,T0140
+2026-09-20|Thursday Cryptids@Rainier Reindeers HC-9A|Olympic View Arena,2026-09-20,REG,Thursday Cryptids,Rainier Reindeers HC-9A,2,3,9,9,1175,1291,41.7,-21,21,1154,1312,T0135,T0131
+2026-09-20|Puckleberries@Rip-Its|accesso ShoWare Center,2026-09-20,REG,Puckleberries,Rip-Its,0,9,10,10,990,1153,38.5,-48,48,942,1201,T0145,T0137
+2026-09-20|Blackbirds@Fighting Clams|Kent Valley Ice Centre,2026-09-20,REG,Blackbirds,Fighting Clams,9,2,9,9,1568,1279,69.7,34,-34,1602,1245,T0125,T0132
+2026-09-20|Orange Crush@Mighty Moose|Angel of the Winds Arena,2026-09-20,REG,Orange Crush,Mighty Moose,2,5,8,9,1624,1484,59.9,-52,52,1572,1536,T0120,T0127
+2026-09-20|Salish Stellers@Redrum|KCI Starbucks Rink,2026-09-20,REG,Salish Stellers,Redrum,0,9,10,10,990,732,67.8,-85,85,905,817,T0143,T0149
+2026-09-20|SEA Cucumbers@Hungry Hatchlings|Everett Comm Ice Rink,2026-09-20,REG,SEA Cucumbers,Hungry Hatchlings,1,1,8,8,1586,1519,54.8,-2,2,1584,1521,T0123,T0126
+2026-09-20|Rainiers@Toe Dragons|KCI VMFH Rink,2026-09-20,REG,Rainiers,Toe Dragons,3,4,8,8,1878,1588,69.7,-35,35,1843,1623,T0107,T0122
+2026-09-20|Seal Team Sticks@Pythons|KCI Smartsheet Rink,2026-09-20,REG,Seal Team Sticks,Pythons,0,6,8,8,1570,1788,34.8,-37,37,1533,1825,T0124,T0113
+2026-09-20|Yacht Flippers@Purple Puck Eaters|accesso ShoWare Center,2026-09-20,REG,Yacht Flippers,Purple Puck Eaters,4,2,9,9,1340,1219,58.6,31,-31,1371,1188,T0129,T0133
+2026-09-20|Glow Sticks@Seattle Slapshots|Kent Valley Ice Centre,2026-09-20,REG,Glow Sticks,Seattle Slapshots,11,1,8,8,1648,1770,41.3,77,-77,1725,1693,T0119,T0114
+2026-09-20|Scrooge McPuck@Spittin' Llamas|Angel of the Winds Arena,2026-09-20,REG,Scrooge McPuck,Spittin' Llamas,0,8,8,8,1596,1688,43.4,-52,52,1544,1740,T0121,T0118
+2026-09-20|Pond Pigeons@Blackouts|KCI Starbucks Rink,2026-09-20,REG,Pond Pigeons,Blackouts,2,6,8,8,1795,1742,53.8,-50,50,1745,1792,T0112,T0116
+2026-09-20|Monarchs 6B@Icemen|Everett Comm Ice Rink,2026-09-20,REG,Monarchs 6B,Icemen,5,7,6,6,2673,2515,61.2,-46,46,2627,2561,T0069,T0080
+2026-09-20|Seattle Dogs@Roughnecks Mobile Infantry|KCI VMFH Rink,2026-09-20,REG,Seattle Dogs,Roughnecks Mobile Infantry,5,3,7,7,1864,1879,48.9,38,-38,1902,1841,T0109,T0106
+2026-09-20|Nordekes@Lagooners|KCI Smartsheet Rink,2026-09-20,REG,Nordekes,Lagooners,2,4,7,7,1865,1807,54.2,-41,41,1824,1848,T0108,T0111
+2026-09-20|Iced Awesome@BLU Bombers|Kent Valley Ice Centre,2026-09-20,REG,Iced Awesome,BLU Bombers,4,7,7,7,1947,1925,51.6,-45,45,1902,1970,T0102,T0103
+2026-09-20|Khaos@Purple Reign|accesso ShoWare Center,2026-09-20,REG,Khaos,Purple Reign,3,8,8,8,1740,1464,68.9,-69,69,1671,1533,T0117,T0128
+2026-09-20|LKI@Seattle Seals|Angel of the Winds Arena,2026-09-20,REG,LKI,Seattle Seals,0,4,7,7,1916,2035,41.5,-39,39,1877,2074,T0105,T0100
+2026-09-20|Sound Check@Mad Hat Tricks|KCI Starbucks Rink,2026-09-20,REG,Sound Check,Mad Hat Tricks,0,7,10,10,990,906,56.0,-63,63,927,969,T0144,T0147
+2026-09-20|Cascadians HC@Los Tigres|Everett Comm Ice Rink,2026-09-20,REG,Cascadians HC,Los Tigres,7,1,7,7,2289,2074,65.0,37,-37,2326,2037,T0093,T0098
+2026-09-20|Quacken@Birrds|KCI VMFH Rink,2026-09-20,REG,Quacken,Birrds,5,1,7,7,2016,2127,42.1,54,-54,2070,2073,T0101,T0096
+2026-09-20|Fluffy Bunnies@Seattle Freeze|KCI Smartsheet Rink,2026-09-20,REG,Fluffy Bunnies,Seattle Freeze,1,6,7,7,2169,2071,57.0,-57,57,2112,2128,T0095,T0099
+2026-09-20|Not Sure 6D@Chucklepucks|Kent Valley Ice Centre,2026-09-20,REG,Not Sure 6D,Chucklepucks,2,3,6,7,2353,2309,53.2,-27,27,2326,2336,T0090,T0092
+2026-09-20|Real Bacon@Trash Pandas Garbage Legacy|Olympic View Arena,2026-09-20,REG,Real Bacon,Trash Pandas Garbage Legacy,1,0,7,7,2270,2118,60.8,20,-20,2290,2098,T0094,T0097
+2026-09-20|Spicy Kittens HC-8A@Bandits|accesso ShoWare Center,2026-09-20,REG,Spicy Kittens HC-8A,Bandits,3,8,8,8,1760,1856,43.1,-43,43,1717,1899,T0115,T0110
+2026-09-20|Mudflaps@Raiders|Angel of the Winds Arena,2026-09-20,REG,Mudflaps,Raiders,4,2,6,6,2551,2359,63.5,27,-27,2578,2332,T0077,T0089
+2026-09-20|Hampton West Hockey Club@Trash Pandas|KCI Starbucks Rink,2026-09-20,REG,Hampton West Hockey Club,Trash Pandas,3,10,6,6,2499,2624,41.1,-46,46,2453,2670,T0081,T0072
+2026-09-20|Blades@Barrel Aged Brewzers|Everett Comm Ice Rink,2026-09-20,REG,Blades,Barrel Aged Brewzers,7,3,6,6,2497,2471,51.9,45,-45,2542,2426,T0082,T0083
+2026-09-20|Wranglers@Hackers|KCI VMFH Rink,2026-09-20,REG,Wranglers,Hackers,7,0,6,6,2608,2359,67.2,37,-37,2645,2322,T0074,T0088
+2026-09-20|Greenhorns@Mighty Boosh|KCI Smartsheet Rink,2026-09-20,REG,Greenhorns,Mighty Boosh,3,2,6,6,2429,2340,56.4,22,-22,2451,2318,T0086,T0091
+2026-09-20|Seattle Warriors@Dumb Pucks|Kent Valley Ice Centre,2026-09-20,REG,Seattle Warriors,Dumb Pucks,9,5,6,6,2579,2604,48.2,49,-49,2628,2555,T0076,T0075
+2026-09-20|Highlanders@Midnight Twist|Olympic View Arena,2026-09-20,REG,Highlanders,Midnight Twist,3,2,5,5,2797,2717,55.7,22,-22,2819,2695,T0062,T0066
+2026-09-20|Mad Dawgs@Rainier Reindeer HC-6B|Angel of the Winds Arena,2026-09-20,REG,Mad Dawgs,Rainier Reindeer HC-6B,0,6,6,6,2471,2537,45.3,-48,48,2423,2585,T0085,T0078
+2026-09-20|Flying Monkeys@Cherry Pickers|KCI Starbucks Rink,2026-09-20,REG,Flying Monkeys,Cherry Pickers,2,4,6,6,2614,2471,60.1,-45,45,2569,2516,T0073,T0084
+2026-09-20|Monarchs 5@Honey Badgers|Everett Comm Ice Rink,2026-09-20,REG,Monarchs 5,Honey Badgers,10,4,5,6,2521,2709,36.8,67,-67,2588,2642,T0079,T0067
+2026-09-21|Dirty Couch Hockey Club@Jokres|Kent Valley Ice Centre,2026-09-21,REG,Dirty Couch Hockey Club,Jokres,4,1,6,6,2653,2684,47.8,46,-46,2699,2638,T0071,T0068
+2026-09-21|Squids@Fossils|KCI Starbucks Rink,2026-09-21,REG,Squids,Fossils,4,6,6,6,2386,2662,31.1,-23,23,2363,2685,T0087,T0070
+2026-09-21|Black Katz@PussyCats|Kent Valley Ice Centre,2026-09-21,REG,Black Katz,PussyCats,8,2,5,5,2783,2724,54.2,49,-49,2832,2675,T0064,T0065
+2026-09-21|Seals@Piranhas|KCI VMFH Rink,2026-09-21,REG,Seals,Piranhas,4,4,5,5,3009,2912,56.9,-3,3,3006,2915,T0051,T0056
+2026-09-21|Stingers@Bullets|Everett Comm Ice Rink,2026-09-21,REG,Stingers,Bullets,5,2,5,5,2973,2831,60.1,35,-35,3008,2796,T0055,T0060
+2026-09-21|Seagulls@Reapers|Angel of the Winds Arena,2026-09-21,REG,Seagulls,Reapers,6,1,5,5,3022,2784,66.5,34,-34,3056,2750,T0050,T0063
+2026-09-21|Not Sure 5@Renegades|Olympic View Arena,2026-09-21,REG,Not Sure 5,Renegades,4,2,5,5,2853,2823,52.2,36,-36,2889,2787,T0058,T0061
+2026-09-21|Dead Rabbits@Ice-O-Topes|KCI Starbucks Rink,2026-09-21,REG,Dead Rabbits,Ice-O-Topes,2,3,5,5,3073,3006,54.8,-27,27,3046,3033,T0048,T0052
+2026-09-21|Yetis@Alpuckas|Kent Valley Ice Centre,2026-09-21,REG,Yetis,Alpuckas,2,8,5,5,2977,2990,49.1,-52,52,2925,3042,T0054,T0053
+2026-09-21|WKUTP-4@Dumpster Fire|KCI VMFH Rink,2026-09-21,REG,WKUTP-4,Dumpster Fire,10,3,5,5,3050,3121,44.9,62,-62,3112,3059,T0049,T0046
+2026-09-21|BSOD@Moose Knuckle|Everett Comm Ice Rink,2026-09-21,REG,BSOD,Moose Knuckle,3,8,5,5,3131,3096,52.5,-53,53,3078,3149,T0045,T0047
+2026-09-21|Skeletons@Schilling Cider|Angel of the Winds Arena,2026-09-21,REG,Skeletons,Schilling Cider,3,3,4,4,3443,3258,63.0,-7,7,3436,3265,T0029,T0041
+2026-09-22|DevilFish@Top Cheddar|accesso ShoWare Center,2026-09-22,REG,DevilFish,Top Cheddar,4,5,4,4,3297,3212,56.1,-28,28,3269,3240,T0039,T0042
+2026-09-22|Edible Arrangements@Mighty Mallards|accesso ShoWare Center,2026-09-22,REG,Edible Arrangements,Mighty Mallards,3,9,4,4,3345,3347,49.9,-53,53,3292,3400,T0037,T0036
+2026-09-22|LLUA@Maple Bars|Kent Valley Ice Centre,2026-09-22,REG,LLUA,Maple Bars,0,5,4,4,3474,3383,56.5,-57,57,3417,3440,T0028,T0035
+2026-09-22|Wolves@Greasy Weasels|KCI Smartsheet Rink,2026-09-22,REG,Wolves,Greasy Weasels,3,5,4,4,3295,3203,56.6,-42,42,3253,3245,T0040,T0043
+2026-09-22|Night Owls@Steelhead|accesso ShoWare Center,2026-09-22,REG,Night Owls,Steelhead,3,3,4,4,3385,3436,46.3,2,-2,3387,3434,T0034,T0032
+2026-09-22|Coconut Corgis@Skateful Dead|Kent Valley Ice Centre,2026-09-22,REG,Coconut Corgis,Skateful Dead,3,8,4,4,3406,3436,47.8,-48,48,3358,3484,T0033,T0031
+2026-09-22|Sabercats@Breakers|KCI Smartsheet Rink,2026-09-22,REG,Sabercats,Breakers,3,6,4,4,3587,3438,60.6,-53,53,3534,3491,T0026,T0030
+2026-09-23|Kraken Up@Hooligans|KCI Smartsheet Rink,2026-09-23,REG,Kraken Up,Hooligans,6,1,4,4,3325,3195,59.2,41,-41,3366,3154,T0038,T0044
+2026-09-23|Chinooks@Bombers|KCI Starbucks Rink,2026-09-23,REG,Chinooks,Bombers,1,7,3,3,3527,3704,37.5,-40,40,3487,3744,T0027,T0024
+2026-09-23|Shockers@Goal Diggers|Everett Comm Ice Rink,2026-09-23,REG,Shockers,Goal Diggers,5,1,3,3,3663,3711,46.6,50,-50,3713,3661,T0025,T0023
+2026-09-23|Sasquatch@MMHC|Olympic View Arena,2026-09-23,REG,Sasquatch,MMHC,4,3,3,3,3813,3789,51.7,24,-24,3837,3765,T0020,T0022
+2026-09-23|Eagles@Puckbuddies|KCI Starbucks Rink,2026-09-23,REG,Eagles,Puckbuddies,6,7,3,3,4055,3815,66.6,-33,33,4022,3848,T0012,T0019
+2026-09-23|The Herd@Puget Sound Pigeons|Everett Comm Ice Rink,2026-09-23,REG,The Herd,Puget Sound Pigeons,5,3,3,3,3925,3796,59.2,31,-31,3956,3765,T0018,T0021
+2026-09-24|Chiefs@Northwest Crabs|Kent Valley Ice Centre,2026-09-24,REG,Chiefs,Northwest Crabs,4,7,2,2,4169,4392,34.5,-30,30,4139,4422,T0007,T0002
+2026-09-24|ESB@Mustangs|KCI Smartsheet Rink,2026-09-24,REG,ESB,Mustangs,6,4,1,1,4192,4144,53.4,35,-35,4227,4109,T0006,T0010
+2026-09-24|Seattle Supernova@NW Stars|Lynnwood Ice Center,2026-09-24,REG,Seattle Supernova,NW Stars,3,4,1,1,4149,4336,36.9,-18,18,4131,4354,T0009,T0004
+2026-09-24|Pull Tab Bandits@Rhinos|Kent Valley Ice Centre,2026-09-24,REG,Pull Tab Bandits,Rhinos,7,2,3,3,4006,4053,46.6,53,-53,4059,4000,T0016,T0013
+2026-09-24|Falcons@ALTP|KCI Starbucks Rink,2026-09-24,REG,Falcons,ALTP,4,8,1,1,4343,4481,40.2,-38,38,4305,4519,T0003,T0001
+2026-09-24|The Brigade@Mavericks|KCI Smartsheet Rink,2026-09-24,REG,The Brigade,Mavericks,2,5,2,2,4238,4150,56.3,-49,49,4189,4199,T0005,T0008
+2026-09-24|Pheasants@Red Dog|Lynnwood Ice Center,2026-09-24,REG,Pheasants,Red Dog,4,4,2,2,3984,4018,47.6,1,-1,3985,4017,T0017,T0015
+2026-09-24|The Mighty Geoducks@Fighting Narwhals|KCI Starbucks Rink,2026-09-24,REG,The Mighty Geoducks,Fighting Narwhals,1,0,2,2,4058,4024,52.4,24,-24,4082,4000,T0011,T0014
+2026-09-27|Toe Dragons@Purple Reign|Olympic View Arena,2026-09-27,REG,Toe Dragons,Purple Reign,4,2,8,8,1623,1533,56.4,33,-33,1656,1500,T0122,T0128
+2026-09-27|Salish Stellers@Sound Check|accesso ShoWare Center,2026-09-27,REG,Salish Stellers,Sound Check,5,7,10,10,905,927,48.4,-36,36,869,963,T0143,T0144
+2026-09-27|Dumb Pucks@Greenhorns|Kent Valley Ice Centre,2026-09-27,REG,Dumb Pucks,Greenhorns,2,3,6,6,2555,2451,57.5,-29,29,2527,2480,T0075,T0086
+2026-09-27|Seal Team Sticks@Seattle Slapshots|KCI Starbucks Rink,2026-09-27,REG,Seal Team Sticks,Seattle Slapshots,2,2,8,8,1533,1693,38.7,6,-6,1539,1687,T0124,T0114
+2026-09-27|Pythons@Scrooge McPuck|Olympic View Arena,2026-09-27,REG,Pythons,Scrooge McPuck,10,2,8,8,1825,1544,69.2,37,-37,1862,1508,T0113,T0121
+2026-09-27|Monarchs 6B@Rainier Reindeer HC-6B|accesso ShoWare Center,2026-09-27,REG,Monarchs 6B,Rainier Reindeer HC-6B,3,3,6,6,2627,2585,53.0,-2,2,2626,2587,T0069,T0078
+2026-09-27|Monarchs 5@Seattle Warriors|Kent Valley Ice Centre,2026-09-27,REG,Monarchs 5,Seattle Warriors,3,4,5,6,2588,2628,47.2,-24,24,2565,2651,T0079,T0076
+2026-09-27|Glow Sticks@Pond Pigeons|Angel of the Winds Arena,2026-09-27,REG,Glow Sticks,Pond Pigeons,3,1,8,8,1725,1745,48.6,39,-39,1764,1706,T0119,T0112
+2026-09-27|Honey Badgers@Flying Monkeys|Everett Comm Ice Rink,2026-09-27,REG,Honey Badgers,Flying Monkeys,0,0,6,6,2642,2569,55.2,-3,3,2639,2572,T0067,T0073
+2026-09-27|Blackouts@Spittin' Llamas|KCI Starbucks Rink,2026-09-27,REG,Blackouts,Spittin' Llamas,8,4,8,8,1792,1740,53.8,43,-43,1836,1696,T0116,T0118
+2026-09-27|Roughnecks Mobile Infantry@Orcas|KCI Smartsheet Rink,2026-09-27,REG,Roughnecks Mobile Infantry,Orcas,2,3,7,8,1841,1925,44.0,-22,22,1819,1947,T0106,T0104
+2026-09-27|Mad Dawgs@Blades|accesso ShoWare Center,2026-09-27,REG,Mad Dawgs,Blades,2,4,6,6,2423,2542,41.5,-31,31,2392,2573,T0085,T0082
+2026-09-27|Trash Pandas@Barrel Aged Brewzers|Kent Valley Ice Centre,2026-09-27,REG,Trash Pandas,Barrel Aged Brewzers,0,2,6,6,2670,2426,66.9,-50,50,2620,2476,T0072,T0083
+2026-09-27|Hackers@Mudflaps|KCI VMFH Rink,2026-09-27,REG,Hackers,Mudflaps,1,7,6,6,2322,2578,32.4,-34,34,2288,2613,T0088,T0077
+2026-09-27|Chucklepucks@Hampton West Hockey Club|Angel of the Winds Arena,2026-09-27,REG,Chucklepucks,Hampton West Hockey Club,3,3,7,6,2336,2453,41.6,4,-4,2340,2449,T0092,T0081
+2026-09-27|Raiders@Not Sure 6D|Everett Comm Ice Rink,2026-09-27,REG,Raiders,Not Sure 6D,2,3,6,6,2332,2326,50.4,-25,25,2306,2352,T0089,T0090
+2026-09-27|Cascadians HC@Real Bacon|KCI Starbucks Rink,2026-09-27,REG,Cascadians HC,Real Bacon,5,5,7,7,2326,2290,52.6,-1,1,2325,2291,T0093,T0094
+2026-09-27|Maelstrom@Mad Hat Tricks|KCI Smartsheet Rink,2026-09-27,REG,Maelstrom,Mad Hat Tricks,5,3,10,10,962,969,49.5,38,-38,1000,931,T0142,T0147
+2026-09-27|Puckleberries@The Axolotls|Kent Valley Ice Centre,2026-09-27,REG,Puckleberries,The Axolotls,0,2,10,10,942,1193,32.7,-24,24,917,1218,T0145,T0136
+2026-09-27|Galactic Penguins@Redrum|accesso ShoWare Center,2026-09-27,REG,Galactic Penguins,Redrum,2,2,10,10,925,817,57.7,-4,4,921,821,T0141,T0149
+2026-09-27|Beer Dragons@Banana Blades|KCI VMFH Rink,2026-09-27,REG,Beer Dragons,Banana Blades,2,3,10,10,961,817,60.3,-30,30,931,847,T0146,T0148
+2026-09-27|Rip-Its@Gremlins Hockey|Angel of the Winds Arena,2026-09-27,REG,Rip-Its,Gremlins Hockey,3,3,10,9,1201,1073,59.1,-5,5,1197,1077,T0137,T0139
+2026-09-27|Spicy Kittens HC-9B@Ice Breakers|Everett Comm Ice Rink,2026-09-27,REG,Spicy Kittens HC-9B,Ice Breakers,6,5,9,9,1013,1269,32.4,34,-34,1047,1235,T0140,T0130
+2026-09-27|Purple Puck Eaters@Red Zeppelin|KCI Starbucks Rink,2026-09-27,REG,Purple Puck Eaters,Red Zeppelin,2,10,9,9,1188,1152,52.6,-62,62,1126,1215,T0133,T0138
+2026-09-27|Yacht Flippers@Tropical Punchers|KCI Smartsheet Rink,2026-09-27,REG,Yacht Flippers,Tropical Punchers,2,4,9,9,1371,1231,60.0,-45,45,1326,1276,T0129,T0134
+2026-09-27|Hungry Hatchlings@Khaos|Kent Valley Ice Centre,2026-09-27,REG,Hungry Hatchlings,Khaos,7,3,8,8,1521,1671,39.4,57,-57,1578,1614,T0126,T0117
+2026-09-27|Fighting Clams@Thursday Cryptids|Olympic View Arena,2026-09-27,REG,Fighting Clams,Thursday Cryptids,4,2,9,9,1245,1154,56.5,33,-33,1278,1122,T0132,T0135
+2026-09-27|Blackbirds@Mighty Moose|KCI VMFH Rink,2026-09-27,REG,Blackbirds,Mighty Moose,2,1,9,9,1602,1536,54.7,23,-23,1625,1514,T0125,T0127
+2026-09-27|Rainiers@SEA Cucumbers|Angel of the Winds Arena,2026-09-27,REG,Rainiers,SEA Cucumbers,5,0,8,8,1843,1584,67.9,32,-32,1875,1551,T0107,T0123
+2026-09-27|Trash Pandas Garbage Legacy@Quacken|Everett Comm Ice Rink,2026-09-27,REG,Trash Pandas Garbage Legacy,Quacken,1,0,7,7,2098,2070,52.0,24,-24,2122,2046,T0097,T0101
+2026-09-27|Orange Crush@Rainier Reindeers HC-9A|KCI Starbucks Rink,2026-09-27,REG,Orange Crush,Rainier Reindeers HC-9A,4,2,8,9,1572,1312,67.9,24,-24,1596,1288,T0120,T0131
+2026-09-27|Seattle Freeze@Birrds|KCI Smartsheet Rink,2026-09-27,REG,Seattle Freeze,Birrds,9,2,7,7,2128,2073,54.0,52,-52,2180,2021,T0099,T0096
+2026-09-27|LKI@Bandits|Kent Valley Ice Centre,2026-09-27,REG,LKI,Bandits,4,4,7,8,1877,1899,48.4,1,-1,1878,1898,T0105,T0110
+2026-09-27|Seattle Seals@Fluffy Bunnies|KCI VMFH Rink,2026-09-27,REG,Seattle Seals,Fluffy Bunnies,6,3,7,7,2074,2112,47.3,46,-46,2120,2066,T0100,T0095
+2026-09-27|Los Tigres@BLU Bombers|Olympic View Arena,2026-09-27,REG,Los Tigres,BLU Bombers,2,8,7,7,2037,1970,54.8,-58,58,1979,2028,T0098,T0103
+2026-09-27|Iced Awesome@Lagooners|Angel of the Winds Arena,2026-09-27,REG,Iced Awesome,Lagooners,1,4,7,7,1902,1848,53.9,-47,47,1855,1895,T0102,T0111
+2026-09-27|Nordekes@Seattle Dogs|Everett Comm Ice Rink,2026-09-27,REG,Nordekes,Seattle Dogs,3,2,7,7,1824,1902,44.4,28,-28,1852,1875,T0108,T0109
+2026-09-28|Wranglers@Squids|Kent Valley Ice Centre,2026-09-28,REG,Wranglers,Squids,2,2,6,6,2645,2363,69.3,-10,10,2635,2372,T0074,T0087
+2026-09-28|Midnight Twist@PussyCats|KCI Starbucks Rink,2026-09-28,REG,Midnight Twist,PussyCats,1,4,5,5,2695,2675,51.4,-45,45,2650,2720,T0066,T0065
+2026-09-28|Cherry Pickers@Dirty Couch Hockey Club|Kent Valley Ice Centre,2026-09-28,REG,Cherry Pickers,Dirty Couch Hockey Club,2,2,6,6,2516,2699,37.2,6,-6,2523,2692,T0084,T0071
+2026-09-28|Lumberjacks@Brewzers OGB|KCI VMFH Rink,2026-09-28,REG,Lumberjacks,Brewzers OGB,5,7,5,5,2886,2850,52.6,-39,39,2847,2889,T0057,T0059
+2026-09-28|Ice-O-Topes@Renegades|Everett Comm Ice Rink,2026-09-28,REG,Ice-O-Topes,Renegades,4,6,5,5,3033,2787,67.0,-50,50,2983,2837,T0052,T0061
+2026-09-28|Dead Rabbits@Not Sure 5|Angel of the Winds Arena,2026-09-28,REG,Dead Rabbits,Not Sure 5,10,3,5,5,3046,2889,61.1,44,-44,3089,2845,T0048,T0058
+2026-09-28|Reapers@Alpuckas|Olympic View Arena,2026-09-28,REG,Reapers,Alpuckas,2,6,5,5,2750,3042,30.2,-28,28,2722,3070,T0063,T0053
+2026-09-28|Moose Knuckle@Dumpster Fire|KCI Starbucks Rink,2026-09-28,REG,Moose Knuckle,Dumpster Fire,5,2,5,5,3149,3059,56.4,38,-38,3187,3021,T0047,T0046
+2026-09-28|Stingers@Seals|Kent Valley Ice Centre,2026-09-28,REG,Stingers,Seals,4,2,5,5,3008,3006,50.2,37,-37,3045,2968,T0055,T0051
+2026-09-28|Bullets@Piranhas|KCI VMFH Rink,2026-09-28,REG,Bullets,Piranhas,3,8,5,5,2796,2915,41.5,-41,41,2755,2957,T0060,T0056
+2026-09-28|Jokres@Icemen|Everett Comm Ice Rink,2026-09-28,REG,Jokres,Icemen,7,2,6,6,2638,2561,55.5,44,-44,2683,2516,T0068,T0080
+2026-09-28|Fossils@Mighty Boosh|Angel of the Winds Arena,2026-09-28,REG,Fossils,Mighty Boosh,4,1,6,6,2685,2318,74.2,23,-23,2708,2296,T0070,T0091
+2026-09-29|Seagulls@Yetis|accesso ShoWare Center,2026-09-29,REG,Seagulls,Yetis,6,3,5,5,3056,2925,59.3,36,-36,3091,2889,T0050,T0054
+2026-09-29|WKUTP-4@BSOD|accesso ShoWare Center,2026-09-29,REG,WKUTP-4,BSOD,4,3,5,5,3112,3078,52.4,24,-24,3136,3055,T0049,T0045
+2026-09-29|Greasy Weasels@DevilFish|Kent Valley Ice Centre,2026-09-29,REG,Greasy Weasels,DevilFish,3,3,4,4,3245,3269,48.3,1,-1,3246,3268,T0043,T0039
+2026-09-29|Skateful Dead@Steelhead|Angel of the Winds Arena,2026-09-29,REG,Skateful Dead,Steelhead,4,2,4,4,3484,3434,53.6,35,-35,3519,3399,T0031,T0032
+2026-09-29|Goal Diggers@Chinooks|accesso ShoWare Center,2026-09-29,REG,Goal Diggers,Chinooks,2,2,3,3,3661,3487,62.2,-6,6,3655,3493,T0023,T0027
+2026-09-29|Wolves@Top Cheddar|Kent Valley Ice Centre,2026-09-29,REG,Wolves,Top Cheddar,4,3,4,4,3253,3240,50.9,25,-25,3277,3215,T0040,T0042
+2026-09-29|Maple Bars@Mighty Mallards|Angel of the Winds Arena,2026-09-29,REG,Maple Bars,Mighty Mallards,6,4,4,4,3440,3400,52.8,35,-35,3475,3365,T0035,T0036
+2026-09-30|Breakers@Night Owls|Kent Valley Ice Centre,2026-09-30,REG,Breakers,Night Owls,3,3,4,4,3491,3387,57.4,-4,4,3487,3391,T0030,T0034
+2026-09-30|Hooligans@Schilling Cider|KCI Starbucks Rink,2026-09-30,REG,Hooligans,Schilling Cider,3,6,4,4,3154,3265,42.1,-37,37,3117,3301,T0044,T0041
+2026-09-30|Kraken Up@Skeletons|Angel of the Winds Arena,2026-09-30,REG,Kraken Up,Skeletons,5,4,4,4,3366,3436,44.9,28,-28,3393,3409,T0038,T0029
+2026-09-30|Sabercats@Coconut Corgis|Everett Comm Ice Rink,2026-09-30,REG,Sabercats,Coconut Corgis,2,4,4,4,3534,3358,62.4,-47,47,3487,3405,T0026,T0033
+2026-09-30|Red Dog@Fighting Narwhals|Olympic View Arena,2026-09-30,REG,Red Dog,Fighting Narwhals,5,2,2,2,4017,4000,51.2,43,-43,4059,3958,T0015,T0014
+2026-09-30|Seattle Supernova@Mustangs|Kent Valley Ice Centre,2026-09-30,REG,Seattle Supernova,Mustangs,4,4,1,1,4131,4109,51.5,-1,1,4130,4110,T0009,T0010
+2026-09-30|Puckbuddies@MMHC|Angel of the Winds Arena,2026-09-30,REG,Puckbuddies,MMHC,8,1,3,3,3848,3765,56.0,50,-50,3898,3715,T0019,T0022
+2026-09-30|Shockers@Bombers|Everett Comm Ice Rink,2026-09-30,REG,Shockers,Bombers,2,3,3,3,3713,3744,47.8,-24,24,3689,3768,T0025,T0024
+2026-10-01|Rhinos@The Herd|Kent Valley Ice Centre,2026-10-01,REG,Rhinos,The Herd,8,4,3,3,4000,3956,53.2,44,-44,4044,3912,T0013,T0018
+2026-10-01|Pheasants@The Mighty Geoducks|KCI Smartsheet Rink,2026-10-01,REG,Pheasants,The Mighty Geoducks,5,7,2,2,3985,4082,43.1,-32,32,3953,4114,T0017,T0011
+2026-10-01|Eagles@Sasquatch|Lynnwood Ice Center,2026-10-01,REG,Eagles,Sasquatch,7,7,3,3,4022,3837,63.0,-6,6,4015,3844,T0012,T0020
+2026-10-01|Pull Tab Bandits@Puget Sound Pigeons|Kent Valley Ice Centre,2026-10-01,REG,Pull Tab Bandits,Puget Sound Pigeons,2,2,3,3,4059,3765,70.0,-10,10,4049,3775,T0016,T0021
+2026-10-01|Black Katz@Highlanders|KCI Starbucks Rink,2026-10-01,REG,Black Katz,Highlanders,2,4,5,5,2832,2819,50.9,-38,38,2793,2857,T0064,T0062
+2026-10-01|Northwest Crabs@The Brigade|Olympic View Arena,2026-10-01,REG,Northwest Crabs,The Brigade,6,2,2,2,4422,4189,66.2,32,-32,4454,4157,T0002,T0005
+2026-10-01|Chiefs@Mavericks|KCI Smartsheet Rink,2026-10-01,REG,Chiefs,Mavericks,6,6,2,2,4139,4199,45.7,2,-2,4141,4197,T0007,T0008
+2026-10-01|NW Stars@ALTP|Lynnwood Ice Center,2026-10-01,REG,NW Stars,ALTP,5,7,1,1,4354,4519,38.4,-29,29,4326,4547,T0004,T0001
+2026-10-01|Falcons@ESB|Kent Valley Ice Centre,2026-10-01,REG,Falcons,ESB,6,9,1,1,4305,4227,55.6,-49,49,4257,4276,T0003,T0006
+2026-10-01|LLUA@Edible Arrangements|KCI Starbucks Rink,2026-10-01,REG,LLUA,Edible Arrangements,5,4,4,4,3417,3292,58.9,21,-21,3438,3271,T0028,T0037
+2026-10-04|Seattle Seals@Cascadians HC|,2026-10-04,REG,Seattle Seals,Cascadians HC,7,1,7,7,2120,2325,35.7,68,-68,2188,2257,T0100,T0093
+2026-10-04|Scrooge McPuck@Khaos|,2026-10-04,REG,Scrooge McPuck,Khaos,1,11,8,8,1508,1614,42.4,-56,56,1452,1670,T0121,T0117
+2026-10-04|Chucklepucks@Seattle Freeze|,2026-10-04,REG,Chucklepucks,Seattle Freeze,6,3,7,7,2340,2180,61.3,34,-34,2374,2146,T0092,T0099
+2026-10-04|Iced Awesome@Nordekes|,2026-10-04,REG,Iced Awesome,Nordekes,1,3,7,7,1855,1852,50.2,-38,38,1817,1890,T0102,T0108
+2026-10-04|Fluffy Bunnies@LKI|,2026-10-04,REG,Fluffy Bunnies,LKI,5,0,7,7,2066,1878,63.2,37,-37,2103,1841,T0095,T0105
+2026-10-04|Bandits@BLU Bombers|,2026-10-04,REG,Bandits,BLU Bombers,1,4,8,7,1898,2028,40.8,-36,36,1863,2064,T0110,T0103
+2026-10-04|Lagooners@Los Tigres|,2026-10-04,REG,Lagooners,Los Tigres,1,7,7,7,1895,1979,44.0,-47,47,1848,2025,T0111,T0098
+2026-10-04|Seattle Dogs@Orcas|,2026-10-04,REG,Seattle Dogs,Orcas,3,4,7,8,1875,1947,44.8,-22,22,1852,1969,T0109,T0104
+2026-10-04|Glow Sticks@Pythons|,2026-10-04,REG,Glow Sticks,Pythons,4,1,8,8,1764,1862,43.0,50,-50,1813,1812,T0119,T0113
+2026-10-04|Pond Pigeons@Seal Team Sticks|,2026-10-04,REG,Pond Pigeons,Seal Team Sticks,3,2,8,8,1706,1539,61.8,19,-19,1725,1520,T0112,T0124
+2026-10-04|Spicy Kittens HC-9B@Banana Blades|,2026-10-04,REG,Spicy Kittens HC-9B,Banana Blades,6,4,9,10,1047,847,64.0,27,-27,1074,820,T0140,T0148
+2026-10-04|Rainiers@Seattle Slapshots|,2026-10-04,REG,Rainiers,Seattle Slapshots,2,2,8,8,1875,1687,63.2,-7,7,1869,1694,T0107,T0114
+2026-10-04|Toe Dragons@SEA Cucumbers|,2026-10-04,REG,Toe Dragons,SEA Cucumbers,5,1,8,8,1656,1551,57.4,40,-40,1695,1512,T0122,T0123
+2026-10-04|Purple Reign@Hungry Hatchlings|,2026-10-04,REG,Purple Reign,Hungry Hatchlings,2,3,8,8,1500,1578,44.4,-22,22,1478,1600,T0128,T0126
+2026-10-04|Mighty Moose@Rainier Reindeers HC-9A|,2026-10-04,REG,Mighty Moose,Rainier Reindeers HC-9A,0,4,9,9,1514,1288,65.7,-62,62,1452,1349,T0127,T0131
+2026-10-04|Ice Breakers@Beer Dragons|,2026-10-04,REG,Ice Breakers,Beer Dragons,1,6,9,10,1235,931,70.6,-71,71,1164,1002,T0130,T0146
+2026-10-04|Blackbirds@Orange Crush|,2026-10-04,REG,Blackbirds,Orange Crush,4,0,9,8,1625,1596,52.1,45,-45,1670,1551,T0125,T0120
+2026-10-04|The Axolotls@Mad Hat Tricks|,2026-10-04,REG,The Axolotls,Mad Hat Tricks,5,3,10,10,1218,931,69.5,23,-23,1241,908,T0136,T0147
+2026-10-04|Fighting Clams@Yacht Flippers|,2026-10-04,REG,Fighting Clams,Yacht Flippers,2,4,9,9,1278,1326,46.5,-35,35,1243,1361,T0132,T0129
+2026-10-04|Rip-Its@Purple Puck Eaters|,2026-10-04,REG,Rip-Its,Purple Puck Eaters,5,2,10,9,1197,1126,55.1,39,-39,1236,1086,T0137,T0133
+2026-10-04|Red Zeppelin@Thursday Cryptids|,2026-10-04,REG,Red Zeppelin,Thursday Cryptids,9,1,9,9,1215,1122,56.7,51,-51,1266,1070,T0138,T0135
+2026-10-04|Sound Check@Galactic Penguins|,2026-10-04,REG,Sound Check,Galactic Penguins,1,3,10,10,963,921,53.0,-40,40,924,961,T0144,T0141
+2026-10-04|Tropical Punchers@Gremlins Hockey|,2026-10-04,REG,Tropical Punchers,Gremlins Hockey,2,3,9,9,1276,1077,63.9,-32,32,1244,1109,T0134,T0139
+2026-10-04|Salish Stellers@Maelstrom|,2026-10-04,REG,Salish Stellers,Maelstrom,0,2,10,10,869,1000,40.7,-31,31,838,1030,T0143,T0142
+2026-10-04|Puckleberries@Redrum|,2026-10-04,REG,Puckleberries,Redrum,1,3,10,10,917,821,56.9,-43,43,875,863,T0145,T0149
+2026-10-04|Spicy Kittens HC-8A@Spittin' Llamas|,2026-10-04,REG,Spicy Kittens HC-8A,Spittin' Llamas,4,4,8,8,1717,1696,51.5,-1,1,1716,1697,T0115,T0118
+2026-10-04|Blackouts@Roughnecks Mobile Infantry|,2026-10-04,REG,Blackouts,Roughnecks Mobile Infantry,5,5,8,7,1836,1819,51.2,-1,1,1835,1819,T0116,T0106
+2026-10-04|Trash Pandas Garbage Legacy@Birrds|,2026-10-04,REG,Trash Pandas Garbage Legacy,Birrds,7,5,7,7,2122,2021,57.2,32,-32,2154,1989,T0097,T0096
+2026-10-04|Hampton West Hockey Club@Hackers|,2026-10-04,REG,Hampton West Hockey Club,Hackers,3,0,6,6,2449,2288,61.4,34,-34,2482,2254,T0081,T0088
+2026-10-04|Real Bacon@Quacken|,2026-10-04,REG,Real Bacon,Quacken,2,5,7,7,2291,2046,66.9,-59,59,2232,2105,T0094,T0101
+2026-10-05|Icemen@Squids|,2026-10-05,REG,Icemen,Squids,2,7,6,6,2516,2372,60.2,-60,60,2456,2433,T0080,T0087
+2026-10-05|Black Katz@Seattle Warriors|,2026-10-05,REG,Black Katz,Seattle Warriors,3,2,5,6,2793,2651,60.1,20,-20,2813,2631,T0064,T0076
+2026-10-05|Cherry Pickers@Jokres|,2026-10-05,REG,Cherry Pickers,Jokres,12,1,6,6,2523,2683,38.7,84,-84,2607,2598,T0084,T0068
+2026-10-05|Flying Monkeys@Honey Badgers|,2026-10-05,REG,Flying Monkeys,Honey Badgers,1,11,6,6,2572,2639,45.1,-59,59,2512,2698,T0073,T0067
+2026-10-05|Seals@Brewzers OGB|,2026-10-05,REG,Seals,Brewzers OGB,4,1,5,5,2968,2889,55.6,39,-39,3007,2851,T0051,T0059
+2026-10-05|Dumb Pucks@Mighty Boosh|,2026-10-05,REG,Dumb Pucks,Mighty Boosh,10,5,6,6,2527,2296,66.0,34,-34,2561,2262,T0075,T0091
+2026-10-05|Piranhas@Lumberjacks|,2026-10-05,REG,Piranhas,Lumberjacks,5,7,5,5,2957,2847,57.9,-43,43,2914,2890,T0056,T0057
+2026-10-05|Highlanders@Bullets|,2026-10-05,REG,Highlanders,Bullets,6,5,5,5,2857,2755,57.3,21,-21,2879,2733,T0062,T0060
+2026-10-05|Wranglers@Fossils|,2026-10-05,REG,Wranglers,Fossils,4,2,6,6,2635,2708,44.8,41,-41,2677,2667,T0074,T0070
+2026-10-05|Midnight Twist@Dirty Couch Hockey Club|,2026-10-05,REG,Midnight Twist,Dirty Couch Hockey Club,6,2,5,6,2650,2692,47.0,50,-50,2700,2643,T0066,T0071
+2026-10-05|Blades@Not Sure 6D|,2026-10-05,,Blades,Not Sure 6D,4,2,6,6,2573,2352,65.4,26,-26,2599,2326,T0082,T0090
+2026-10-05|Mudflaps@Monarchs 6B|,2026-10-05,REG,Mudflaps,Monarchs 6B,2,7,6,6,2613,2626,49.1,-49,49,2564,2675,T0077,T0069
+2026-10-05|Mad Dawgs@Barrel Aged Brewzers|,2026-10-05,REG,Mad Dawgs,Barrel Aged Brewzers,1,5,6,6,2392,2476,44.0,-41,41,2351,2517,T0085,T0083
+2026-10-05|Monarchs 5@PussyCats|,2026-10-05,REG,Monarchs 5,PussyCats,12,1,5,5,2565,2720,39.0,84,-84,2648,2636,T0079,T0065
+2026-10-05|Trash Pandas@Raiders|,2026-10-05,REG,Trash Pandas,Raiders,4,3,6,6,2620,2306,71.2,14,-14,2634,2292,T0072,T0089
+2026-10-06|Moose Knuckle@Dead Rabbits|,2026-10-06,REG,Moose Knuckle,Dead Rabbits,4,1,5,5,3187,3089,57.0,38,-38,3224,3052,T0047,T0048
+2026-10-06|Top Cheddar@WKUTP-4|,2026-10-06,REG,Top Cheddar,WKUTP-4,1,3,4,5,3215,3136,55.7,-42,42,3174,3178,T0042,T0049
+2026-10-06|Kraken Up@Edible Arrangements|,2026-10-06,REG,Kraken Up,Edible Arrangements,6,1,4,4,3393,3271,58.7,41,-41,3435,3230,T0038,T0037
+2026-10-06|Yetis@Reapers|,2026-10-06,REG,Yetis,Reapers,7,1,5,5,2889,2722,61.8,41,-41,2930,2682,T0054,T0063
+2026-10-06|Coconut Corgis@Night Owls|,2026-10-06,REG,Coconut Corgis,Night Owls,6,5,4,4,3405,3391,51.0,24,-24,3429,3366,T0033,T0034
+2026-10-06|Sabercats@Skateful Dead|,2026-10-06,REG,Sabercats,Skateful Dead,7,7,4,4,3487,3519,47.7,1,-1,3488,3518,T0026,T0031
+2026-10-06|Seagulls@Renegades|,2026-10-06,REG,Seagulls,Renegades,7,5,5,5,3091,2837,67.5,24,-24,3116,2813,T0050,T0061
+2026-10-07|DevilFish@Wolves|,2026-10-07,REG,DevilFish,Wolves,2,2,4,4,3268,3277,49.4,0,0,3268,3277,T0039,T0040
+2026-10-07|Alpuckas@Dumpster Fire|,2026-10-07,REG,Alpuckas,Dumpster Fire,9,6,5,5,3070,3021,53.6,41,-41,3111,2980,T0053,T0046
+2026-10-07|Eagles@Bombers|,2026-10-07,REG,Eagles,Bombers,8,4,3,3,4015,3768,67.1,31,-31,4046,3737,T0012,T0024
+2026-10-07|Sasquatch@Shockers|,2026-10-07,REG,Sasquatch,Shockers,7,3,3,3,3844,3689,60.9,37,-37,3880,3653,T0020,T0025
+2026-10-07|Breakers@Chinooks|,2026-10-07,REG,Breakers,Chinooks,4,0,4,3,3487,3493,49.6,47,-47,3535,3446,T0030,T0027
+2026-10-07|MMHC@Goal Diggers|,2026-10-07,REG,MMHC,Goal Diggers,9,1,3,3,3715,3655,54.3,54,-54,3770,3601,T0022,T0023
+2026-10-07|Greasy Weasels@Hooligans|,2026-10-07,REG,Greasy Weasels,Hooligans,3,3,4,4,3246,3117,59.2,-5,5,3242,3122,T0043,T0044
+2026-10-07|Puget Sound Pigeons@Puckbuddies|,2026-10-07,REG,Puget Sound Pigeons,Puckbuddies,0,7,3,3,3775,3898,41.3,-46,46,3729,3944,T0021,T0019
+2026-10-07|Mighty Mallards@Skeletons|,2026-10-07,REG,Mighty Mallards,Skeletons,5,1,4,4,3365,3409,46.8,50,-50,3414,3359,T0036,T0029
+2026-10-08|Steelhead@Maple Bars|,2026-10-08,REG,Steelhead,Maple Bars,7,1,4,4,3399,3475,44.6,59,-59,3458,3416,T0032,T0035
+2026-10-08|ALTP@Seattle Supernova|,2026-10-08,REG,ALTP,Seattle Supernova,8,2,1,1,4547,4130,76.9,25,-25,4572,4105,T0001,T0009
+2026-10-08|NW Stars@Falcons|,2026-10-08,REG,NW Stars,Falcons,4,3,1,1,4326,4257,54.9,23,-23,4348,4234,T0004,T0003
+2026-10-08|Not Sure 5@Stingers|,2026-10-08,REG,Not Sure 5,Stingers,5,6,5,5,2845,3045,36.0,-18,18,2827,3063,T0058,T0055
+2026-10-08|Schilling Cider@LLUA|,2026-10-08,REG,Schilling Cider,LLUA,3,3,4,4,3301,3438,40.3,5,-5,3306,3433,T0041,T0028
+2026-10-08|Pheasants@Mavericks|,2026-10-08,REG,Pheasants,Mavericks,4,8,2,2,3953,4197,33.1,-31,31,3922,4228,T0017,T0008
+2026-10-08|ESB@Northwest Crabs|,2026-10-08,REG,ESB,Northwest Crabs,10,6,1,2,4276,4454,37.4,59,-59,4334,4395,T0006,T0002
+2026-10-08|The Brigade@Chiefs|,2026-10-08,REG,The Brigade,Chiefs,11,6,2,2,4157,4141,51.2,49,-49,4206,4092,T0005,T0007
+2026-10-08|The Mighty Geoducks@Rhinos|,2026-10-08,REG,The Mighty Geoducks,Rhinos,5,6,2,3,4114,4044,55.1,-28,28,4087,4071,T0011,T0013
+2026-10-08|Red Dog@Pull Tab Bandits|,2026-10-08,REG,Red Dog,Pull Tab Bandits,3,2,2,3,4059,4049,50.7,25,-25,4084,4025,T0015,T0016
+2026-10-08|Fighting Narwhals@The Herd|,2026-10-08,REG,Fighting Narwhals,The Herd,10,4,2,3,3958,3912,53.3,50,-50,4007,3862,T0014,T0018
+2026-10-08|BSOD@Ice-O-Topes|,2026-10-08,REG,BSOD,Ice-O-Topes,2,3,5,5,3055,2983,55.1,-28,28,3027,3011,T0045,T0052
+2026-10-11|Mighty Boosh@Blades|,2026-10-11,REG,Mighty Boosh,Blades,1,2,6,6,2262,2599,27.5,-14,14,2248,2613,T0091,T0082
+2026-10-11|Raiders@Hampton West Hockey Club|,2026-10-11,REG,Raiders,Hampton West Hockey Club,3,3,6,6,2292,2482,36.6,7,-7,2299,2476,T0089,T0081
+2026-10-11|Seattle Freeze@Hackers|,2026-10-11,,Seattle Freeze,Hackers,2,4,7,6,2146,2254,42.3,-32,32,2114,2286,T0099,T0088
+2026-10-11|Pythons@Spicy Kittens HC-8A|,2026-10-11,REG,Pythons,Spicy Kittens HC-8A,2,1,8,8,1812,1716,56.8,22,-22,1833,1695,T0113,T0115
+2026-10-11|Quacken@Fluffy Bunnies|,2026-10-11,REG,Quacken,Fluffy Bunnies,2,0,7,7,2105,2103,50.2,37,-37,2142,2065,T0101,T0095
+2026-10-11|Seattle Seals@Real Bacon|,2026-10-11,REG,Seattle Seals,Real Bacon,4,2,7,7,2188,2232,46.8,40,-40,2228,2193,T0100,T0094
+2026-10-11|Beer Dragons@Puckleberries|,2026-10-11,,Beer Dragons,Puckleberries,1,1,10,10,1002,875,59.0,-5,5,997,879,T0146,T0145
+2026-10-11|Yacht Flippers@Rip-Its|,2026-10-11,REG,Yacht Flippers,Rip-Its,3,4,9,10,1361,1236,58.9,-29,29,1331,1265,T0129,T0137
+2026-10-11|Maelstrom@Redrum|,2026-10-11,REG,Maelstrom,Redrum,7,1,10,10,1030,863,61.8,41,-41,1071,823,T0142,T0149
+2026-10-11|Rainiers@Spittin' Llamas|,2026-10-11,REG,Rainiers,Spittin' Llamas,5,3,8,8,1869,1697,62.1,28,-28,1897,1669,T0107,T0118
+2026-10-11|Salish Stellers@Sound Check|,2026-10-11,,Salish Stellers,Sound Check,3,3,10,10,838,924,43.9,3,-3,841,921,T0143,T0144
+2026-10-11|Banana Blades@The Axolotls|,2026-10-11,REG,Banana Blades,The Axolotls,1,5,10,10,820,1241,23.0,-22,22,798,1262,T0148,T0136
+2026-10-11|Purple Puck Eaters@Ice Breakers|,2026-10-11,REG,Purple Puck Eaters,Ice Breakers,4,1,9,9,1086,1164,44.4,49,-49,1135,1116,T0133,T0130
+2026-10-11|Galactic Penguins@Mad Hat Tricks|,2026-10-11,REG,Galactic Penguins,Mad Hat Tricks,2,1,10,10,961,908,53.8,23,-23,984,885,T0141,T0147
+2026-10-11|Birrds@LKI|,2026-10-11,REG,Birrds,LKI,8,6,7,7,1989,1841,60.5,30,-30,2018,1811,T0096,T0105
+2026-10-11|BLU Bombers@Nordekes|,2026-10-11,REG,BLU Bombers,Nordekes,1,6,7,7,2064,1890,62.3,-62,62,2002,1952,T0103,T0108
+2026-10-11|Hungry Hatchlings@Orange Crush|,2026-10-11,REG,Hungry Hatchlings,Orange Crush,4,3,8,8,1600,1551,53.6,23,-23,1624,1528,T0126,T0120
+2026-10-11|Lagooners@Bandits|,2026-10-11,REG,Lagooners,Bandits,9,2,7,8,1848,1863,48.9,57,-57,1905,1805,T0111,T0110
+2026-10-11|Los Tigres@Iced Awesome|,2026-10-11,REG,Los Tigres,Iced Awesome,2,3,7,7,2025,1817,64.6,-32,32,1993,1849,T0098,T0102
+2026-10-11|Thursday Cryptids@Tropical Punchers|,2026-10-11,REG,Thursday Cryptids,Tropical Punchers,2,5,9,9,1070,1244,37.8,-33,33,1037,1277,T0135,T0134
+2026-10-11|Gremlins Hockey@Spicy Kittens HC-9B|,2026-10-11,REG,Gremlins Hockey,Spicy Kittens HC-9B,1,2,9,9,1109,1074,52.5,-26,26,1083,1100,T0139,T0140
+2026-10-11|Blackouts@Orcas|,2026-10-11,REG,Blackouts,Orcas,6,2,8,8,1835,1969,40.5,56,-56,1891,1914,T0116,T0104
+2026-10-11|Purple Reign@Blackbirds|,2026-10-11,REG,Purple Reign,Blackbirds,1,7,8,9,1478,1670,36.5,-39,39,1439,1709,T0128,T0125
+2026-10-11|SEA Cucumbers@Mighty Moose|,2026-10-11,,SEA Cucumbers,Mighty Moose,2,6,8,9,1512,1452,54.3,-51,51,1461,1503,T0123,T0127
+2026-10-11|Red Zeppelin@Khaos|,2026-10-11,REG,Red Zeppelin,Khaos,8,1,9,8,1266,1670,23.8,86,-86,1352,1584,T0138,T0117
+2026-10-11|Roughnecks Mobile Infantry@Seattle Dogs|,2026-10-11,REG,Roughnecks Mobile Infantry,Seattle Dogs,2,8,7,7,1819,1852,47.6,-51,51,1769,1903,T0106,T0109
+2026-10-11|Rainier Reindeers HC-9A@Fighting Clams|,2026-10-11,REG,Rainier Reindeers HC-9A,Fighting Clams,6,3,9,9,1349,1243,57.6,37,-37,1386,1206,T0131,T0132
+2026-10-11|Cascadians HC@Trash Pandas Garbage Legacy|,2026-10-11,REG,Cascadians HC,Trash Pandas Garbage Legacy,3,4,7,7,2257,2154,57.3,-29,29,2228,2183,T0093,T0097
+2026-10-11|Trash Pandas@Chucklepucks|,2026-10-11,REG,Trash Pandas,Chucklepucks,5,3,6,7,2634,2374,67.9,24,-24,2659,2350,T0072,T0092
+2026-10-11|Glow Sticks@Seal Team Sticks|,2026-10-11,REG,Glow Sticks,Seal Team Sticks,9,3,8,8,1813,1520,70.0,32,-32,1845,1488,T0119,T0124
+2026-10-11|Rainier Reindeer HC-6B@Greenhorns|,2026-10-11,REG,Rainier Reindeer HC-6B,Greenhorns,2,2,6,6,2587,2480,57.6,-4,4,2583,2483,T0078,T0086
+2026-10-11|Pond Pigeons@Seattle Slapshots|,2026-10-11,,Pond Pigeons,Seattle Slapshots,2,2,8,8,1725,1694,52.2,-1,1,1724,1695,T0112,T0114
+2026-10-11|Scrooge McPuck@Toe Dragons|,2026-10-11,REG,Scrooge McPuck,Toe Dragons,2,10,8,8,1452,1695,33.2,-39,39,1413,1735,T0121,T0122
+2026-10-12|Dumb Pucks@Mad Dawgs|accesso ShoWare Center,2026-10-12,REG,Dumb Pucks,Mad Dawgs,3,3,6C,6C,2561,2351,64.7,-7,7,2553,2358,T0075,T0085
+2026-10-12|Seagulls@Not Sure 5|Kent Valley Ice Centre,2026-10-12,REG,Seagulls,Not Sure 5,9,5,5,5B,3116,2827,69.6,28,-28,3144,2799,T0050,T0058
+2026-10-12|Yetis@Seals|accesso ShoWare Center,2026-10-12,REG,Yetis,Seals,3,1,5B,5C,2930,3007,44.5,42,-42,2971,2965,T0054,T0051
+2026-10-12|Fossils@Monarchs 6B|KCI Starbucks Rink,2026-10-12,REG,Fossils,Monarchs 6B,3,4,6B,6B,2667,2675,49.4,-25,25,2642,2699,T0070,T0069
+2026-10-12|Seattle Warriors@PussyCats|Kent Valley Ice Centre,2026-10-12,REG,Seattle Warriors,PussyCats,5,4,5D,6A,2631,2636,49.6,25,-25,2656,2611,T0076,T0065
+2026-10-12|Barrel Aged Brewzers@Not Sure 6D|KCI VMFH Rink,2026-10-12,REG,Barrel Aged Brewzers,Not Sure 6D,3,1,6C,"6C,6D,7A",2517,2326,63.4,27,-27,2545,2298,T0083,T0090
+2026-10-12|Honey Badgers@Dirty Couch Hockey Club|Everett Comm Ice Rink,2026-10-12,REG,Honey Badgers,Dirty Couch Hockey Club,3,3,6,5D,2698,2643,54.0,-2,2,2696,2645,T0067,T0071
+2026-10-12|Midnight Twist@Monarchs 5|Angel of the Winds Arena,2026-10-12,REG,Midnight Twist,Monarchs 5,4,3,5D,5D,2700,2648,53.7,23,-23,2723,2625,T0066,T0079
+2026-10-12|Squids@Mudflaps|Olympic View Arena,2026-10-12,REG,Squids,Mudflaps,1,1,6,6B,2433,2564,40.7,5,-5,2437,2559,T0087,T0077
+2026-10-12|Reapers@Piranhas|accesso ShoWare Center,2026-10-12,REG,Reapers,Piranhas,0,3,5C,5C,2682,2914,33.9,-30,30,2652,2943,T0063,T0056
+2026-10-12|Alpuckas@Moose Knuckle|KCI Starbucks Rink,2026-10-12,REG,Alpuckas,Moose Knuckle,1,3,5B,5,3111,3224,41.9,-31,31,3080,3256,T0053,T0047
+2026-10-12|Brewzers OGB@Highlanders|Kent Valley Ice Centre,2026-10-12,REG,Brewzers OGB,Highlanders,5,2,5B,5C,2851,2879,48.0,46,-46,2896,2833,T0059,T0062
+2026-10-12|Lumberjacks@Bullets|KCI VMFH Rink,2026-10-12,REG,Lumberjacks,Bullets,8,3,5C,5D,2890,2733,61.1,39,-39,2929,2694,T0057,T0060
+2026-10-12|Icemen@Wranglers|Everett Comm Ice Rink,2026-10-12,REG,Icemen,Wranglers,3,5,6,6,2456,2677,34.6,-26,26,2430,2703,T0080,T0074
+2026-10-12|Black Katz@Cherry Pickers|Angel of the Winds Arena,2026-10-12,REG,Black Katz,Cherry Pickers,1,5,5D,5C,2813,2607,64.4,-60,60,2753,2667,T0064,T0084
+2026-10-13|Renegades@Stingers|Angel of the Winds Arena,2026-10-13,REG,Renegades,Stingers,8,2,5,5B,2813,3063,32.7,71,-71,2884,2992,T0061,T0055
+2026-10-13|BSOD@Dead Rabbits|Olympic View Arena,2026-10-13,REG,BSOD,Dead Rabbits,1,2,5,5,3027,3052,48.2,-24,24,3003,3076,T0045,T0048
+2026-10-13|Flying Monkeys@Jokres|Lynnwood Ice Center,2026-10-13,REG,Flying Monkeys,Jokres,1,7,6B,6,2512,2598,43.8,-47,47,2466,2645,T0073,T0068
+2026-10-13|Greasy Weasels@Top Cheddar|Angel of the Winds Arena,2026-10-13,REG,Greasy Weasels,Top Cheddar,4,3,4C,4C,3242,3174,54.9,23,-23,3264,3151,T0043,T0042
+2026-10-14|DevilFish@Hooligans|Kent Valley Ice Centre,2026-10-14,REG,DevilFish,Hooligans,2,3,4C,4C,3268,3122,60.4,-30,30,3238,3152,T0039,T0044
+2026-10-14|Ice-O-Topes@Dumpster Fire|KCI Starbucks Rink,2026-10-14,REG,Ice-O-Topes,Dumpster Fire,2,1,5,5B,3011,2980,52.2,24,-24,3035,2956,T0052,T0046
+2026-10-14|Maple Bars@Skeletons|Angel of the Winds Arena,2026-10-14,REG,Maple Bars,Skeletons,2,3,4B,4B,3416,3359,54.1,-27,27,3389,3386,T0035,T0029
+2026-10-14|Night Owls@Sabercats|Everett Comm Ice Rink,2026-10-14,REG,Night Owls,Sabercats,3,8,4,4,3366,3488,41.3,-41,41,3325,3530,T0034,T0026
+2026-10-14|Wolves@WKUTP-4|Kent Valley Ice Centre,2026-10-14,REG,Wolves,WKUTP-4,5,4,4C,4C,3277,3178,57.1,21,-21,3298,3156,T0040,T0049
+2026-10-14|Shockers@MMHC|Angel of the Winds Arena,2026-10-14,REG,Shockers,MMHC,2,8,3B,3B,3653,3770,41.7,-44,44,3608,3814,T0025,T0022
+2026-10-14|Edible Arrangements@Schilling Cider|Everett Comm Ice Rink,2026-10-14,REG,Edible Arrangements,Schilling Cider,6,6,4B,4B,3230,3306,44.5,3,-3,3233,3303,T0037,T0041
+2026-10-15|The Mighty Geoducks@Chiefs|accesso ShoWare Center,2026-10-15,REG,The Mighty Geoducks,Chiefs,6,4,2,2,4087,4092,49.6,38,-38,4124,4054,T0011,T0007
+2026-10-15|ESB@ALTP|Kent Valley Ice Centre,2026-10-15,REG,ESB,ALTP,2,5,1,1,4334,4572,33.5,-29,29,4305,4601,T0006,T0001
+2026-10-15|Falcons@Seattle Supernova|accesso ShoWare Center,2026-10-15,REG,Falcons,Seattle Supernova,3,7,1,1,4234,4105,59.2,-55,55,4179,4161,T0003,T0009
+2026-10-15|Chinooks@Skateful Dead|KCI Smartsheet Rink,2026-10-15,REG,Chinooks,Skateful Dead,6,3,3B,4,3446,3518,44.9,48,-48,3494,3469,T0027,T0031
+2026-10-15|Mavericks@Red Dog|Lynnwood Ice Center,2026-10-15,REG,Mavericks,Red Dog,6,2,2,2,4228,4084,60.2,37,-37,4265,4047,T0008,T0015
+2026-10-15|Fighting Narwhals@Rhinos|Kent Valley Ice Centre,2026-10-15,REG,Fighting Narwhals,Rhinos,4,4,2,2,4007,4071,45.4,2,-2,4009,4069,T0014,T0013
+2026-10-15|The Brigade@Pheasants|KCI Starbucks Rink,2026-10-15,REG,The Brigade,Pheasants,9,6,2,2,4206,3922,69.4,27,-27,4233,3895,T0005,T0017
+2026-10-15|Pull Tab Bandits@The Herd|Olympic View Arena,2026-10-15,REG,Pull Tab Bandits,The Herd,9,0,3,3,4025,3862,61.5,48,-48,4073,3814,T0016,T0018
+2026-10-15|Northwest Crabs@Mustangs|accesso ShoWare Center,2026-10-15,REG,Northwest Crabs,Mustangs,2,4,1,1,4395,4110,69.5,-52,52,4343,4162,T0002,T0010
+2026-10-15|Puckbuddies@Sasquatch|KCI Smartsheet Rink,2026-10-15,REG,Puckbuddies,Sasquatch,2,3,3,3,3944,3880,54.6,-27,27,3917,3908,T0019,T0020
+2026-10-15|Kraken Up@LLUA|Lynnwood Ice Center,2026-10-15,REG,Kraken Up,LLUA,3,10,4B,4B,3435,3433,50.1,-56,56,3378,3490,T0038,T0028
+2026-10-15|Puget Sound Pigeons@Eagles|Kent Valley Ice Centre,2026-10-15,REG,Puget Sound Pigeons,Eagles,3,6,3,3,3729,4046,28.6,-25,25,3704,4071,T0021,T0012
+2026-10-15|Steelhead@Mighty Mallards|KCI Starbucks Rink,2026-10-15,REG,Steelhead,Mighty Mallards,4,7,4,4,3458,3414,53.1,-47,47,3412,3461,T0032,T0036
+2026-10-18|Puckleberries@Mad Hat Tricks|Olympic View Arena,2026-10-18,REG,Puckleberries,Mad Hat Tricks,2,1,10,10,879,885,49.6,25,-25,904,860,T0145,T0147
+2026-10-18|Scrooge McPuck@Rainier Reindeers HC-9A|Kent Valley Ice Centre,2026-10-18,REG,Scrooge McPuck,Rainier Reindeers HC-9A,6,8,8C,9A,1413,1386,51.9,-39,39,1374,1425,T0121,T0131
+2026-10-18|Beer Dragons@Purple Puck Eaters|KCI Starbucks Rink,2026-10-18,REG,Beer Dragons,Purple Puck Eaters,4,6,9B,9B,997,1135,40.2,-30,30,967,1165,T0146,T0133
+2026-10-18|The Axolotls@Redrum|Olympic View Arena,2026-10-18,,The Axolotls,Redrum,6,3,9B,10,1262,823,78.0,19,-19,1281,803,T0136,T0149
+2026-10-18|Purple Reign@SEA Cucumbers|Kent Valley Ice Centre,2026-10-18,REG,Purple Reign,SEA Cucumbers,3,3,8C,8C,1439,1461,48.5,1,-1,1440,1460,T0128,T0123
+2026-10-18|Toe Dragons@Hungry Hatchlings|KCI Starbucks Rink,2026-10-18,REG,Toe Dragons,Hungry Hatchlings,3,3,8B,8B,1735,1624,57.9,-4,4,1731,1628,T0122,T0126
+2026-10-18|Pond Pigeons@Seal Team Sticks|KCI Smartsheet Rink,2026-10-18,REG,Pond Pigeons,Seal Team Sticks,4,0,8,8B,1724,1488,66.4,32,-32,1755,1456,T0112,T0124
+2026-10-18|Seattle Slapshots@Spittin' Llamas|Kent Valley Ice Centre,2026-10-18,REG,Seattle Slapshots,Spittin' Llamas,2,2,8,8B,1695,1669,51.9,-1,1,1694,1670,T0114,T0118
+2026-10-18|Roughnecks Mobile Infantry@Pythons|KCI VMFH Rink,2026-10-18,REG,Roughnecks Mobile Infantry,Pythons,3,2,8A,8,1769,1833,45.4,27,-27,1796,1806,T0106,T0113
+2026-10-18|Orcas@Glow Sticks|KCI Starbucks Rink,2026-10-18,REG,Orcas,Glow Sticks,1,4,7C,7C,1914,1845,54.9,-48,48,1866,1893,T0104,T0119
+2026-10-18|BLU Bombers@Lagooners|KCI Smartsheet Rink,2026-10-18,REG,BLU Bombers,Lagooners,3,7,7C,7B,2002,1905,56.9,-53,53,1948,1959,T0103,T0111
+2026-10-18|Spicy Kittens HC-8A@Rainiers|Kent Valley Ice Centre,2026-10-18,REG,Spicy Kittens HC-8A,Rainiers,1,2,8A,8,1695,1897,35.8,-18,18,1677,1915,T0115,T0107
+2026-10-18|Trash Pandas Garbage Legacy@Fluffy Bunnies|KCI VMFH Rink,2026-10-18,REG,Trash Pandas Garbage Legacy,Fluffy Bunnies,4,3,"6C,6D,7A","6C,6D,7A",2183,2065,58.4,21,-21,2204,2044,T0097,T0095
+2026-10-18|Blackouts@Seattle Dogs|Everett Comm Ice Rink,2026-10-18,REG,Blackouts,Seattle Dogs,4,5,7C,7C,1891,1903,49.2,-25,25,1866,1927,T0116,T0109
+2026-10-18|Cascadians HC@Hackers|KCI Starbucks Rink,2026-10-18,REG,Cascadians HC,Hackers,5,1,"6C,6D,7A","6C,6D,7A",2228,2286,45.9,51,-51,2279,2235,T0093,T0088
+2026-10-18|Hampton West Hockey Club@Real Bacon|KCI Smartsheet Rink,2026-10-18,REG,Hampton West Hockey Club,Real Bacon,1,7,"6C,6D,7A","6C,6D,7A",2476,2193,69.3,-74,74,2402,2266,T0081,T0094
+2026-10-18|Bandits@Iced Awesome|Kent Valley Ice Centre,2026-10-18,REG,Bandits,Iced Awesome,0,5,7C,7B,1805,1849,46.8,-47,47,1758,1896,T0110,T0102
+2026-10-18|LKI@Nordekes|Olympic View Arena,2026-10-18,REG,LKI,Nordekes,1,4,7B,7B,1811,1952,40.0,-35,35,1776,1987,T0105,T0108
+2026-10-18|Seattle Seals@Quacken|KCI VMFH Rink,2026-10-18,REG,Seattle Seals,Quacken,6,0,"6C,6D,7A","6C,6D,7A",2228,2142,56.2,47,-47,2275,2096,T0100,T0101
+2026-10-18|Los Tigres@Birrds|Everett Comm Ice Rink,2026-10-18,REG,Los Tigres,Birrds,2,5,7B,7B,1993,2018,48.2,-42,42,1951,2061,T0098,T0096
+2026-10-18|Raiders@Seattle Freeze|KCI Starbucks Rink,2026-10-18,REG,Raiders,Seattle Freeze,6,3,"6C,6D,7A","6C,6D,7A",2299,2114,63.0,32,-32,2331,2082,T0089,T0099
+2026-10-18|Red Zeppelin@Orange Crush|KCI Smartsheet Rink,2026-10-18,REG,Red Zeppelin,Orange Crush,3,1,8B,8C,1352,1528,37.6,47,-47,1399,1481,T0138,T0120
+2026-10-18|Khaos@Blackbirds|Kent Valley Ice Centre,2026-10-18,REG,Khaos,Blackbirds,2,5,8C,8B,1584,1709,41.2,-36,36,1548,1745,T0117,T0125
+2026-10-18|Mighty Moose@Yacht Flippers|KCI VMFH Rink,2026-10-18,REG,Mighty Moose,Yacht Flippers,1,1,8C,9,1503,1331,62.1,-6,6,1497,1338,T0127,T0129
+2026-10-18|Thursday Cryptids@Spicy Kittens HC-9B|Olympic View Arena,2026-10-18,REG,Thursday Cryptids,Spicy Kittens HC-9B,3,5,9B,9B,1037,1100,45.4,-34,34,1003,1135,T0135,T0140
+2026-10-18|Fighting Clams@Gremlins Hockey|Everett Comm Ice Rink,2026-10-18,REG,Fighting Clams,Gremlins Hockey,2,3,9,9,1206,1083,58.7,-29,29,1176,1112,T0132,T0139
+2026-10-18|Rip-Its@Tropical Punchers|KCI Starbucks Rink,2026-10-18,,Rip-Its,Tropical Punchers,1,5,9,9,1265,1277,49.2,-46,46,1219,1323,T0137,T0134
+2026-10-19|Trash Pandas@Not Sure 6D|Kent Valley Ice Centre,2026-10-19,REG,Trash Pandas,Not Sure 6D,6,1,6C,"6C,6D,7A",2659,2298,73.8,26,-26,2685,2272,T0072,T0090
+2026-10-19|Mudflaps@Chucklepucks|KCI Starbucks Rink,2026-10-19,REG,Mudflaps,Chucklepucks,6,2,6B,"6C,6D,7A",2559,2350,64.6,33,-33,2592,2316,T0077,T0092
+2026-10-19|Greenhorns@Mad Dawgs|KCI VMFH Rink,2026-10-19,REG,Greenhorns,Mad Dawgs,6,1,6B,6C,2483,2358,58.9,41,-41,2524,2317,T0086,T0085
+2026-10-19|Fossils@Rainier Reindeer HC-6B|Kent Valley Ice Centre,2026-10-19,REG,Fossils,Rainier Reindeer HC-6B,2,2,6B,6B,2642,2583,54.2,-2,2,2640,2585,T0070,T0078
+2026-10-19|Flying Monkeys@Monarchs 6B|Everett Comm Ice Rink,2026-10-19,REG,Flying Monkeys,Monarchs 6B,4,4,6B,6B,2466,2699,33.8,8,-8,2474,2691,T0073,T0069
+2026-10-19|PussyCats@Icemen|Olympic View Arena,2026-10-19,REG,PussyCats,Icemen,5,5,6A,6,2611,2430,62.7,-6,6,2605,2437,T0065,T0080
+2026-10-19|Squids@Honey Badgers|KCI Starbucks Rink,2026-10-19,REG,Squids,Honey Badgers,8,6,6,6,2437,2696,32.2,51,-51,2488,2646,T0087,T0067
+2026-10-19|Mighty Boosh@Barrel Aged Brewzers|KCI VMFH Rink,2026-10-19,REG,Mighty Boosh,Barrel Aged Brewzers,1,5,6C,6C,2248,2545,29.9,-28,28,2220,2573,T0091,T0083
+2026-10-19|Dumb Pucks@Blades|Kent Valley Ice Centre,2026-10-19,REG,Dumb Pucks,Blades,4,2,6C,6C,2553,2613,45.7,41,-41,2594,2572,T0075,T0082
+2026-10-19|Cherry Pickers@Midnight Twist|Everett Comm Ice Rink,2026-10-19,REG,Cherry Pickers,Midnight Twist,4,2,5C,5D,2667,2723,46.0,40,-40,2708,2682,T0084,T0066
+2026-10-20|Jokres@Wranglers|KCI Smartsheet Rink,2026-10-20,REG,Jokres,Wranglers,2,2,6,6,2645,2703,45.9,2,-2,2647,2701,T0068,T0074
+2026-10-20|Seattle Warriors@Dirty Couch Hockey Club|KCI Starbucks Rink,2026-10-20,REG,Seattle Warriors,Dirty Couch Hockey Club,6,6,5D,5D,2656,2645,50.9,0,0,2656,2645,T0076,T0071
+2026-10-21|Black Katz@Monarchs 5|KCI Smartsheet Rink,2026-10-21,REG,Black Katz,Monarchs 5,4,4,5D,5D,2753,2625,59.1,-5,5,2748,2630,T0064,T0079
+2026-10-21|Brewzers OGB@Bullets|KCI Starbucks Rink,2026-10-21,REG,Brewzers OGB,Bullets,3,0,5B,5D,2896,2694,64.1,31,-31,2928,2663,T0059,T0060
+2026-10-21|Seals@Lumberjacks|KCI VMFH Rink,2026-10-21,REG,Seals,Lumberjacks,5,3,5C,5C,2965,2929,52.6,36,-36,3001,2893,T0051,T0057
+2026-10-21|Stingers@Reapers|KCI Smartsheet Rink,2026-10-21,REG,Stingers,Reapers,4,2,5B,5C,2992,2652,72.7,20,-20,3012,2631,T0055,T0063
+2026-10-21|Not Sure 5@Yetis|KCI Starbucks Rink,2026-10-21,REG,Not Sure 5,Yetis,5,6,5B,5B,2799,2971,37.8,-19,19,2780,2990,T0058,T0054
+2026-10-21|The Mighty Geoducks@Mavericks|KCI VMFH Rink,2026-10-21,REG,The Mighty Geoducks,Mavericks,5,5,2,2,4124,4265,40.0,5,-5,4129,4260,T0011,T0008
+2026-10-22|Top Cheddar@Dead Rabbits|Kent Valley Ice Centre,2026-10-22,REG,Top Cheddar,Dead Rabbits,2,0,4C,5,3151,3076,55.4,33,-33,3185,3042,T0042,T0048
+2026-10-22|Mustangs@ALTP|KCI Smartsheet Rink,2026-10-22,REG,Mustangs,ALTP,2,3,1,1,4162,4601,22.0,-11,11,4151,4612,T0010,T0001
+2026-10-22|Piranhas@Highlanders|Lynnwood Ice Center,2026-10-22,REG,Piranhas,Highlanders,4,4,5C,5C,2943,2833,57.9,-4,4,2939,2837,T0056,T0062
+2026-10-22|Wolves@BSOD|Kent Valley Ice Centre,2026-10-22,REG,Wolves,BSOD,3,2,4C,5,3298,3003,70.1,15,-15,3313,2988,T0040,T0045
+2026-10-22|Northwest Crabs@Seattle Supernova|KCI Starbucks Rink,2026-10-22,REG,Northwest Crabs,Seattle Supernova,2,5,1,1,4343,4161,62.8,-55,55,4288,4216,T0002,T0009
+2026-10-22|Moose Knuckle@Ice-O-Topes|KCI Smartsheet Rink,2026-10-22,REG,Moose Knuckle,Ice-O-Topes,7,2,5,5,3256,3035,65.4,35,-35,3290,3000,T0047,T0052
+2026-10-22|Dumpster Fire@Renegades|Lynnwood Ice Center,2026-10-22,REG,Dumpster Fire,Renegades,3,5,5B,5,2956,2884,55.2,-41,41,2915,2926,T0046,T0061
+2026-10-22|NW Stars@ESB|Kent Valley Ice Centre,2026-10-22,REG,NW Stars,ESB,4,4,1,1,4348,4305,53.1,-2,2,4347,4306,T0004,T0006
+2026-10-22|Alpuckas@Seagulls|KCI Starbucks Rink,2026-10-22,REG,Alpuckas,Seagulls,2,3,5B,5,3080,3144,45.4,-23,23,3057,3167,T0053,T0050
+2026-10-24|Redrum@Mad Hat Tricks|KCI Smartsheet Rink,2026-10-24,REG,Redrum,Mad Hat Tricks,5,0,10,10,803,860,45.9,54,-54,857,806,T0149,T0147
+2026-10-24|Ice Breakers@Puckleberries|KCI Smartsheet Rink,2026-10-24,REG,Ice Breakers,Puckleberries,7,1,10A-B,10,1116,904,64.7,37,-37,1153,867,T0130,T0145
+2026-10-25|Spittin' Llamas@Blackbirds|Olympic View Arena,2026-10-25,REG,Spittin' Llamas,Blackbirds,3,1,8B,8B,1670,1745,44.6,42,-42,1711,1703,T0118,T0125
+2026-10-25|Roughnecks Mobile Infantry@Pond Pigeons|Kent Valley Ice Centre,2026-10-25,REG,Roughnecks Mobile Infantry,Pond Pigeons,0,8,8A,8,1796,1755,52.9,-63,63,1733,1818,T0106,T0112
+2026-10-25|Spicy Kittens HC-8A@Seattle Slapshots|Olympic View Arena,2026-10-25,REG,Spicy Kittens HC-8A,Seattle Slapshots,0,4,8A,8,1677,1694,48.7,-46,46,1631,1740,T0115,T0114
+2026-10-25|Bandits@Glow Sticks|Kent Valley Ice Centre,2026-10-25,REG,Bandits,Glow Sticks,2,2,7C,7C,1758,1893,40.4,5,-5,1763,1889,T0110,T0119
+2026-10-25|BLU Bombers@Orcas|KCI Starbucks Rink,2026-10-25,REG,BLU Bombers,Orcas,3,5,7C,7C,1948,1866,55.9,-42,42,1906,1907,T0103,T0104
+2026-10-25|Nordekes@Los Tigres|KCI Smartsheet Rink,2026-10-25,REG,Nordekes,Los Tigres,1,2,7B,7B,1987,1951,52.6,-26,26,1961,1977,T0108,T0098
+2026-10-25|Not Sure 6D@Hampton West Hockey Club|Kent Valley Ice Centre,2026-10-25,REG,Not Sure 6D,Hampton West Hockey Club,4,2,"6C,6D,7A","6C,6D,7A",2272,2402,40.8,44,-44,2317,2358,T0090,T0081
+2026-10-25|Seattle Seals@Trash Pandas Garbage Legacy|KCI Starbucks Rink,2026-10-25,REG,Seattle Seals,Trash Pandas Garbage Legacy,4,2,"6C,6D,7A","6C,6D,7A",2275,2204,55.1,34,-34,2309,2170,T0100,T0097
+2026-10-25|Lagooners@Blackouts|KCI VMFH Rink,2026-10-25,REG,Lagooners,Blackouts,8,5,7B,7C,1959,1866,56.6,38,-38,1997,1828,T0111,T0116
+2026-10-25|Seal Team Sticks@Toe Dragons|KCI Smartsheet Rink,2026-10-25,REG,Seal Team Sticks,Toe Dragons,3,1,8B,8B,1456,1731,31.2,52,-52,1508,1679,T0124,T0122
+2026-10-25|Thursday Cryptids@Gremlins Hockey|Kent Valley Ice Centre,2026-10-25,REG,Thursday Cryptids,Gremlins Hockey,3,4,9B,9,1003,1112,42.2,-21,21,982,1133,T0135,T0139
+2026-10-25|Scrooge McPuck@Yacht Flippers|KCI Starbucks Rink,2026-10-25,REG,Scrooge McPuck,Yacht Flippers,4,0,8C,9,1374,1338,52.6,44,-44,1418,1293,T0121,T0129
+2026-10-25|Cascadians HC@Fluffy Bunnies|KCI VMFH Rink,2026-10-25,REG,Cascadians HC,Fluffy Bunnies,0,3,"6C,6D,7A","6C,6D,7A",2279,2044,66.2,-58,58,2221,2102,T0093,T0095
+2026-10-25|Fighting Clams@Spicy Kittens HC-9B|Everett Comm Ice Rink,2026-10-25,REG,Fighting Clams,Spicy Kittens HC-9B,6,3,9,9B,1176,1135,53.0,41,-41,1217,1093,T0132,T0140
+2026-10-25|Purple Reign@Mighty Moose|KCI Smartsheet Rink,2026-10-25,REG,Purple Reign,Mighty Moose,0,7,8C,8C,1440,1497,45.9,-52,52,1388,1549,T0128,T0127
+2026-10-25|Khaos@Tropical Punchers|Kent Valley Ice Centre,2026-10-25,REG,Khaos,Tropical Punchers,1,5,8C,9,1548,1323,65.7,-62,62,1487,1384,T0117,T0134
+2026-10-25|Hungry Hatchlings@Red Zeppelin|Olympic View Arena,2026-10-25,REG,Hungry Hatchlings,Red Zeppelin,4,4,8B,8B,1628,1399,65.9,-8,8,1620,1407,T0126,T0138
+2026-10-25|LKI@Seattle Dogs|KCI Starbucks Rink,2026-10-25,REG,LKI,Seattle Dogs,7,1,7B,7C,1776,1927,39.3,64,-64,1841,1863,T0105,T0109
+2026-10-25|Orange Crush@Rip-Its|KCI VMFH Rink,2026-10-25,REG,Orange Crush,Rip-Its,10,0,8C,9,1481,1219,68.0,42,-42,1523,1177,T0120,T0137
+2026-10-25|Iced Awesome@Birrds|Everett Comm Ice Rink,2026-10-25,REG,Iced Awesome,Birrds,3,3,7B,7B,1896,2061,38.4,6,-6,1902,2055,T0102,T0096
+2026-10-25|Maelstrom@Banana Blades|KCI Smartsheet Rink,2026-10-25,REG,Maelstrom,Banana Blades,2,6,10,9B,1071,798,68.7,-64,64,1006,863,T0142,T0148
+2026-10-25|Sound Check@Galactic Penguins|Kent Valley Ice Centre,2026-10-25,REG,Sound Check,Galactic Penguins,1,9,10,10,921,984,45.4,-54,54,867,1038,T0144,T0141
+2026-10-25|SEA Cucumbers@Rainier Reindeers HC-9A|KCI Starbucks Rink,2026-10-25,REG,SEA Cucumbers,Rainier Reindeers HC-9A,5,0,8C,9A,1460,1425,52.5,48,-48,1507,1378,T0123,T0131
+2026-10-25|The Axolotls@Purple Puck Eaters|KCI VMFH Rink,2026-10-25,REG,The Axolotls,Purple Puck Eaters,1,11,9B,9B,1281,1165,58.3,-77,77,1205,1242,T0136,T0133
+2026-10-25|Salish Stellers@Beer Dragons|Olympic View Arena,2026-10-25,,Salish Stellers,Beer Dragons,1,12,10,9B,841,967,41.1,-56,56,785,1024,T0143,T0146
+2026-10-25|Pythons@Rainiers|Everett Comm Ice Rink,2026-10-25,REG,Pythons,Rainiers,2,2,8,8,1806,1915,42.2,4,-4,1810,1911,T0113,T0107
+2026-11-01|Rip-Its@Rainier Reindeers HC-9A|Olympic View Arena,2026-11-01,REG,Rip-Its,Rainier Reindeers HC-9A,0,9,9A,9A,1177,1378,35.9,-45,45,1132,1423,T0137,T0131
+2026-11-01|Mad Hat Tricks@Salish Stellers|Kent Valley Ice Centre,2026-11-01,REG,Mad Hat Tricks,Salish Stellers,14,0,10A-B,10A-B,806,785,51.5,76,-76,882,709,T0147,T0143
+2026-11-01|Thursday Cryptids@Banana Blades|KCI Starbucks Rink,2026-11-01,REG,Thursday Cryptids,Banana Blades,9,3,9B,9B,982,863,58.5,44,-44,1026,819,T0135,T0148
+2026-11-01|Spicy Kittens HC-9B@Purple Puck Eaters|Olympic View Arena,2026-11-01,REG,Spicy Kittens HC-9B,Purple Puck Eaters,7,1,9B,9B,1093,1242,39.5,64,-64,1158,1177,T0140,T0133
+2026-11-01|Maelstrom@Redrum|Kent Valley Ice Centre,2026-11-01,REG,Maelstrom,Redrum,3,3,10A-B,10A-B,1006,857,60.6,-5,5,1001,863,T0142,T0149
+2026-11-01|The Axolotls@Beer Dragons|KCI Starbucks Rink,2026-11-01,REG,The Axolotls,Beer Dragons,3,0,9B,9B,1205,1024,62.8,33,-33,1237,991,T0136,T0146
+2026-11-01|Puckleberries@Galactic Penguins|KCI Smartsheet Rink,2026-11-01,REG,Puckleberries,Galactic Penguins,0,0,10A-B,10A-B,867,1038,37.9,6,-6,873,1032,T0145,T0141
+2026-11-01|SEA Cucumbers@Khaos|Kent Valley Ice Centre,2026-11-01,REG,SEA Cucumbers,Khaos,2,2,8C,8C,1507,1487,51.5,-1,1,1507,1487,T0123,T0117
+2026-11-01|Purple Reign@Orange Crush|KCI VMFH Rink,2026-11-01,REG,Purple Reign,Orange Crush,3,2,8C,8C,1388,1523,40.4,30,-30,1418,1493,T0128,T0120
+2026-11-01|Tropical Punchers@Gremlins Hockey|KCI Starbucks Rink,2026-11-01,REG,Tropical Punchers,Gremlins Hockey,4,5,9A,9A,1384,1133,67.3,-34,34,1351,1167,T0134,T0139
+2026-11-01|Ice Breakers@Sound Check|KCI Smartsheet Rink,2026-11-01,REG,Ice Breakers,Sound Check,5,0,10A-B,10A-B,1153,867,69.5,30,-30,1184,836,T0130,T0144
+2026-11-01|Chucklepucks@Dumb Pucks|Kent Valley Ice Centre,2026-11-01,REG,Chucklepucks,Dumb Pucks,3,6,"6C,6D,7A","6C,6D,7A",2316,2594,31.0,-27,27,2289,2621,T0092,T0075
+2026-11-01|Yacht Flippers@Fighting Clams|KCI VMFH Rink,2026-11-01,REG,Yacht Flippers,Fighting Clams,6,2,9A,9A,1293,1217,55.4,42,-42,1335,1176,T0129,T0132
+2026-11-01|Seal Team Sticks@Red Zeppelin|Everett Comm Ice Rink,2026-11-01,REG,Seal Team Sticks,Red Zeppelin,6,2,8B,8B,1508,1407,57.2,40,-40,1548,1367,T0124,T0138
+2026-11-01|Trash Pandas Garbage Legacy@Seattle Freeze|KCI Starbucks Rink,2026-11-01,REG,Trash Pandas Garbage Legacy,Seattle Freeze,7,3,6D/7A,6D/7A,2170,2082,56.3,41,-41,2211,2041,T0097,T0099
+2026-11-01|Seattle Slapshots@Pythons|KCI Smartsheet Rink,2026-11-01,REG,Seattle Slapshots,Pythons,2,3,8A,8A,1740,1810,45.0,-22,22,1717,1832,T0114,T0113
+2026-11-01|Fluffy Bunnies@Quacken|Kent Valley Ice Centre,2026-11-01,REG,Fluffy Bunnies,Quacken,2,4,6D/7A,6D/7A,2102,2096,50.5,-38,38,2065,2134,T0095,T0101
+2026-11-01|Toe Dragons@Blackbirds|Olympic View Arena,2026-11-01,REG,Toe Dragons,Blackbirds,0,5,8B,8B,1679,1703,48.3,-48,48,1631,1751,T0122,T0125
+2026-11-01|Hackers@Cascadians HC|KCI VMFH Rink,2026-11-01,REG,Hackers,Cascadians HC,2,5,6D/7A,6D/7A,2235,2221,51.0,-45,45,2190,2265,T0088,T0093
+2026-11-01|Real Bacon@Raiders|Everett Comm Ice Rink,2026-11-01,REG,Real Bacon,Raiders,3,1,6D/7A,6D/7A,2266,2331,45.3,41,-41,2307,2290,T0094,T0089
+2026-11-01|Roughnecks Mobile Infantry@Rainiers|KCI Starbucks Rink,2026-11-01,REG,Roughnecks Mobile Infantry,Rainiers,2,6,8A,8A,1733,1911,37.5,-35,35,1698,1946,T0106,T0107
+2026-11-01|Seattle Seals@Not Sure 6D|KCI Smartsheet Rink,2026-11-01,REG,Seattle Seals,Not Sure 6D,5,0,6D/7A,6D/7A,2309,2317,49.4,51,-51,2359,2266,T0100,T0090
+2026-11-01|Seattle Dogs@Bandits|Kent Valley Ice Centre,2026-11-01,REG,Seattle Dogs,Bandits,7,3,7C,7C,1863,1763,57.1,40,-40,1903,1723,T0109,T0110
+2026-11-01|Orcas@Blackouts|KCI VMFH Rink,2026-11-01,REG,Orcas,Blackouts,3,1,7C,7C,1907,1828,55.7,33,-33,1941,1795,T0104,T0116
+2026-11-01|Glow Sticks@BLU Bombers|Olympic View Arena,2026-11-01,REG,Glow Sticks,BLU Bombers,4,1,7C,7C,1889,1906,48.7,45,-45,1933,1862,T0119,T0103
+2026-11-01|Spicy Kittens HC-8A@Pond Pigeons|Everett Comm Ice Rink,2026-11-01,REG,Spicy Kittens HC-8A,Pond Pigeons,0,9,8A,7C,1631,1818,36.8,-46,46,1585,1864,T0115,T0112
+2026-11-01|Spittin' Llamas@Hungry Hatchlings|KCI Starbucks Rink,2026-11-01,REG,Spittin' Llamas,Hungry Hatchlings,1,1,8B,8B,1711,1620,56.5,-3,3,1708,1623,T0118,T0126
+2026-11-02|Brewzers OGB@Dumpster Fire|Kent Valley Ice Centre,2026-11-02,REG,Brewzers OGB,Dumpster Fire,1,6,5B,5B,2928,2915,50.9,-51,51,2877,2966,T0059,T0046
+2026-11-02|Hooligans@Edible Arrangements|KCI Starbucks Rink,2026-11-02,REG,Hooligans,Edible Arrangements,2,7,4C,4B,3152,3233,44.2,-44,44,3108,3277,T0044,T0037
+2026-11-02|Barrel Aged Brewzers@Rainier Reindeer HC-6B|Kent Valley Ice Centre,2026-11-02,REG,Barrel Aged Brewzers,Rainier Reindeer HC-6B,5,4,"6C,6D,7A",6B,2573,2585,49.1,25,-25,2598,2559,T0083,T0078
+2026-11-02|Black Katz@Midnight Twist|KCI VMFH Rink,2026-11-02,REG,Black Katz,Midnight Twist,3,1,5D,5D,2748,2682,54.7,34,-34,2782,2648,T0064,T0066
+2026-11-02|Skeletons@LLUA|Everett Comm Ice Rink,2026-11-02,REG,Skeletons,LLUA,4,1,4B,4B,3386,3490,42.6,50,-50,3436,3439,T0029,T0028
+2026-11-02|Hampton West Hockey Club@Mighty Boosh|Olympic View Arena,2026-11-02,REG,Hampton West Hockey Club,Mighty Boosh,2,3,6D/7A,6D/7A,2358,2220,59.8,-30,30,2328,2250,T0081,T0091
+2026-11-02|Fossils@Icemen|KCI Starbucks Rink,2026-11-02,REG,Fossils,Icemen,5,6,6B,6A,2640,2437,64.2,-32,32,2608,2469,T0070,T0080
+2026-11-02|Mad Dawgs@Mudflaps|Kent Valley Ice Centre,2026-11-02,REG,Mad Dawgs,Mudflaps,2,4,"6C,6D,7A",6B,2317,2592,31.2,-23,23,2293,2616,T0085,T0077
+2026-11-02|Flying Monkeys@PussyCats|KCI VMFH Rink,2026-11-02,REG,Flying Monkeys,PussyCats,6,9,6B,6A,2474,2605,40.7,-36,36,2438,2640,T0073,T0065
+2026-11-02|Highlanders@Seals|Everett Comm Ice Rink,2026-11-02,REG,Highlanders,Seals,5,3,5C,5C,2837,3001,38.4,46,-46,2883,2955,T0062,T0051
+2026-11-03|Moose Knuckle@BSOD|accesso ShoWare Center,2026-11-03,REG,Moose Knuckle,BSOD,2,3,5A,5A,3290,2988,70.5,-35,35,3255,3023,T0047,T0045
+2026-11-03|Not Sure 5@Alpuckas|accesso ShoWare Center,2026-11-03,REG,Not Sure 5,Alpuckas,6,7,5B,5B,2780,3057,31.1,-16,16,2764,3072,T0058,T0053
+2026-11-03|Jokres@Squids|Kent Valley Ice Centre,2026-11-03,REG,Jokres,Squids,4,3,6A,6A,2647,2488,61.2,19,-19,2666,2469,T0068,T0087
+2026-11-03|Trash Pandas@Blades|Lynnwood Ice Center,2026-11-03,REG,Trash Pandas,Blades,4,8,"6C,6D,7A","6C,6D,7A",2685,2572,58.0,-54,54,2630,2627,T0072,T0082
+2026-11-03|Wranglers@Honey Badgers|Olympic View Arena,2026-11-03,REG,Wranglers,Honey Badgers,6,2,6A,6A,2701,2646,54.0,43,-43,2744,2602,T0074,T0067
+2026-11-03|Greenhorns@Monarchs 6B|accesso ShoWare Center,2026-11-03,REG,Greenhorns,Monarchs 6B,3,3,6B,6B,2524,2691,38.2,6,-6,2530,2685,T0086,T0069
+2026-11-03|Dirty Couch Hockey Club@Monarchs 5|Kent Valley Ice Centre,2026-11-03,REG,Dirty Couch Hockey Club,Monarchs 5,3,2,5D,5D,2645,2630,51.1,24,-24,2669,2605,T0071,T0079
+2026-11-04|Seagulls@Ice-O-Topes|accesso ShoWare Center,2026-11-04,REG,Seagulls,Ice-O-Topes,4,2,5A,5A,3167,3000,61.8,29,-29,3195,2971,T0050,T0052
+2026-11-04|Fighting Narwhals@The Brigade|accesso ShoWare Center,2026-11-04,REG,Fighting Narwhals,The Brigade,7,7,2,2,4009,4233,34.5,8,-8,4017,4225,T0014,T0005
+2026-11-04|Red Dog@Pheasants|Kent Valley Ice Centre,2026-11-04,REG,Red Dog,Pheasants,1,5,2,2,4047,3895,60.8,-57,57,3990,3952,T0015,T0017
+2026-11-04|Shockers@Breakers|Angel of the Winds Arena,2026-11-04,REG,Shockers,Breakers,3,7,3B,3B,3608,3535,55.3,-52,52,3556,3586,T0025,T0030
+2026-11-04|WKUTP-4@Greasy Weasels|Everett Comm Ice Rink,2026-11-04,REG,WKUTP-4,Greasy Weasels,3,4,4C,4C,3156,3264,42.3,-21,21,3135,3285,T0049,T0043
+2026-11-04|Renegades@Dead Rabbits|Olympic View Arena,2026-11-04,REG,Renegades,Dead Rabbits,5,6,5A,5A,2926,3042,41.7,-21,21,2905,3063,T0061,T0048
+2026-11-04|Night Owls@Steelhead|accesso ShoWare Center,2026-11-04,REG,Night Owls,Steelhead,4,3,4,4,3325,3412,43.8,28,-28,3353,3384,T0034,T0032
+2026-11-04|Top Cheddar@Wolves|Kent Valley Ice Centre,2026-11-04,REG,Top Cheddar,Wolves,3,6,4C,4C,3185,3313,40.8,-36,36,3149,3349,T0042,T0040
+2026-11-04|Seattle Warriors@Bullets|KCI Starbucks Rink,2026-11-04,REG,Seattle Warriors,Bullets,1,4,5D,5D,2656,2663,49.5,-43,43,2613,2706,T0076,T0060
+2026-11-04|Cherry Pickers@Piranhas|Angel of the Winds Arena,2026-11-04,REG,Cherry Pickers,Piranhas,2,2,5C,5C,2708,2939,33.9,8,-8,2716,2931,T0084,T0056
+2026-11-04|Lumberjacks@Stingers|Lynnwood Ice Center,2026-11-04,REG,Lumberjacks,Stingers,3,5,5C,5B,2893,3012,41.5,-31,31,2862,3043,T0057,T0055
+2026-11-04|Maple Bars@Kraken Up|Everett Comm Ice Rink,2026-11-04,REG,Maple Bars,Kraken Up,1,6,4B,4B,3389,3378,50.8,-51,51,3338,3429,T0035,T0038
+2026-11-05|Rhinos@Chiefs|accesso ShoWare Center,2026-11-05,REG,Rhinos,Chiefs,12,7,2,2,4069,4054,51.0,49,-49,4118,4005,T0013,T0007
+2026-11-05|Mighty Mallards@Skateful Dead|Kent Valley Ice Centre,2026-11-05,REG,Mighty Mallards,Skateful Dead,3,5,4,4,3461,3469,49.4,-37,37,3424,3506,T0036,T0031
+2026-11-05|Bombers@Puget Sound Pigeons|accesso ShoWare Center,2026-11-05,REG,Bombers,Puget Sound Pigeons,1,12,3B,3,3737,3704,52.4,-72,72,3665,3776,T0024,T0021
+2026-11-05|Falcons@NW Stars|KCI Smartsheet Rink,2026-11-05,REG,Falcons,NW Stars,2,4,1,1,4179,4347,38.1,-29,29,4150,4375,T0003,T0004
+2026-11-05|MMHC@Eagles|Lynnwood Ice Center,2026-11-05,REG,MMHC,Eagles,5,4,3B,3,3814,4071,32.3,34,-34,3848,4037,T0022,T0012
+2026-11-05|DevilFish@Schilling Cider|Kent Valley Ice Centre,2026-11-05,REG,DevilFish,Schilling Cider,1,4,4C,4B,3238,3303,45.3,-40,40,3199,3343,T0039,T0041
+2026-11-05|Mavericks@Mustangs|KCI Starbucks Rink,2026-11-05,REG,Mavericks,Mustangs,5,6,2,1,4260,4151,57.8,-29,29,4232,4180,T0008,T0010
+2026-11-05|Coconut Corgis@Sabercats|Olympic View Arena,2026-11-05,REG,Coconut Corgis,Sabercats,2,9,4,4,3429,3530,42.8,-48,48,3381,3578,T0033,T0026
+2026-11-05|Goal Diggers@Chinooks|accesso ShoWare Center,2026-11-05,REG,Goal Diggers,Chinooks,5,4,3B,3B,3601,3494,57.6,21,-21,3622,3473,T0023,T0027
+2026-11-05|The Herd@Puckbuddies|KCI Smartsheet Rink,2026-11-05,REG,The Herd,Puckbuddies,9,10,3,3,3814,3917,42.6,-21,21,3793,3938,T0018,T0019
+2026-11-05|The Mighty Geoducks@Northwest Crabs|Lynnwood Ice Center,2026-11-05,REG,The Mighty Geoducks,Northwest Crabs,4,4,2,1,4129,4288,38.8,6,-6,4135,4283,T0011,T0002
+2026-11-05|Sasquatch@Pull Tab Bandits|Kent Valley Ice Centre,2026-11-05,REG,Sasquatch,Pull Tab Bandits,1,5,3,3,3908,4073,38.3,-36,36,3872,4109,T0020,T0016
+2026-11-05|Seattle Supernova@ESB|KCI Starbucks Rink,2026-11-05,REG,Seattle Supernova,ESB,4,7,1,1,4216,4306,43.5,-38,38,4178,4345,T0009,T0006
+2026-11-07|Rainiers@Pythons|KCI Smartsheet Rink,2026-11-07,REG,Rainiers,Pythons,1,7,8A,8A,1946,1832,58.1,-62,62,1884,1894,T0107,T0113
+2026-11-07|Red Zeppelin@Hungry Hatchlings|Olympic View Arena,2026-11-07,REG,Red Zeppelin,Hungry Hatchlings,4,1,8B,8B,1367,1623,32.3,59,-59,1426,1564,T0138,T0126
+2026-11-07|Blackbirds@Spittin' Llamas|KCI Smartsheet Rink,2026-11-07,REG,Blackbirds,Spittin' Llamas,2,1,8B,8B,1751,1708,53.1,23,-23,1775,1684,T0125,T0118
+2026-11-07|Seal Team Sticks@Toe Dragons|Olympic View Arena,2026-11-07,REG,Seal Team Sticks,Toe Dragons,3,5,8B,8B,1548,1631,44.0,-33,33,1515,1664,T0124,T0122
+2026-11-08|Nordekes@Birrds|Olympic View Arena,2026-11-08,REG,Nordekes,Birrds,6,1,7B,7B,1961,2055,43.3,57,-57,2018,1998,T0108,T0096
+2026-11-08|Monarchs 5@Seattle Warriors|Kent Valley Ice Centre,2026-11-08,REG,Monarchs 5,Seattle Warriors,1,3,5D,5D,2605,2613,49.5,-37,37,2568,2650,T0079,T0076
+2026-11-08|PussyCats@Squids|KCI Starbucks Rink,2026-11-08,REG,PussyCats,Squids,7,2,6A,6A,2640,2469,62.1,38,-38,2678,2431,T0065,T0087
+2026-11-08|Roughnecks Mobile Infantry@Spicy Kittens HC-8A|Olympic View Arena,2026-11-08,REG,Roughnecks Mobile Infantry,Spicy Kittens HC-8A,0,2,8A,8A,1698,1585,58.1,-44,44,1655,1628,T0106,T0115
+2026-11-08|Bandits@Orcas|accesso ShoWare Center,2026-11-08,REG,Bandits,Orcas,1,3,7C,7C,1723,1941,34.8,-26,26,1697,1967,T0110,T0104
+2026-11-08|Icemen@Wranglers|Kent Valley Ice Centre,2026-11-08,REG,Icemen,Wranglers,11,4,6A,6A,2469,2744,31.2,77,-77,2546,2666,T0080,T0074
+2026-11-08|Mudflaps@Flying Monkeys|KCI Starbucks Rink,2026-11-08,REG,Mudflaps,Flying Monkeys,6,2,6B,6B,2616,2438,62.5,35,-35,2651,2403,T0077,T0073
+2026-11-08|Banana Blades@The Axolotls|KCI Smartsheet Rink,2026-11-08,REG,Banana Blades,The Axolotls,5,3,9B,9B,819,1237,23.0,58,-58,876,1180,T0148,T0136
+2026-11-08|BLU Bombers@Blackouts|accesso ShoWare Center,2026-11-08,REG,BLU Bombers,Blackouts,4,2,7C,7C,1862,1795,54.8,34,-34,1895,1761,T0103,T0116
+2026-11-08|Rainier Reindeer HC-6B@Monarchs 6B|Kent Valley Ice Centre,2026-11-08,REG,Rainier Reindeer HC-6B,Monarchs 6B,1,3,6B,6B,2559,2685,41.0,-31,31,2529,2716,T0078,T0069
+2026-11-08|Glow Sticks@Seattle Dogs|KCI VMFH Rink,2026-11-08,REG,Glow Sticks,Seattle Dogs,9,0,7C,7C,1933,1903,52.2,60,-60,1993,1843,T0119,T0109
+2026-11-08|Greenhorns@Fossils|KCI Starbucks Rink,2026-11-08,REG,Greenhorns,Fossils,2,5,6B,6B,2530,2608,44.5,-39,39,2491,2646,T0086,T0070
+2026-11-08|Spicy Kittens HC-9B@Thursday Cryptids|KCI Smartsheet Rink,2026-11-08,REG,Spicy Kittens HC-9B,Thursday Cryptids,5,3,9B,9B,1158,1026,59.4,30,-30,1188,995,T0140,T0135
+2026-11-08|Purple Puck Eaters@Beer Dragons|Kent Valley Ice Centre,2026-11-08,REG,Purple Puck Eaters,Beer Dragons,3,2,9B,9B,1177,991,63.1,18,-18,1196,973,T0133,T0146
+2026-11-08|Khaos@Scrooge McPuck|accesso ShoWare Center,2026-11-08,REG,Khaos,Scrooge McPuck,9,1,8C,8C,1487,1418,55.0,53,-53,1541,1365,T0117,T0121
+2026-11-08|Galactic Penguins@Maelstrom|KCI VMFH Rink,2026-11-08,REG,Galactic Penguins,Maelstrom,1,2,10A-B,10A-B,1032,1001,52.2,-26,26,1006,1027,T0141,T0142
+2026-11-08|Rip-Its@Yacht Flippers|Everett Comm Ice Rink,2026-11-08,REG,Rip-Its,Yacht Flippers,2,8,9A,9A,1132,1335,35.8,-38,38,1094,1373,T0137,T0129
+2026-11-08|Pond Pigeons@Seattle Slapshots|KCI Starbucks Rink,2026-11-08,REG,Pond Pigeons,Seattle Slapshots,2,3,7C,8A,1864,1717,60.4,-30,30,1834,1748,T0112,T0114
+2026-11-08|Rainier Reindeers HC-9A@Gremlins Hockey|KCI Smartsheet Rink,2026-11-08,REG,Rainier Reindeers HC-9A,Gremlins Hockey,3,2,9A,9A,1423,1167,67.6,16,-16,1439,1151,T0131,T0139
+2026-11-08|Seattle Freeze@Cascadians HC|Kent Valley Ice Centre,2026-11-08,REG,Seattle Freeze,Cascadians HC,2,8,6D/7A,6D/7A,2041,2265,34.4,-37,37,2004,2302,T0099,T0093
+2026-11-08|Mad Hat Tricks@Puckleberries|Olympic View Arena,2026-11-08,REG,Mad Hat Tricks,Puckleberries,3,2,10A-B,10A-B,882,873,50.6,25,-25,906,848,T0147,T0145
+2026-11-08|Fighting Clams@Tropical Punchers|accesso ShoWare Center,2026-11-08,REG,Fighting Clams,Tropical Punchers,6,4,9A,9A,1176,1351,37.7,47,-47,1222,1304,T0132,T0134
+2026-11-08|Sound Check@Salish Stellers|KCI VMFH Rink,2026-11-08,REG,Sound Check,Salish Stellers,1,1,10A-B,10A-B,836,709,59.0,-5,5,832,714,T0144,T0143
+2026-11-08|Los Tigres@Iced Awesome|Everett Comm Ice Rink,2026-11-08,REG,Los Tigres,Iced Awesome,1,5,7B,7B,1977,1902,55.4,-52,52,1925,1954,T0098,T0102
+2026-11-08|Orange Crush@Mighty Moose|KCI Starbucks Rink,2026-11-08,REG,Orange Crush,Mighty Moose,1,4,8C,8C,1493,1549,46.0,-40,40,1453,1589,T0120,T0127
+2026-11-08|Purple Reign@SEA Cucumbers|KCI Smartsheet Rink,2026-11-08,REG,Purple Reign,SEA Cucumbers,4,7,8C,8C,1418,1507,43.7,-38,38,1380,1545,T0128,T0123
+2026-11-08|Dumb Pucks@Barrel Aged Brewzers|Kent Valley Ice Centre,2026-11-08,REG,Dumb Pucks,Barrel Aged Brewzers,3,6,"6C,6D,7A","6C,6D,7A",2621,2598,51.7,-45,45,2576,2643,T0075,T0083
+2026-11-08|Mad Dawgs@Blades|KCI VMFH Rink,2026-11-08,REG,Mad Dawgs,Blades,0,5,"6C,6D,7A","6C,6D,7A",2293,2627,27.7,-28,28,2266,2654,T0085,T0082
+2026-11-08|Ice Breakers@Redrum|Olympic View Arena,2026-11-08,REG,Ice Breakers,Redrum,11,2,10A-B,10A-B,1184,863,71.6,36,-36,1219,827,T0130,T0149
+2026-11-08|Fluffy Bunnies@Seattle Seals|Everett Comm Ice Rink,2026-11-08,REG,Fluffy Bunnies,Seattle Seals,1,8,6D/7A,6D/7A,2065,2359,30.0,-34,34,2031,2393,T0095,T0100
+2026-11-08|LKI@Lagooners|KCI Starbucks Rink,2026-11-08,REG,LKI,Lagooners,2,7,7B,7B,1841,1997,39.0,-39,39,1802,2036,T0105,T0111
+2026-11-09|Highlanders@Reapers|accesso ShoWare Center,2026-11-09,REG,Highlanders,Reapers,3,4,5C,5C,2883,2631,67.4,-34,34,2850,2665,T0062,T0063
+2026-11-09|Seals@Piranhas|Kent Valley Ice Centre,2026-11-09,REG,Seals,Piranhas,2,3,5C,5C,2955,2931,51.7,-26,26,2929,2957,T0051,T0056
+2026-11-09|Dirty Couch Hockey Club@Black Katz|accesso ShoWare Center,2026-11-09,REG,Dirty Couch Hockey Club,Black Katz,3,3,5D,5D,2669,2782,41.9,4,-4,2673,2778,T0071,T0064
+2026-11-09|Skeletons@Kraken Up|KCI Starbucks Rink,2026-11-09,REG,Skeletons,Kraken Up,5,5,4B,4B,3436,3429,50.5,0,0,3436,3429,T0029,T0038
+2026-11-09|Cherry Pickers@Lumberjacks|Kent Valley Ice Centre,2026-11-09,REG,Cherry Pickers,Lumberjacks,6,6,5C,5C,2716,2862,39.6,5,-5,2721,2857,T0084,T0057
+2026-11-09|Jokres@Honey Badgers|KCI VMFH Rink,2026-11-09,REG,Jokres,Honey Badgers,3,2,6A,6A,2666,2602,54.6,23,-23,2689,2580,T0068,T0067
+2026-11-09|Bullets@Midnight Twist|Everett Comm Ice Rink,2026-11-09,REG,Bullets,Midnight Twist,1,2,5D,5D,2706,2648,54.2,-27,27,2679,2675,T0060,T0066
+2026-11-09|Not Sure 5@Dumpster Fire|Olympic View Arena,2026-11-09,REG,Not Sure 5,Dumpster Fire,1,6,5B,5B,2764,2966,35.9,-36,36,2728,3002,T0058,T0046
+2026-11-09|Stingers@Yetis|accesso ShoWare Center,2026-11-09,REG,Stingers,Yetis,4,0,5B,5B,3043,2990,53.8,43,-43,3087,2947,T0055,T0054
+2026-11-09|Renegades@Moose Knuckle|KCI Starbucks Rink,2026-11-09,REG,Renegades,Moose Knuckle,7,3,5A,5A,2905,3255,26.7,69,-69,2974,3186,T0061,T0047
+2026-11-09|Brewzers OGB@Alpuckas|Kent Valley Ice Centre,2026-11-09,REG,Brewzers OGB,Alpuckas,4,7,5B,5B,2877,3072,36.3,-32,32,2845,3104,T0059,T0053
+2026-11-09|Quacken@Mighty Boosh|KCI VMFH Rink,2026-11-09,REG,Quacken,Mighty Boosh,3,1,6D/7A,6D/7A,2134,2250,41.7,44,-44,2177,2206,T0101,T0091
+2026-11-09|Seagulls@BSOD|Everett Comm Ice Rink,2026-11-09,REG,Seagulls,BSOD,6,2,5A,5A,3195,3023,62.1,35,-35,3231,2988,T0050,T0045
+2026-11-10|Top Cheddar@DevilFish|KCI Starbucks Rink,2026-11-10,REG,Top Cheddar,DevilFish,4,6,4C,4C,3149,3199,46.4,-35,35,3114,3233,T0042,T0039
+2026-11-10|Dead Rabbits@WKUTP-4|KCI VMFH Rink,2026-11-10,REG,Dead Rabbits,WKUTP-4,1,5,5A,4C,3063,3135,44.9,-42,42,3021,3177,T0048,T0049
+2026-11-11|Pull Tab Bandits@The Brigade|KCI Smartsheet Rink,2026-11-11,REG,Pull Tab Bandits,The Brigade,2,1,3,2,4109,4225,41.7,29,-29,4138,4196,T0016,T0005
+2026-11-11|Goal Diggers@Shockers|KCI VMFH Rink,2026-11-11,REG,Goal Diggers,Shockers,6,3,3B,3B,3622,3556,54.7,40,-40,3661,3517,T0023,T0025
+2026-11-11|Eagles@Puckbuddies|Everett Comm Ice Rink,2026-11-11,REG,Eagles,Puckbuddies,13,1,3,3,4037,3938,57.1,62,-62,4099,3877,T0012,T0019
+2026-11-11|Puget Sound Pigeons@The Herd|Olympic View Arena,2026-11-11,REG,Puget Sound Pigeons,The Herd,7,5,3,3,3776,3793,48.8,38,-38,3814,3754,T0021,T0018
+2026-11-11|Steelhead@Coconut Corgis|KCI Smartsheet Rink,2026-11-11,REG,Steelhead,Coconut Corgis,4,1,4,4,3384,3381,50.2,44,-44,3427,3338,T0032,T0033
+2026-11-11|Breakers@MMHC|KCI VMFH Rink,2026-11-11,REG,Breakers,MMHC,1,4,3B,3B,3586,3848,32.0,-28,28,3558,3876,T0030,T0022
+2026-11-11|Edible Arrangements@Schilling Cider|Lynnwood Ice Center,2026-11-11,REG,Edible Arrangements,Schilling Cider,2,8,4B,4B,3277,3343,45.3,-48,48,3229,3391,T0037,T0041
+2026-11-11|Ice-O-Topes@Greasy Weasels|Everett Comm Ice Rink,2026-11-11,REG,Ice-O-Topes,Greasy Weasels,2,1,5A,4C,2971,3285,28.8,36,-36,3007,3250,T0052,T0043
+2026-11-12|NW Stars@ALTP|Kent Valley Ice Centre,2026-11-12,REG,NW Stars,ALTP,9,6,1,1,4375,4612,33.6,58,-58,4433,4554,T0004,T0001
+2026-11-12|Mustangs@ESB|KCI Smartsheet Rink,2026-11-12,REG,Mustangs,ESB,1,8,1,1,4180,4345,38.4,-43,43,4137,4388,T0010,T0006
+2026-11-12|Red Dog@The Mighty Geoducks|KCI Starbucks Rink,2026-11-12,REG,Red Dog,The Mighty Geoducks,2,8,2,2,3990,4135,39.7,-42,42,3948,4177,T0015,T0011
+2026-11-12|Night Owls@Skateful Dead|KCI Smartsheet Rink,2026-11-12,REG,Night Owls,Skateful Dead,3,7,4,4,3353,3506,39.1,-37,37,3316,3543,T0034,T0031
+2026-11-12|Mighty Mallards@Sabercats|KCI Starbucks Rink,2026-11-12,REG,Mighty Mallards,Sabercats,3,2,4,4,3424,3578,39.1,30,-30,3454,3547,T0036,T0026

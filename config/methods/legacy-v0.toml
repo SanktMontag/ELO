@@ -1,0 +1,10 @@
+# Reproduces the original elo.py / elo_summer_26.py / elo_fall_26.py maths.
+# Kept only for regression testing and backtest comparison. Known issues:
+#   * update uses (S - P(win)) instead of (S - E): biases toward the away team
+#   * goal-difference lookup falls back to 1x above 15 goals
+#   * final ratings truncated rather than rounded
+name = "legacy-v0"
+description = "Original scripts (S - Win%, K=75, GD lookup table, draw factor 0.888)"
+scale = 400
+k = 75
+draw_factor = 0.888
